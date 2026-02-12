@@ -16,8 +16,23 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://grandprixmotos.fr'),
   title: "GrandPrixMotos.fr - L'expertise Moto & Équipement",
   description: "Le guide de référence pour le motard exigeant. Essais BMW, Comparatifs équipements, et Conseils Assurance.",
+  openGraph: {
+    title: "GrandPrixMotos.fr - L'expertise Moto & Équipement",
+    description: "Le guide de référence pour le motard exigeant. Essais BMW, Comparatifs équipements, et Conseils Assurance.",
+    url: 'https://grandprixmotos.fr',
+    siteName: 'GrandPrixMotos.fr',
+    locale: 'fr_FR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "GrandPrixMotos.fr",
+    description: "L'expertise Moto & Équipement.",
+    creator: '@GrandPrixMotos',
+  },
 };
 
 export default function RootLayout({

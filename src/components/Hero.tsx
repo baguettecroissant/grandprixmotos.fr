@@ -5,10 +5,10 @@ export function Hero() {
     return (
         <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-background">
             {/* Background Image & Texture */}
-            <div className="absolute inset-0 z-0">
-                <div className="absolute inset-0 bg-[url('/images/hero-bg.png')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
-                <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background"></div>
-                <div className="absolute inset-0 bg-noise opacity-20 pointer-events-none mix-blend-soft-light"></div>
+            <div className="absolute inset-0 z-0 text-white">
+                <div className="absolute inset-0 bg-[url('/images/hero-bg.png')] bg-cover bg-center opacity-60"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/40 to-background"></div>
+                <div className="absolute inset-0 bg-noise opacity-30 pointer-events-none mix-blend-soft-light"></div>
             </div>
 
             {/* Abstract Racing Shapes */}
