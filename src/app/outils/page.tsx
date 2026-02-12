@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Link from "next/link";
-import { Settings, HelpCircle, ArrowRight, Wrench, Gauge } from "lucide-react";
+import { Settings, HelpCircle, ArrowRight, Wrench, Gauge, Target } from "lucide-react";
 
 export default function ToolsPage() {
     return (
@@ -58,29 +58,32 @@ export default function ToolsPage() {
                             <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors"></div>
                         </Link>
 
-                        {/* Quiz Coming Soon */}
-                        <div className="group relative bg-card/40 border border-white/5 overflow-hidden rounded-xl opacity-75 hover:opacity-100 transition-opacity cursor-not-allowed">
-                            <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/50 to-black/50"></div>
+                        {/* Quiz Profile Card */}
+                        <Link href="/outils/quiz-profil" className="group relative bg-card border border-white/10 overflow-hidden hover:border-primary/50 transition-all duration-500 rounded-xl">
+                            <div className="absolute inset-0 bg-gradient-to-br from-zinc-900 to-black"></div>
 
-                            <div className="relative p-8 flex flex-col h-full">
+                            <div className="relative p-8 flex flex-col h-full transform transition-transform group-hover:-translate-y-1">
                                 <div className="mb-6 flex items-start justify-between">
-                                    <div className="p-4 bg-white/5 border border-white/10 rounded-lg skew-r">
-                                        <HelpCircle className="h-8 w-8 text-muted-foreground" />
+                                    <div className="p-4 bg-primary/10 border border-primary/20 rounded-lg skew-r">
+                                        <Target className="h-8 w-8 text-primary" />
                                     </div>
-                                    <div className="px-3 py-1 bg-white/10 text-muted-foreground text-[10px] font-black uppercase tracking-widest rounded-full">Bientôt</div>
+                                    <div className="px-3 py-1 bg-primary text-white text-[10px] font-black uppercase tracking-widest rounded-full">Nouveau</div>
                                 </div>
 
-                                <h3 className="text-3xl font-black text-muted-foreground uppercase italic font-display mb-3">Profil Pilote</h3>
-                                <p className="text-muted-foreground/60 mb-8 leading-relaxed">
+                                <h3 className="text-3xl font-black text-white uppercase italic font-display mb-3 group-hover:text-primary transition-colors">Profil Pilote</h3>
+                                <p className="text-muted-foreground mb-8 leading-relaxed">
                                     Quel type de motard êtes-vous vraiment ? <br />
                                     Un quiz de personnalité pour découvrir votre machine idéale.
                                 </p>
 
-                                <div className="mt-auto flex items-center text-muted-foreground font-bold uppercase tracking-widest text-sm">
-                                    En développement...
+                                <div className="mt-auto flex items-center text-primary font-bold uppercase tracking-widest text-sm group-hover:gap-4 transition-all">
+                                    Faire le test <ArrowRight className="ml-2 h-5 w-5" />
                                 </div>
                             </div>
-                        </div>
+
+                            {/* Decorative */}
+                            <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors"></div>
+                        </Link>
 
                     </div>
                 </section>
