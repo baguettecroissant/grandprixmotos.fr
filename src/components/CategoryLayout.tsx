@@ -43,11 +43,13 @@ export function CategoryLayout({ categorySlug }: CategoryLayoutProps) {
                             categoryPosts.map((post) => (
                                 <article key={post.id} className="group relative flex flex-col h-full bg-card border-none overflow-hidden hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500">
                                     {/* Image Container with skew effect */}
-                                    <div className="relative aspect-video w-full overflow-hidden">
-                                        <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent z-10 opacity-60"></div>
-                                        <div className="w-full h-full bg-slate-800 flex items-center justify-center text-white/10 font-black text-4xl uppercase tracking-tighter">
-                                            IMAGE
-                                        </div>
+                                    <div className="relative aspect-video w-full overflow-hidden group-hover:scale-105 transition-transform duration-500">
+                                        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10 opacity-60"></div>
+                                        <img
+                                            src={post.coverImage}
+                                            alt={post.title}
+                                            className="w-full h-full object-cover"
+                                        />
                                         {/* Category Badge - Tech Style */}
                                         <div className="absolute top-0 left-0 bg-primary/90 text-white text-xs font-bold px-4 py-2 uppercase tracking-widest skew-x-12 -ml-2 transform">
                                             <span className="-skew-x-12 block">{post.category.replace("-", " ")}</span>
