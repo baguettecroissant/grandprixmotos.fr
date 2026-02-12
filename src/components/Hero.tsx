@@ -24,7 +24,7 @@ export function Hero() {
                 </div>
 
                 {/* Main Title - Massive & Aggressive */}
-                <h1 className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter text-white mb-6 uppercase italic transform -skew-x-6">
+                <h1 className="text-5xl md:text-8xl lg:text-9xl font-black tracking-tighter text-white mb-6 uppercase italic transform -skew-x-6">
                     <span className="block text-stroke-white text-transparent opacity-50">Performance</span>
                     <span className="block text-white">Passion</span>
                     <span className="block text-primary">Adrénaline</span>
