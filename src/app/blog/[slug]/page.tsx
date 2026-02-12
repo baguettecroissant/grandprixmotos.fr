@@ -62,13 +62,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                             {post.title}
                         </h1>
 
-                        <div className="flex items-center gap-4 text-sm text-muted-foreground border-t border-white/5 pt-6">
+                        <div className="flex items-center gap-4 text-sm text-muted-foreground border-t border-white/5 pt-6 mb-12">
                             <div className="flex items-center">
                                 <User className="mr-2 h-4 w-4" /> Par <span className="text-white ml-1 font-medium">{post.author}</span>
                             </div>
                             <div className="hidden md:flex items-center">
                                 <Tag className="mr-2 h-4 w-4" /> {post.tags.join(", ")}
                             </div>
+                        </div>
+
+                        {/* Featured Image */}
+                        <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10 group">
+                            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent z-10"></div>
+                            <img
+                                src={post.coverImage}
+                                alt={post.title}
+                                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                            />
+                            {/* Decorative Elements */}
+                            <div className="absolute bottom-0 right-0 w-24 h-24 bg-white/5 skew-x-12 translate-x-12 translate-y-12 blur-2xl"></div>
                         </div>
                     </div>
                 </header>
