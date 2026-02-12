@@ -1,11 +1,50 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, Search, Bike, X } from "lucide-react";
-import { useState } from "react";
+import { Menu, Search, Bike, X, ArrowRight, Loader2 } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
+import { posts } from "@/data/posts";
+import { useRouter } from "next/navigation";
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState("");
+    const [searchResults, setSearchResults] = useState<typeof posts>([]);
+    const searchRef = useRef<HTMLDivElement>(null);
+    const router = useRouter();
+
+    // Close on escape
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") {
+                setIsSearchOpen(false);
+                setIsOpen(false);
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, []);
+
+    // Search logic
+    useEffect(() => {
+        if (searchQuery.trim().length > 1) {
+            const results = posts.filter(post =>
+                post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                post.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+            ).slice(0, 5);
+            setSearchResults(results);
+        } else {
+            setSearchResults([]);
+        }
+    }, [searchQuery]);
+
+    const handleSelectResult = (slug: string) => {
+        setIsSearchOpen(false);
+        setSearchQuery("");
+        router.push(`/blog/${slug}`);
+    };
 
     return (
         <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
@@ -44,7 +83,10 @@ export function Navbar() {
                     </nav>
                 </div>
                 <div className="flex items-center gap-4">
-                    <button className="inline-flex items-center justify-center p-2.5 text-muted-foreground hover:bg-white/10 hover:text-white transition-colors skew-r border border-transparent hover:border-white/10">
+                    <button
+                        onClick={() => setIsSearchOpen(true)}
+                        className="inline-flex items-center justify-center p-2.5 text-muted-foreground hover:bg-white/10 hover:text-white transition-colors skew-r border border-transparent hover:border-white/10"
+                    >
                         <Search className="h-5 w-5 -skew-x-12" />
                         <span className="sr-only">Rechercher</span>
                     </button>
@@ -57,6 +99,75 @@ export function Navbar() {
                     </button>
                 </div>
             </div>
+
+            {/* Search Modal */}
+            {isSearchOpen && (
+                <div className="fixed inset-0 z-[100] bg-background/95 backdrop-blur-xl animate-fade-in p-4 md:p-20">
+                    <div className="max-w-4xl mx-auto" ref={searchRef}>
+                        <div className="flex items-center justify-between mb-12">
+                            <h2 className="text-3xl font-black uppercase italic tracking-tighter text-white transform -skew-x-6">
+                                Recherche <span className="text-primary tracking-normal">GPM</span>
+                            </h2>
+                            <button
+                                onClick={() => setIsSearchOpen(false)}
+                                className="p-3 bg-white/5 hover:bg-primary transition-colors skew-r text-white"
+                            >
+                                <X className="h-6 w-6" />
+                            </button>
+                        </div>
+
+                        <div className="relative group/search mb-12">
+                            <Search className="absolute left-6 top-1/2 -translate-y-1/2 h-8 w-8 text-primary group-focus-within/search:text-white transition-colors" />
+                            <input
+                                autoFocus
+                                type="text"
+                                placeholder="Chercher un article, un test, une marque..."
+                                className="w-full bg-white/5 border-b-2 border-primary/20 focus:border-primary p-8 pl-20 text-2xl md:text-4xl font-black tracking-tight text-white placeholder:text-white/20 outline-none transition-all uppercase italic"
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                            />
+                        </div>
+
+                        {/* Search Results */}
+                        <div className="space-y-4">
+                            {searchResults.length > 0 ? (
+                                searchResults.map((result) => (
+                                    <button
+                                        key={result.id}
+                                        onClick={() => handleSelectResult(result.slug)}
+                                        className="w-full group flex items-center justify-between p-6 bg-white/5 hover:bg-primary transition-all border-l-4 border-transparent hover:border-white skew-r"
+                                    >
+                                        <div className="text-left">
+                                            <span className="text-[10px] font-black uppercase tracking-widest text-primary group-hover:text-white mb-2 block animate-fade-in">
+                                                {result.category.replace("-", " ")}
+                                            </span>
+                                            <h3 className="text-xl md:text-2xl font-bold text-white uppercase italic leading-none">
+                                                {result.title}
+                                            </h3>
+                                        </div>
+                                        <ArrowRight className="h-6 w-6 text-primary group-hover:text-white transform group-hover:translate-x-2 transition-transform" />
+                                    </button>
+                                ))
+                            ) : searchQuery.length > 1 ? (
+                                <div className="p-12 text-center border-2 border-dashed border-white/5">
+                                    <p className="text-xl text-muted-foreground font-medium italic">Aucun résultat trouvé pour "{searchQuery}"</p>
+                                </div>
+                            ) : (
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="p-8 bg-blue-600/10 border border-blue-600/20 skew-r group cursor-pointer hover:bg-blue-600/20 transition-all">
+                                        <span className="text-[10px] font-black uppercase tracking-widest text-blue-400 mb-2 block">Sujet Chaud</span>
+                                        <h4 className="text-white font-bold uppercase italic">Fiabilité BMW R 1300 GS</h4>
+                                    </div>
+                                    <div className="p-8 bg-orange-600/10 border border-orange-600/20 skew-r group cursor-pointer hover:bg-orange-600/20 transition-all">
+                                        <span className="text-[10px] font-black uppercase tracking-widest text-orange-400 mb-2 block">Comparatif</span>
+                                        <h4 className="text-white font-bold uppercase italic">Shoei vs Schuberth</h4>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            )}
 
             {/* Mobile Menu Overlay */}
             {isOpen && (

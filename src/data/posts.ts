@@ -71,9 +71,8 @@ export const posts: BlogPost[] = [
       <p>Ici, les deux marques vous forcent la main. Le Shoei utilise le système <strong>Sena SRL3</strong>, totalement invisible mais verrouillé sur un capot plastique spécifique. Le Schuberth embarque déjà les antennes et les écouteurs pour le système <strong>SC2</strong> (Sena également). L'installation prend 30 secondes.</p>
       <p><em>Note technique :</em> Les deux systèmes sont maintenant compatibles Mesh 2.0, un must pour rouler en groupe sans stress de déconnexion.</p>
 
-      <h2>Le Verdict de l'Expert</h2>
       <p>Si vous possédez une <strong>BMW R 1250 RT</strong> ou une K 1600, le <strong>Schuberth C5</strong> est le prolongement naturel de votre machine. C'est l'outil de voyage ultime, silencieux et ultra-intégré.</p>
-      <p>Si vous roulez en <strong>R 1300 GS</strong> ou en roadster premium (S 1000 R), le <strong>Shoei Neotec 3</strong> vous offrira une polyvalence et un dynamisme supérieurs. Sa qualité de fabrication japonaise promet également une meilleure tenue dans le temps (mousses moins sujettes au tassement).</p>
+      <p>Si vous roulez en <strong>R 1300 GS</strong> ou en roadster premium (S 1000 R), le <strong>Shoei Neotec 3</strong> vous offrira une polyvalence et un dynamisme supérieurs. Sa qualité de fabrication japonaise promet également une meilleure tenue dans le temps. Pour les futurs acheteurs de GS, n'oubliez pas de consulter notre <a href="/blog/fiabilite-bmw-r1250-gs-occasion">dossier complet sur la fiabilité de la R 1250 GS</a>.</p>
       
       <p><strong>Prix public conseillé :</strong>
       <br/>• Shoei Neotec 3 : À partir de 669 €
@@ -111,7 +110,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <h2>Électronique : ESA et TFT</h2>
-      <p>La GS est un ordinateur sur deux roues. Le système de suspensions pilotées <strong>ESA Dynamic Next Gen</strong> est globalement fiable, mais les amortisseurs peuvent fatiguer après 60 000 km (souvent des fuites sur l'arrière). L'écran TFT de 6,5 pouces est une référence absolue de lisibilité, mais certains propriétaires ont rapporté des problèmes de "ghosting" ou de condensation. Vérifiez que le firmware a été mis à jour pour assurer une connexion fluide avec votre smartphone.</p>
+      <p>La GS est un ordinateur sur deux roues. Le système de suspensions pilotées <strong>ESA Dynamic Next Gen</strong> est globalement fiable, mais les amortisseurs peuvent fatiguer après 60 000 km. Si vous prévoyez d'attaquer les sommets avec votre nouvelle acquisition, lisez notre guide pour <a href="/blog/preparer-roadtrip-alpes-moto">préparer votre roadtrip dans les Alpes</a>.</p>
 
       <h2>Check-list de l'expert (Spécial Occasion)</h2>
       <div class="overflow-x-auto my-8">
@@ -212,7 +211,7 @@ export const posts: BlogPost[] = [
       <p>Vous comptez faire 2 ou 3 journées de roulage par an ? Vérifiez que votre "RC" (Responsabilité Civile) est bien étendue au circuit. Pour les dommages matériels sur votre propre moto, seul un contrat "Tous Risques Circuit" spécifique vous couvrira. Comptez environ 45€ par jour en option ponctuelle.</p>
 
       <h2>Verdict final</h2>
-      <p>Assurer une sportive en 2026 demande d'être aussi stratégique que sur la piste. Ne signez rien sans avoir vérifié le montant de la <strong>Valeur à Neuf</strong> (24 ou 36 mois conseillés pour les motos à plus de 20k€) et la franchise au vol. Utilisez notre outil d'analyse interne pour comparer les lignes en petits caractères.</p>
+      <p>Assurer une sportive en 2026 demande d'être aussi stratégique que sur la piste. Ne signez rien sans avoir vérifié le montant de la <strong>Valeur à Neuf</strong>. Et rappelez-vous qu'une moto bien entretenue est toujours mieux perçue par les experts : découvrez notre <a href="/blog/fiabilite-bmw-r1250-gs-occasion">guide technique sur la BMW GS</a> pour comprendre l'importance de l'historique d'entretien dans la valeur de votre machine.</p>
     `,
     author: "Sophie L.",
     date: "2026-02-01",
@@ -234,7 +233,7 @@ export const posts: BlogPost[] = [
       <ul>
         <li><strong>Freins :</strong> Vos plaquettes doivent être à plus de 50% d'usure. La descente du Cormet de Roselend mettra vos étriers à rude épreuve. Purgez votre liquide de frein (DOT 4 ou 5.1) s'il a plus d'un an.</li>
         <li><strong>Pneus :</strong> La route abrasive des Alpes "mange" la gomme deux fois plus vite. Partez avec un train de pneus frais (type Touring ou Trail routier).</li>
-        <li><strong>Transmission :</strong> Graissage tous les 500 km impératif si vous n'avez pas de cardan.</li>
+        <li><strong>Transmission :</strong> Graissage tous les 500 km impératif si vous n'avez pas de cardan. Pour un confort acoustique optimal durant ces longues étapes, le choix du casque est crucial : voyez notre <a href="/blog/shoei-neotec-3-vs-schuberth-c5">comparatif Neotec 3 vs Schuberth C5</a>.</li>
       </ul>
 
       <h3>Équipement : La règle des trois couches</h3>
