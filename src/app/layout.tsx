@@ -42,6 +42,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={`${rajdhani.variable} ${inter.variable}`}>
+      <head>
+        <script defer src="https://nhmvgsrwhjsjnpncpiaj.supabase.co/functions/v1/analytics-collect?script=1"></script>
+      </head>
       <body className="antialiased bg-background text-foreground font-sans selection:bg-primary selection:text-white">
         {children}
       </body>
