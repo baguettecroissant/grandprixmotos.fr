@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Gauge, Settings, Thermometer, Briefcase, Zap, Info, ChevronRight, Activity } from "lucide-react";
+import { Gauge, Settings, Thermometer, Briefcase, Zap, Info, ChevronRight, Activity, Share2, Check } from "lucide-react";
 
 type MotoType = 'roadster' | 'sportive' | 'trail' | 'touring';
 type Usage = 'solo' | 'duo' | 'duo_loaded' | 'track';
@@ -68,6 +68,19 @@ export default function SetupMotoPage() {
     };
 
     const result = getRecommendation();
+    const [copied, setCopied] = useState(false);
+
+    const copyResult = () => {
+        const text = `🏁 GPM Setup :
+- Pression AV : ${result.pressureFront} bar
+- Pression AR : ${result.pressureRear} bar
+- Précharge : ${result.preload}
+- Détente : ${result.rebound}
+\nConfigs : ${motoType} / ${usage} / ${weather}`;
+        navigator.clipboard.writeText(text);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+    };
 
     return (
         <div className="flex min-h-screen flex-col font-sans bg-background text-foreground selection:bg-primary selection:text-white">
@@ -175,6 +188,14 @@ export default function SetupMotoPage() {
                                     <Activity className="h-6 w-6 text-primary" />
                                     Résultat GPM
                                 </h3>
+
+                                <button
+                                    onClick={copyResult}
+                                    className="absolute top-8 right-8 p-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors z-20 group/btn"
+                                    title="Copier le réglage"
+                                >
+                                    {copied ? <Check className="h-5 w-5 text-green-500" /> : <Share2 className="h-5 w-5 text-white group-hover/btn:text-primary transition-colors" />}
+                                </button>
 
                                 <div className="grid grid-cols-2 gap-8 relative z-10 mb-8">
                                     <div className="text-center p-4 bg-white/5 rounded-lg border border-white/5">
