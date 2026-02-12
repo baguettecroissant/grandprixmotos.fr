@@ -151,7 +151,7 @@ export default function AboutPage() {
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             {[
-                                { name: "Wade Timothy", role: "Fondateur & Vision", focus: "Culture Moto & Stratégie", color: "primary" },
+                                { name: "Tim W.", role: "Fondateur & Vision", focus: "Culture Moto & Stratégie", color: "primary" },
                                 { name: "Julien M.", role: "Rédacteur en Chef", focus: "Essais Dynamiques & Équipement", color: "white" },
                                 { name: "Marc D.", role: "Directeur Technique", focus: "Mécanique & Fiabilité BMW", color: "white" }
                             ].map((member, i) => (

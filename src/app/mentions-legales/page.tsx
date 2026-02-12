@@ -56,7 +56,7 @@ export default function MentionsLegalesPage() {
                                     </li>
                                 </ul>
                                 <p className="mt-4 pt-4 border-t border-white/5">
-                                    <strong>Directeur de la publication :</strong> Wade Timothy
+                                    <strong>Directeur de la publication :</strong> Tim W.
                                 </p>
                             </div>
                         </div>
