@@ -46,16 +46,7 @@ export default function ContactPage() {
                                         </div>
                                     </div>
 
-                                    <div className="flex items-start gap-6 group">
-                                        <div className="h-12 w-12 bg-primary/10 flex items-center justify-center shrink-0 skew-r border border-primary/20 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
-                                            <MapPin className="h-6 w-6 -skew-x-12" />
-                                        </div>
-                                        <div>
-                                            <h3 className="text-lg font-bold text-white uppercase tracking-tight mb-1">Siège Social</h3>
-                                            <p className="text-muted-foreground">WADE STUDIO LTD</p>
-                                            <p className="text-muted-foreground italic">432 Ave Bounty, Morcellement Balaclava, MAURITIUS</p>
-                                        </div>
-                                    </div>
+
 
                                     <div className="flex items-start gap-6 group">
                                         <div className="h-12 w-12 bg-primary/10 flex items-center justify-center shrink-0 skew-r border border-primary/20 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
