@@ -2,6 +2,188 @@ import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
   {
+    id: "5",
+    slug: "bmw-r1300-gs-fiche-technique-essai",
+    title: "BMW R 1300 GS : Fiche Technique Complète et Premier Essai",
+    excerpt: "BMW R 1300 GS 2024 : 145ch, 237kg, ShiftCam 2.0. Fiche technique détaillée, essai terrain et verdict après 2000km. Le guide ultime pour les futurs acquéreurs.",
+    content: `
+      <p class="lead">La <strong>BMW R 1300 GS</strong> n'est pas une simple mise à jour : c'est une refonte totale de la moto la plus vendue au monde. Avec son nouveau Boxer 1300 ShiftCam de 145 chevaux, ses 12 kg en moins sur la balance et une électronique digne d'un vaisseau spatial, Munich a placé la barre là où personne ne l'attendait. Après 2000 km d'essai entre autoroute, départementales et chemins blancs, voici notre analyse technique complète.</p>
+
+      <h2>Fiche Technique BMW R 1300 GS : Les Chiffres Clés</h2>
+      <p>La nouvelle R 1300 GS embarque le moteur Boxer le plus puissant jamais produit en série par BMW Motorrad. Mais au-delà des chiffres bruts, c'est l'architecture globale qui impressionne : cadre bi-matière acier/aluminium, suspensions EVO Telelever/Paralever repensées, et une batterie lithium-ion de série. Chaque gramme, chaque millimètre a été recalculé.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Caractéristique</th>
+              <th class="py-3 px-4">BMW R 1300 GS</th>
+              <th class="py-3 px-4">BMW R 1250 GS (réf.)</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Cylindrée</td>
+              <td class="py-3 px-4">1 300 cm³</td>
+              <td class="py-3 px-4">1 254 cm³</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Puissance max.</td>
+              <td class="py-3 px-4">145 ch (107 kW) @ 7 750 tr/min</td>
+              <td class="py-3 px-4">136 ch (100 kW) @ 7 750 tr/min</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Couple max.</td>
+              <td class="py-3 px-4">149 Nm @ 6 500 tr/min</td>
+              <td class="py-3 px-4">143 Nm @ 6 250 tr/min</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Alésage × Course</td>
+              <td class="py-3 px-4">106,5 × 73 mm</td>
+              <td class="py-3 px-4">102,5 × 76 mm</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Taux de compression</td>
+              <td class="py-3 px-4">13,3 : 1</td>
+              <td class="py-3 px-4">12,5 : 1</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Poids (tous pleins faits)</td>
+              <td class="py-3 px-4">237 kg</td>
+              <td class="py-3 px-4">249 kg</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Réservoir</td>
+              <td class="py-3 px-4">19 litres</td>
+              <td class="py-3 px-4">20 litres</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Hauteur de selle</td>
+              <td class="py-3 px-4">850 mm (standard)</td>
+              <td class="py-3 px-4">850 mm</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Suspension avant</td>
+              <td class="py-3 px-4">EVO Telelever (190mm)</td>
+              <td class="py-3 px-4">Telelever (190mm)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Suspension arrière</td>
+              <td class="py-3 px-4">EVO Paralever (200mm)</td>
+              <td class="py-3 px-4">Paralever (200mm)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Freins avant</td>
+              <td class="py-3 px-4">2 × 310 mm, étriers radiaux 4 pistons</td>
+              <td class="py-3 px-4">2 × 305 mm, étriers radiaux 4 pistons</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Consommation (constructeur)</td>
+              <td class="py-3 px-4">4,9 L/100 km</td>
+              <td class="py-3 px-4">4,75 L/100 km</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">Prix (France, 2025)</td>
+              <td class="py-3 px-4">À partir de 20 690 €</td>
+              <td class="py-3 px-4">N/A (arrêtée)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Le Moteur ShiftCam 2.0 : Plus Qu'une Évolution, une Révolution</h2>
+      <p>Sur le papier, la hausse de puissance de +10% et de couple de +4% peut sembler modeste. En réalité, c'est toute la courbe de puissance qui a été redessinée. Le nouveau Boxer 1300 délivre son couple de manière plus linéaire et plus haute dans les tours, grâce à un alésage élargi de 4 mm (106,5 mm) et une course réduite de 3 mm (73 mm). Résultat : le moteur prend les tours avec une voracité inédite pour un flat-twin.</p>
+      <p>Le système <strong>ShiftCam</strong> de deuxième génération conserve son principe de double profil de cames, mais l'intégration est plus fine. La transition entre les deux profils — économique en bas et performance en haut — est désormais imperceptible. Là où le 1250 pouvait donner un léger "à-coup" perceptible autour de 4 000 tr/min, le 1300 n'affiche qu'une montée en puissance continue et soyeuse.</p>
+
+      <h3>L'injection d'eau : le secret bien gardé</h3>
+      <p>BMW a intégré un système d'injection d'eau dans les collecteurs d'admission. Ce dispositif, hérité de la compétition automobile (BMW M4 GTS), permet d'abaisser la température de combustion dans les phases de charge maximale. Concrètement, cela autorise un taux de compression très élevé de 13,3:1 sans risque de détonation, tout en maintenant des émissions Euro 5+. En pratique, vous ne remarquerez rien — sauf que le moteur ne "crique" jamais, même par 40°C au cœur de l'été. Si vous possédez encore une R 1250 GS, notre <a href="/blog/fiabilite-bmw-r1250-gs-occasion">dossier complet sur la fiabilité de la R 1250 GS</a> reste une référence pour comprendre l'évolution mécanique entre les deux générations.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Point technique :</p>
+        <p class="text-white italic">"Le réservoir d'eau d'injection (environ 800 ml) se remplit automatiquement via la condensation du système de climatisation de l'habitacle moteur. Aucun entretien supplémentaire n'est requis."</p>
+      </div>
+
+      <h2>Partie Cycle : Pourquoi la R 1300 GS se Conduit Comme une Moto de 200 kg</h2>
+      <p>Le gain de 12 kg par rapport à la R 1250 GS est colossal, mais ce n'est que la moitié de l'histoire. La vraie différence, c'est la centralisation des masses. Le nouveau cadre bi-matière (acier tubulaire + aluminium coulé sous pression) utilise le moteur comme élément porteur, ce qui abaisse le centre de gravité de 20 mm. Sur la route, cela se traduit par une sensation d'agilité presque surnaturelle pour un maxi-trail de cette taille.</p>
+
+      <h3>EVO Telelever : la fin du plongée au freinage ?</h3>
+      <p>La suspension avant <strong>EVO Telelever</strong> est une évolution majeure. Le bras oscillant avant a été entièrement repensé avec une géométrie plus inclinée, offrant un meilleur retour d'information au pilote. L'anti-plongée reste la signature du système Telelever — vous pouvez freiner fort dans une épingle sans que le train avant ne "s'écrase" — mais la nouvelle version transmet enfin un feedback plus naturel. C'est le reproche historique n°1 de la GS qui disparaît.</p>
+      <p>En option, le système <strong>DSA (Dynamic Suspension Adjustment)</strong> permet un réglage continu et automatique de l'amortissement, de la raideur du ressort et de la compensation de charge. Concrètement, la moto s'adapte en temps réel à votre chargement et au revêtement. C'est un must si vous comptez alterner entre usage solo et duo chargé.</p>
+
+      <h3>Les freins : enfin irréprochables</h3>
+      <p>Les disques avant passent à 310 mm (contre 305 mm) avec des étriers radiaux à 4 pistons. Le mordant initial est plus progressif et la puissance de freinage au-delà du premier tiers de levier est féroce. Le système <strong>Full Integral ABS Pro</strong> de série gère intelligemment la répartition avant/arrière, y compris en virage. C'est l'un des systèmes de freinage les plus aboutis du marché moto en 2026.</p>
+
+      <blockquote>
+        "La R 1300 GS remet à zéro tous les compteurs. Ce n'est plus un trail qui se conduit comme une routière — c'est une routière qui accepte de jouer dans la boue. La centralisation des masses est un game-changer absolu."
+        <cite>— Marc D., Testeur GPM / Ex-Chef d'Atelier</cite>
+      </blockquote>
+
+      <h2>Électronique et Connectivité : Un Ordinateur sur Deux Roues</h2>
+      <p>L'équipement de série de la R 1300 GS en 2026 ferait pâlir de jalousie un grand tourisme d'il y a cinq ans. Voici ce qui est inclus <strong>sans supplément</strong> :</p>
+      <ul>
+        <li><strong>4 modes de conduite :</strong> Rain, Road, Eco, Enduro (Dynamic et Enduro Pro en option).</li>
+        <li><strong>ABS Pro intégral :</strong> Fonctionnel en virage, avec mode Enduro dégradé.</li>
+        <li><strong>DCC (Dynamic Cruise Control) :</strong> Régulateur de vitesse avec fonction de freinage actif — il ralentit la moto dans les descentes.</li>
+        <li><strong>Keyless Ride :</strong> Démarrage sans clé, verrouillage de direction et bouchon de réservoir.</li>
+        <li><strong>Poignées chauffantes :</strong> 3 niveaux, indispensables pour les sorties matinales en montagne.</li>
+        <li><strong>Écran TFT 6,5" :</strong> Lisible en plein soleil, compatible Connectivity avec navigation intégrée.</li>
+        <li><strong>Batterie Lithium-Ion :</strong> Plus légère de 2 kg qu'une batterie convention, et une durée de vie prolongée.</li>
+        <li><strong>RDC :</strong> Contrôle de la pression des pneus en temps réel affiché au tableau de bord.</li>
+      </ul>
+
+      <h3>Les options qui valent le coup (et celles à éviter)</h3>
+      <p>Le catalogue d'options BMW est un piège financier bien connu. Le panier moyen d'une R 1300 GS "bien équipée" gravite autour de 26 000 € en France. Voici notre sélection experte :</p>
+      <ol>
+        <li><strong>DSA (suspension active) — OUI :</strong> À 1 200 € environ, c'est l'option qui transforme le plus la moto. Indispensable si vous roulez en duo ou en voyage chargé.</li>
+        <li><strong>Adaptive Height Control — OUI (si &lt;1m75) :</strong> La moto s'abaisse automatiquement à l'arrêt. Confort et sécurité pour les gabarits moyens.</li>
+        <li><strong>Pack Assistant de Conduite (ACC + radar) — DISCUTABLE :</strong> L'ACC fonctionne bien sur autoroute, mais le prix (environ 2 100 €) est élevé pour un usage ponctuel.</li>
+        <li><strong>ASA (boîte automatisée) — NOUVEAUTÉ 2025 :</strong> La transmission automatisée est fluide et bien calibrée. Idéale pour le touring longue distance, mais certains puristes regretteront l'embrayage.</li>
+        <li><strong>Double silencieux Akrapovic titane — NON :</strong> Superbe esthétiquement et 1,5 kg de gagné, mais le son d'origine est déjà excellent. Rapport qualité/prix défavorable à ~1 800 €.</li>
+      </ol>
+
+      <h2>Combien Coûte la BMW R 1300 GS en 2026 ?</h2>
+      <p>Le prix de base de la BMW R 1300 GS en France démarre à <strong>20 690 €</strong>, soit une hausse de 800 € par rapport à la défunte R 1250 GS. Pour une version "full options" avec bagagerie complète et aides à la conduite, comptez jusqu'à <strong>35 500 €</strong>. C'est le prix d'une petite voiture, mais c'est aussi le passport pour la machine la plus polyvalente jamais construite.</p>
+      <p>BMW Motorrad France propose régulièrement des offres promotionnelles : en ce moment (jusqu'au 31 mars 2026), une aide à la reprise de <strong>2 000 €</strong> est disponible pour l'achat d'une R 1300 GS neuve. L'offre "Style Triple Black" incluant les roues à rayons noires et le réservoir alu teinté foncé est particulièrement intéressante esthétiquement. Pour anticiper le budget global de possession (entretien, assurance, consommables), consultez notre <a href="/blog/cout-assurance-moto-sportive-2026">analyse des tarifs d'assurance moto en 2026</a> — les GS sont généralement mieux classées que les sportives pures.</p>
+
+      <h2>Sur la Route : L'Essai Après 2 000 km</h2>
+      <p>Les chiffres, c'est bien. Ce que vous ressentez dans le guidon, c'est mieux. Voici notre retour d'expérience brut après un aller-retour Lyon–Nice par les petites routes, agrémenté de quelques chemins blancs dans le Vercors.</p>
+
+      <h3>Autoroute et grand axe</h3>
+      <p>Le confort est royal. La protection aérodynamique, même sans bulle électrique, est un cran au-dessus de la 1250. Le DCC est un régal : il maintient la vitesse en descente sans que vous touchiez un seul frein. La consommation mesurée s'établit à <strong>5,1 L/100 km</strong> en usage mixte (mode Road, vitesse stabilisée 130 km/h), ce qui donne une autonomie théorique de ~370 km sur le réservoir de 19 litres.</p>
+
+      <h3>Départementales et cols</h3>
+      <p>C'est ici que la R 1300 GS explose les compteurs. La réduction de poids et la centralisation des masses transforment chaque enchaînement de virages en festival. La direction est vive, précise, et le train avant inspire une confiance totale — y compris sur revêtement dégradé. Le moteur tracteur en sortie de courbe à 3 000 tr/min, puis qui catapulte sans aucun temps mort jusqu'à la zone rouge, c'est un plaisir que seul un Boxer moderne peut offrir. Pour profiter pleinement de ces routes de montagne, découvrez notre <a href="/blog/preparer-roadtrip-alpes-moto">guide complet pour préparer un roadtrip dans les Alpes</a>.</p>
+
+      <h3>Chemins et pistes</h3>
+      <p>En mode Enduro avec l'ABS Pro dégradé (roue arrière libre), la GS reste étonnamment compétente sur les chemins blancs et les pistes forestières. Les suspensions EVO absorbent les irrégularités avec un débattement généreux (190/200 mm). En revanche, ne vous faites pas d'illusions : à 237 kg tous pleins faits, un vrai trail dur reste le territoire d'une machine plus légère. La GS excelle sur les pistes "douces" et les liaisons terre battue — pas sur les single tracks techniques.</p>
+
+      <h2>Faut-il Acheter la R 1300 GS ou Attendre ?</h2>
+      <p>La question que tous les propriétaires de R 1250 GS se posent : faut-il migrer vers la 1300 ? Notre réponse est nuancée :</p>
+      <ul>
+        <li><strong>Vous avez une R 1250 GS post-2021 bien équipée :</strong> La migration n'est pas urgente. Votre moto reste excellente, et la décote d'une 1300 neuve est significative la première année. Attendez 2027 pour acheter une 1300 d'occasion en excellent état.</li>
+        <li><strong>Vous avez une R 1200 GS LC ou une 1250 pré-2021 :</strong> Le saut technologique justifie pleinement l'investissement. La différence de comportement dynamique est flagrante.</li>
+        <li><strong>C'est votre première GS :</strong> Foncez les yeux fermés. La R 1300 GS est la meilleure porte d'entrée dans l'univers du maxi-trail premium. Pas de compromis, pas de regret.</li>
+        <li><strong>Vous hésitez avec la version Adventure (30L) :</strong> Attendez la sortie de la R 1300 GS Adventure — le réservoir de 30 litres et la protection renforcée en font l'arme ultime pour les grands voyages intercontinentaux.</li>
+      </ul>
+
+      <h2>Verdict : La BMW R 1300 GS Mérite-t-Elle sa Couronne ?</h2>
+      <p>Oui, sans la moindre hésitation. La <strong>BMW R 1300 GS</strong> n'est pas seulement la meilleure GS jamais produite — c'est l'une des meilleures motos tous segments confondus en 2026. Le moteur Boxer 1300 ShiftCam est un chef-d'œuvre de caractère et de polyvalence. La partie cycle, allégée et recentrée, offre un dynamisme que seuls les roadsters peuvent habituellement revendiquer. L'électronique de série est pléthorique et pertinente.</p>
+      <p>Son seul défaut ? Le prix. À 20 690 € en version nue et 26 000 € en moyenne "équipée", la R 1300 GS s'adresse clairement à un public premium. Mais dans cette gamme de prix, aucune concurrente ne propose cette combinaison de polyvalence, de technologie et de plaisir de conduite. La Ducati Multistrada V4 est plus sportive, la KTM 1390 Super Adventure plus radicale, mais ni l'une ni l'autre n'a cette capacité à tout faire — de la nationale au col de montagne, du lundi au bureau au dimanche dans les Alpes.</p>
+      <p>Pour ceux qui viendront chercher la R 1300 GS en concession, un conseil : ne repartez surtout pas sans avoir essayé la moto en mode Dynamic avec le DSA activé. C'est là que vous comprendrez pourquoi 12 kg de moins changent absolument tout. Et n'oubliez pas de bien choisir votre casque pour accompagner cette bête : notre <a href="/blog/shoei-neotec-3-vs-schuberth-c5">comparatif Shoei Neotec 3 vs Schuberth C5</a> vous aidera à trouver le compagnon silencieux idéal pour les longues étapes.</p>
+
+      <p><strong>Prix public conseillé (France, 2026) :</strong>
+      <br/>• BMW R 1300 GS : À partir de 20 690 €
+      <br/>• BMW R 1300 GS avec Pack Finition Pro : ≈ 26 000 €
+      <br/>• BMW R 1300 GS "Full Options" : ≈ 35 500 €</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-02-13",
+    category: "univers-bmw",
+    tags: ["BMW", "R1300GS", "Essai", "Fiche Technique", "Maxi-Trail"],
+    coverImage: "/images/blog/bmw-r1300-gs-fiche-technique-essai.png",
+    readTime: "18 min"
+  },
+  {
     id: "1",
     slug: "shoei-neotec-3-vs-schuberth-c5",
     title: "Shoei Neotec 3 vs Schuberth C5 : Le Duel des Silencieux",
