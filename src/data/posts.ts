@@ -473,6 +473,89 @@ export const posts: BlogPost[] = [
     tags: ["Voyage", "Roadtrip", "Alpes", "Tuto"],
     coverImage: "/images/blog/alps-roadtrip.png",
     readTime: "12 min"
+  },
+  {
+    id: "6",
+    slug: "r1300-gs-vs-r1250-gs-comparatif",
+    title: "R 1300 GS vs R 1250 GS : Quelles Différences Concrètes ?",
+    excerpt: "20kg de moins, 145ch, nouveau design... Faut-il vendre votre 1250 pour la nouvelle 1300 ? Comparatif technique et terrain sans concession.",
+    content: `
+      <p class="lead">C'est le duel fratricide que tout le monde attendait. D'un côté, la <strong>BMW R 1250 GS</strong>, reine incontestée des maxi-trails depuis 2019. De l'autre, la nouvelle <strong>BMW R 1300 GS</strong>, qui promet une révolution plutôt qu'une évolution. Faut-il craquer pour la nouveauté ou garder sa fidèle 1250 ? Analyse experte.</p>
+
+      <h2>Philosophie : Deux époques, deux visions</h2>
+      <p>La R 1250 GS était l'aboutissement d'une lignée : massive, protectrice, statutaire. Une moto "Panzer" capable de tout traverser. La <strong>R 1300 GS</strong> change de paradigme. Plus compacte, plus légère visuellement, elle se rapproche de l'esprit d'un gros enduro sportif. BMW a voulu séduire une clientèle plus jeune, quitte à bousculer les puristes habitués au "bec de canard" asymétrique.</p>
+      <p>Si vous possédez une 1250, la première chose qui vous frappera en montant sur la 1300, c'est la finesse entre les jambes. Le réservoir semble plus étroit, et la moto paraît tout simplement moins intimidante. C'est un retour aux sources de la R 80 G/S, avec une technologie du 21ème siècle.</p>
+
+      <h2>Moteur : Le ShiftCam 1300 enterre-t-il le 1250 ?</h2>
+      <p>Le Boxer 1250 était déjà un monument d'agrément. Mais le nouveau 1300 repousse les limites. Avec <strong>145 ch à 7 750 tr/min</strong> (+9 ch) et <strong>149 Nm de couple</strong> (+6 Nm), les chiffres ne disent pas tout. C'est la vivacité à la prise de tours qui change radicalement. Le 1300 a moins d'inertie, il grimpe vers la zone rouge avec une rage que le 1250 ne connaissait pas.</p>
+      <p>Cependant, le 1250 garde pour lui une "rondeur" en bas du compte-tours que certains grands voyageurs préféreront. Si la fiabilité de ce nouveau bloc vous inquiète, sachez que BMW a renforcé les points critiques. Pour comparer avec les soucis de jeunesse du précédent modèle, relisez notre article sur la <a href="/blog/fiabilite-bmw-r1250-gs-occasion">fiabilité de la R 1250 GS en occasion</a>.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Critère</th>
+              <th class="py-3 px-4">BMW R 1300 GS</th>
+              <th class="py-3 px-4">BMW R 1250 GS</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Poids (TPF)</td>
+              <td class="py-3 px-4">237 kg</td>
+              <td class="py-3 px-4">249 kg</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Puissance</td>
+              <td class="py-3 px-4">145 ch</td>
+              <td class="py-3 px-4">136 ch</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Couple</td>
+              <td class="py-3 px-4">149 Nm</td>
+              <td class="py-3 px-4">143 Nm</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Hauteur de selle</td>
+              <td class="py-3 px-4">850 mm (variable)</td>
+              <td class="py-3 px-4">850 / 870 mm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Partie Cycle : L'effet "Tapis Volant" 2.0</h2>
+      <p>C'est LA grosse différence. Avec 12 kg de moins et un cadre rigidifié (coque alu arrière), la 1300 GS virevolte d'un virage à l'autre avec une facilité déconcertante. Le nouveau Telelever EVO offre un toucher de route plus précis, gommant le léger flou que l'on pouvait ressentir sur la 1250 à très haute vitesse.</p>
+      <p>L'option de réglage adaptatif de la hauteur de selle (la moto s'abaisse à l'arrêt) est un game-changer pour les gabarits sous 1m75. Plus besoin de jouer les équilibristes au feu rouge.</p>
+
+      <blockquote>
+        "Passer de la 1250 à la 1300, c'est comme enlever ses chaussures de randonnée pour mettre des baskets de running. On garde l'adhérence, mais on gagne une liberté de mouvement folle."
+        <cite>— Marc D., Expert Technique GPM</cite>
+      </blockquote>
+
+      <h2>Budget : L'inflation technologique</h2>
+      <p>La technologie se paie. Comptez environ 1000 à 1500 € de plus à équipement équivalent sur la 1300. De plus, l'assurance peut varier légèrement vu la classification "nouveauté" et la puissance en hausse. N'hésitez pas à consulter notre dossier sur le <a href="/blog/cout-assurance-moto-sportive-2026">coût de l'assurance moto en 2026</a> pour anticiper votre budget, même si la GS reste souvent mieux placée que les sportives.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Conseil Achat :</p>
+        <p class="text-white italic">"Si vous faites beaucoup d'autoroute en duo, la R 1250 GS Adventure reste une machine redoutable de confort et de protection. La 1300 GS standard protège un peu moins bien du vent d'origine."</p>
+      </div>
+
+      <h2>L'équipement du pilote : S'adapter au changement</h2>
+      <p>Avec une bulle plus compacte sur la 1300, le choix du casque devient encore plus crucial pour préserver vos oreilles sur long trajet. Le silence est d'or. Si vous hésitez, jetez un œil à notre duel au sommet : <a href="/blog/shoei-neotec-3-vs-schuberth-c5">Shoei Neotec 3 vs Schuberth C5</a>.</p>
+      <p>De même, la 1300 incitant à une conduite plus dynamique, voire sportive dans les cols, un équipement ajusté et technique est recommandé. Préparez-vous comme pour une expédition : notre guide pour <a href="/blog/preparer-roadtrip-alpes-moto">préparer un roadtrip dans les Alpes</a> liste les indispensables à emporter.</p>
+
+      <h2>Conclusion : Faut-il signer le bon de commande ?</h2>
+      <p>Si vous cherchez la performance pure, la modernité et l'agilité, la <strong>R 1300 GS</strong> est une réussite totale. Elle modernise le mythe sans le trahir. Mais si votre <strong>R 1250 GS</strong> est équipée et rodée, ne vous sentez pas obligé de changer tout de suite. La 1250 reste une machine d'exception qui gardera une cote élevée en occasion.</p>
+      <p>POUR : Le moteur explosif, le poids en baisse, l'électronique de pointe.<br>
+      CONTRE : La protection en retrait, le look qui divise, le prix des options.</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-02-14",
+    category: "univers-bmw",
+    tags: ["BMW", "Comparatif", "R1300GS", "R1250GS"],
+    coverImage: "/images/blog/r1300_gs_vs_r1250_gs_comparatif_1771054701804.png",
+    readTime: "12 min"
   }
 ];
 
