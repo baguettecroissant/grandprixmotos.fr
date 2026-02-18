@@ -2,16 +2,65 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import Link from "next/link";
-import { ArrowRight, Settings } from "lucide-react";
+import { ArrowRight, Settings, Flame } from "lucide-react";
 import { posts } from "@/data/posts";
 
 export default function Home() {
+  const featuredPost = posts.find(p => p.slug === "regarder-motogp-gratuit-streaming-2026");
+
   return (
     <div className="flex min-h-screen flex-col font-sans bg-background text-foreground selection:bg-primary selection:text-white">
       <Navbar />
       <main className="flex-1 flex flex-col">
         <Hero />
 
+        {/* Featured Article - À la Une */}
+        {featuredPost && (
+          <section className="relative py-16 bg-zinc-950 border-y border-primary/20 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5"></div>
+            <div className="container mx-auto px-4 relative z-10">
+              <div className="flex items-center gap-3 mb-8">
+                <Flame className="h-6 w-6 text-primary animate-pulse" />
+                <h2 className="text-2xl md:text-3xl font-black text-white uppercase italic font-display transform -skew-x-6">
+                  À la <span className="text-primary">Une</span>
+                </h2>
+              </div>
+              <Link href={`/blog/${featuredPost.slug}`} className="group block">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gradient-to-br from-zinc-900/80 to-zinc-950 rounded-2xl border border-primary/20 overflow-hidden hover:border-primary/40 transition-all duration-500">
+                  <div className="relative aspect-video md:aspect-auto overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-zinc-900/60 z-10 hidden md:block"></div>
+                    <img
+                      src={featuredPost.coverImage}
+                      alt={featuredPost.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute top-4 left-4 z-20 inline-flex items-center gap-2 px-3 py-1 bg-primary text-white text-[10px] font-black uppercase tracking-widest">
+                      <span className="animate-pulse">●</span> Article Pilier
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-center p-6 md:p-10 space-y-5">
+                    <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white uppercase leading-tight font-display group-hover:text-primary transition-colors duration-300">
+                      {featuredPost.title}
+                    </h3>
+                    <p className="text-muted-foreground text-base leading-relaxed line-clamp-3">
+                      {featuredPost.excerpt}
+                    </p>
+                    <div className="flex items-center gap-4 text-xs text-primary/60 uppercase tracking-wider">
+                      <span>{featuredPost.author}</span>
+                      <span>•</span>
+                      <span>{featuredPost.readTime} de lecture</span>
+                    </div>
+                    <div className="pt-2">
+                      <span className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-white font-black uppercase tracking-widest hover:bg-primary/90 transition-all group-hover:gap-5">
+                        Lire l&apos;article <ArrowRight className="h-5 w-5 transition-transform" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </section>
+        )}
         {/* Featured Tool Section */}
         <section className="relative py-20 bg-zinc-950 border-y border-white/5 overflow-hidden">
           <div className="absolute inset-0 bg-[url('/images/carbon-pattern.png')] opacity-5 mix-blend-overlay"></div>
