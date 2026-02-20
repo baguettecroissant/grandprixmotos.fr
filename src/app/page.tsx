@@ -157,11 +157,15 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-800 group-hover:scale-110 transition-transform duration-500"></div>
               <span className="relative z-10 font-bold text-lg text-white group-hover:text-primary transition-colors">Équipement</span>
             </Link>
+            <Link href="/entretien" className="group relative h-32 rounded-xl bg-slate-900 overflow-hidden flex items-center justify-center border border-white/10 hover:border-primary/50 transition-all">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-800 group-hover:scale-110 transition-transform duration-500"></div>
+              <span className="relative z-10 font-bold text-lg text-white group-hover:text-primary transition-colors">Entretien</span>
+            </Link>
             <Link href="/assurance" className="group relative h-32 rounded-xl bg-slate-900 overflow-hidden flex items-center justify-center border border-white/10 hover:border-primary/50 transition-all">
               <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-800 group-hover:scale-110 transition-transform duration-500"></div>
               <span className="relative z-10 font-bold text-lg text-white group-hover:text-primary transition-colors">Assurance</span>
             </Link>
-            <Link href="/a-propos" className="group relative h-32 rounded-xl bg-slate-900 overflow-hidden flex items-center justify-center border border-white/10 hover:border-primary/50 transition-all">
+            <Link href="/a-propos" className="group relative h-32 rounded-xl bg-slate-900 overflow-hidden flex items-center justify-center border border-white/10 hover:border-primary/50 transition-all md:col-span-2">
               <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-800 group-hover:scale-110 transition-transform duration-500"></div>
               <span className="relative z-10 font-bold text-lg text-white group-hover:text-primary transition-colors">À Propos</span>
             </Link>

@@ -68,6 +68,10 @@ export function Navbar() {
                             Équipement
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full group-hover:skew-x-12"></span>
                         </Link>
+                        <Link href="/entretien" className="relative text-muted-foreground hover:text-white transition-colors group">
+                            Entretien
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full group-hover:skew-x-12"></span>
+                        </Link>
                         <Link href="/outils" className="relative text-muted-foreground hover:text-white transition-colors group">
                             Outils
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full group-hover:skew-x-12"></span>
@@ -186,6 +190,13 @@ export function Navbar() {
                             onClick={() => setIsOpen(false)}
                         >
                             Équipement
+                        </Link>
+                        <Link
+                            href="/entretien"
+                            className="text-sm font-medium text-muted-foreground hover:text-white transition-colors p-2 rounded-md hover:bg-white/5"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Entretien
                         </Link>
                         <Link
                             href="/outils"
