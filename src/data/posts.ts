@@ -926,6 +926,111 @@ export const posts: BlogPost[] = [
     tags: ["MotoGP", "Streaming", "VPN", "RTBF", "Gratuit", "Calendrier 2026"],
     coverImage: "/images/blog/regarder-motogp-gratuit-streaming-2026.jpg",
     readTime: "10 min"
+  },
+  {
+    id: "10",
+    slug: "vidange-moto-faire-soi-meme-guide",
+    title: "Vidange Moto : Le Guide Complet pour la Faire Soi-Même",
+    excerpt: "Apprenez à faire la vidange de votre moto comme un pro. Huile 100% synthèse, filtre, couple de serrage : notre guide complet 2026 pour bichonner votre mécanique.",
+    content: `
+      <p class="lead">Réaliser sa <strong>vidange moto</strong> soi-même est l'acte fondateur de tout motard qui souhaite s'affranchir des factures salées en concession et maîtriser l'entretien de sa machine. En 2026, avec des moteurs de plus en plus performants et des huiles de synthèse hautement techniques, cette opération de maintenance réclame autant de rigueur que d'équipement. Voici notre guide complet pour changer votre huile moteur et votre filtre avec la précision d'un chef d'atelier professionnel.</p>
+
+      <h2>Pourquoi Faire sa Vidange Moto Soi-Même en 2026 ?</h2>
+      <p>L'inflation des coûts d'entretien en atelier est une réalité que personne ne peut ignorer. À l'heure où les tarifs de la main-d'œuvre spécialisée flambent et que le <a href="/blog/cout-assurance-moto-sportive-2026">coût de l'assurance d'une moto sportive</a> accapare une part croissante de votre budget, réaliser les opérations de maintenance de base dans votre propre garage devient une évidence financière. Mais l'aspect pécuniaire n'est que la partie émergée de l'iceberg. Faire sa propre maintenance, c'est avant tout créer une connexion mécanique intime avec sa moto, comprendre son fonctionnement et s'assurer qu'aucun détail n'a été négligé.</p>
+      <p>La <strong>vidange moto</strong> est l'opération vitale par excellence. L'huile moteur lubrifie, nettoie, refroidit et protège les organes internes soumis à des frictions extrêmes, notamment la boîte de vitesses et l'embrayage qui, sur la plupart des motos, baignent dans le même carter. Une huile neuve et un niveau correct garantissent des passages de rapports fluides et prolongent drastiquement la durée de vie globale du groupe motopropulseur. Si vous examinez attentivement la <a href="/blog/fiabilite-bmw-r1250-gs-occasion">fiabilité de la BMW R 1250 GS en occasion</a>, un carnet de bord démontrant une attention drastique portée à la qualité de l'huile est le tout premier critère à exiger.</p>
+      <p>De plus, réaliser l'opération chez soi permet de contourner les huiles imposées par les forfaits ateliers. Vous avez la liberté totale de sélectionner le lubrifiant le plus technique du marché, parfaitement adapté à vos contraintes de roulage, que vous soyez un adepte des trackdays dominicaux ou que vous préfériez les longues virées en duo sur autoroute. Le contrôle total de la prestation apporte une tranquillité d'esprit inestimable.</p>
+
+      <h2>Quel Est le Matériel Indispensable pour une Vidange Moto Parfaite ?</h2>
+      <p>L'amateurisme n'a pas sa place quand on touche à l'intégrité de la mécanique. Une vis de carter foireuse ou un filtre à huile mal serré peuvent conduire à une fuite d'huile catastrophique sur le pneu arrière à 130 km/h. La priorité absolue est donc de s'équiper avec de l'outillage de qualité professionnelle et des consommables rigoureusement adaptés aux préconisations constructeur. La bonne clé, la bonne huile, au bon moment.</p>
+      <p>L'outillage spécifique dont vous aurez besoin ne représente qu'un investissement initial que vous rentabiliserez dès la deuxième intervention. Évitez absolument les clés plates bas de gamme qui arrondissent la tête de la vis de vidange, et proscrivez le serrage "au jugé" pour le carter en aluminium de votre moto premium.</p>
+      <p>Voici la checklist rigoureuse de ce qu'il vous faut avoir à portée de main avant d'attaquer :</p>
+      <ul>
+        <li><strong>Un bac de récupération d'huile :</strong> D'une capacité d'au moins 6 litres pour éviter tout débordement fâcheux sur le sol de votre garage.</li>
+        <li><strong>Une clé dynamométrique de précision :</strong> Indispensable pour respecter le couple de serrage du bouchon de vidange sans arracher le filetage en aluminium du carter.</li>
+        <li><strong>Une clé à filtre à cloche :</strong> Nettement supérieure à la clé à sangle pour démonter et remonter un filtre à huile cartouche sans le déformer.</li>
+        <li><strong>Un entonnoir propre à bec long :</strong> Pour un remplissage sans coulure sur les collecteurs d'échappement brûlants.</li>
+        <li><strong>Des gants en nitrile épais :</strong> L'huile usagée contient des résidus de combustion hautement toxiques pour la peau, protégez-vous systématiquement.</li>
+      </ul>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Type de Lubrifiant</th>
+              <th class="py-3 px-4">Usage Recommandé</th>
+              <th class="py-3 px-4">Périodicité de Remplacement</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">100% Synthèse (ex: 10W50, 15W50)</td>
+              <td class="py-3 px-4">Moteurs très haute performance, piste, hauts régimes constants.</td>
+              <td class="py-3 px-4">~6 000 à 10 000 km ou annuel</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Semi-Synthèse (ex: 10W40)</td>
+              <td class="py-3 px-4">Usage routier mixte, roadsters de moyenne et grosse cylindrée.</td>
+              <td class="py-3 px-4">~6 000 km ou annuel</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Minérale (ex: 20W50)</td>
+              <td class="py-3 px-4">Moteurs anciens, flats twin refroidis par air (old school).</td>
+              <td class="py-3 px-4">~5 000 km ou annuel</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Étape par Étape : Comment Réaliser sa Vidange Moto ?</h2>
+      <p>L'opération en elle-même demande méthode et propreté. Ne laissez aucune place à l'improvisation. Choisissez un endroit plat, bien éclairé, et préparez l'intégralité de votre matériel avant de commencer, y compris des chiffons propres non pelucheux. Gardez toujours à l'esprit que la mécanique requiert du calme et de l'observation.</p>
+
+      <h3>Étape 1 : Préparation et mise en chauffe du moteur</h3>
+      <p>L'huile froide est épaisse, elle s'écoulera mal et gardera les impuretés prisonnières au fond du carter. Démarrez votre machine et laissez-la chauffer au ralenti pendant une dizaine de minutes (sauf si votre carnet constructeur l'interdit spécifiquement). Le but est d'amener l'huile à une température d'environ 60°C afin de la fluidifier au maximum sans pour autant rendre les carters brûlants au toucher. Coupez ensuite le moteur et calez la moto bien droite à l'aide d'une béquille d'atelier ou de sa béquille centrale.</p>
+      <p>Avant d'ouvrir le bas du carter, prenez toujours l'habitude de dévisser d'abord le bouchon de remplissage d'huile (en haut). Cela permet de créer un appel d'air qui facilitera l'écoulement gravitationnel de l'huile usagée, et surtout, cela vous garantit que vous ne resterez pas bloqué avec un moteur vide si jamais ce bouchon supérieur venait à être grippé.</p>
+
+      <h3>Étape 2 : L'écoulement de l'huile usagée</h3>
+      <p>Placez votre bac de récupération exactement sous le bouchon de vidange. Souvent situé au point le plus bas du carter d'huile, il est parfois masqué par le sabot moteur, qu'il faudra préalablement démonter. À l'aide d'un cliquet et de la douille adaptée (souvent 14, 17 ou 19 mm), débloquez la vis de vidange d'un coup sec, puis terminez le dévissage à la main en maintenant une pression constante vers le haut. Cela vous évitera de faire tomber la vis directement dans le bac d'huile bouillante lorsque les derniers filets cèderont.</p>
+      <p>Laissez couler l'intense filet noir pendant au minimum 15 minutes. N'hésitez pas à incliner très légèrement la moto vers la gauche puis vers la droite pour évacuer les tout derniers centilitres de lubrifiant usé. Pendant ce temps, nettoyez soigneusement la vis de vidange avec du nettoyant frein, notamment s'il s'agit d'une vis magnétique : retirez toute la limaille métallique accrochée à son aimant, elle est le témoin d'une usure normale mais ne doit pas retourner dans le moteur.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">L'Importance du Joint de Carter :</p>
+        <p class="text-white italic">"Ne réutilisez jamais l'ancien joint de vidange. Ce petit anneau métallique (généralement en cuivre, aluminium ou à lèvre) est conçu pour s'écraser sous la force du serrage et créer une étanchéité parfaite. Un joint écrasé réutilisé est la cause numéro un des suintements lents sous le moteur."</p>
+      </div>
+
+      <h3>Étape 3 : Remplacement du filtre à huile</h3>
+      <p>La <strong>vidange moto</strong> serait incomplète sans le renouvellement de l'élément filtrant. Le filtre s'est chargé d'emprisonner toutes les particules de carbone, d'embrayage et de limaille pendant l'année écoulée. Déplacez votre bac sous le filtre à huile (souvent situé à l'avant du bloc) et dévissez-le doucement à l'aide de votre clé à cloche. Attention, le filtre contient encore beaucoup de liquide chaud qui va s'écouler le long des parois du carter.</p>
+      <p>Avant d'installer le filtre neuf, une astuce de chef d'atelier consiste à enduire très légèrement le joint en caoutchouc du nouveau filtre avec de l'huile moteur propre en utilisant votre index. Cela évitera que le joint ne sèche et ne se déchire au serrage contre le métal, et garantira un futur démontage sans douleur. Vissez le nouveau filtre fermement à la main (pas d'outil !). Dans 99% des cas, un serrage à la force des mains, plus un quart de tour, est amplement suffisant.</p>
+
+      <h3>Étape 4 : Remplissage et niveau méticuleux</h3>
+      <p>Replacez la vis de carter équipée de son joint neuf. Sortez votre clé dynamométrique (réglée entre 25 et 30 Nm selon la RTM de votre moto) et bloquez-la jusqu'au "clic". Versez maintenant la quantité d'huile indiquée dans le manuel via votre entonnoir. Versez d'abord 90% de la quantité théorique, refermez le bouchon, puis démarrez le moteur pendant 15 secondes pour remplir le circuit et saturer le filtre neuf.</p>
+      <p>Coupez le moteur, attendez 3 bonnes minutes que l'huile redescende, et vérifiez le hublot (ou la jauge). Ajustez délicatement jusqu'à atteindre le repère du niveau max, sans jamais le dépasser. Trop d'huile entraîne une surpression dans le bas moteur qui peut faire sauter les joints spi.</p>
+      <p>D'ailleurs, si vous avez la moindre intention de prendre la route pour un grand périple, cette étape est incontournable. Avant d'installer vos valises pour <a href="/blog/preparer-roadtrip-alpes-moto">préparer votre roadtrip dans les Alpes</a>, partir avec de l'huile neuve garantit que le moteur supportera sans broncher l'enchaînement brutal des montées en températures et les hauts régimes dans les épingles de haute montagne.</p>
+
+      <h2>Quelles Sont Les Erreurs de Vidange à Éviter Absolument ?</h2>
+      <p>Autant cette opération d'entretien courant est accessible, autant les erreurs peuvent avoir des conséquences désastreuses sur le budget. La précipitation est toujours l'ennemie du mécanicien amateur. Prendre le temps d'observer, de nettoyer et de documenter ses interventions reste la méthodologie la plus sûre.</p>
+      <p>Voici les trois erreurs fatales que nous observons régulièrement en concession :</p>
+      <ol>
+        <li><strong>Le serrage excessif de la vis de carter :</strong> Bris de filetage assuré. La répartition des forces sur de l'aluminium chaud nécessite une clé dynamométrique. Si vous foirez le pas de vis de votre bloc d'une moto neuve, la facture de remplacement du demi-carter sera astronomique.</li>
+        <li><strong>Confondre l'huile auto et l'huile moto :</strong> C'est l'erreur du débutant. Les huiles pour voitures modernes contiennent des additifs anti-friction redoutablement efficaces. Sauf que dans un carter de moto, l'embrayage baigne souvent dans cette même huile. Résultat : l'embrayage de votre moto se remettra à patiner irrémédiablement, nécessitant le remplacement de tous les disques garnis.</li>
+        <li><strong>Négliger le nettoyage des plans de joint :</strong> Une impureté laissée sur la portée du joint du bouchon de vidange créera un chemin de fuite. Nettoyez au chiffon microfibre tout ce qui entre en contact avec des pièces d'étanchéité tournantes ou fixes.</li>
+      </ol>
+
+      <blockquote>
+        "Le secret d'une moto qui dépasse les 100 000 km sans ouvrir le moteur, ce n'est pas de la ménager, c'est de l'abreuver continuellement d'une huile de très haute qualité et de renouveler l'opération à des échéances plus courtes que ce que préconise le marketing constructeur."
+        <cite>— Marc D., Ex-Chef d'Atelier BMW</cite>
+      </blockquote>
+
+      <h2>Verdict : La Vidange Moto, Un Choix Pertinent en 2026</h2>
+      <p>Maîtriser soi-même sa <strong>vidange moto</strong> est un accomplissement technique gratifiant. L'opération en concession est aujourd'hui facturée, pour un maxi-trail ou une sportive premium, entre 180 € et 250 €. En achetant vos quatre litres de synthèse de marque et un filtre d'origine de qualité certifiée pour à peine 70 €, l'économie générée est spectaculaire. Une somme fantastique dont vous profiterez en parcourant les splendides routes de cols alpins cet été.</p>
+      <p>L'argument financier s'efface vite au profit de la satisfaction de connaître l'état des fluides vitaux circulant dans les veines de votre machine. Prendre garde à réaliser sa <strong>vidange moto</strong> en temps et en heure, avec méthode et discipline, et de recycler systématiquement l'huile usagée en déchetterie démontre votre respect pour cette mécanique complexe.</p>
+      <p>Pour vous accompagner sur le chemin de l'expertise mécanique en 2026, mettez ce tutoriel en favoris, investissez une bonne fois pour toutes dans votre caisse à outils, et prenez le contrôle de l'entretien courant sur votre deux-roues de prédilection.</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-02-20",
+    category: "entretien",
+    tags: ["Tuto", "Vidange", "Entretien", "Mécanique"],
+    coverImage: "/images/blog/vidange-moto-faire-soi-meme-guide.jpg",
+    readTime: "12 min"
   }
 ];
 
@@ -948,4 +1053,10 @@ export const categories: Category[] = [
     slug: "assurance",
     description: "Gagnez de l'argent sur vos contrats. Les conseils d'experts pour optimiser vos coûts sans sacrifier votre couverture."
   },
+  {
+    id: "4",
+    name: "Entretien & Mécanique",
+    slug: "entretien",
+    description: "Tutoriels et guides pratiques pour bichonner votre mécanique. Faites respirer votre moteur."
+  }
 ];
