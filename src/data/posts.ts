@@ -1,7 +1,213 @@
 import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
-    {
+  {
+    id: "12",
+    slug: "nettoyer-moto-sans-rayer-guide",
+    title: "Comment Nettoyer sa Moto Comme un Pro (Sans Rayer)",
+    excerpt: "Lavage moto sans micro-rayures : méthode des 2 seaux, produits pH neutre, séchage soufflé. Le protocole pro pour un résultat concession en 2026.",
+    content: `
+      <p class="lead">Savoir <strong>nettoyer sa moto sans rayer</strong> la peinture est une compétence aussi cruciale que de savoir serrer un bouchon de vidange au bon couple. Chaque session de lavage bâclée avec une éponge de supermarché et du liquide vaisselle imprime des centaines de micro-rayures invisibles à l'œil nu — mais impitoyablement révélées par le soleil rasant du matin. En 2026, les vernis modernes sont plus fins qu'une feuille de papier à cigarette, et les motos premium arborent des teintes métallisées ou mates qui ne pardonnent aucune approximation. Voici le protocole complet de lavage professionnel pour restituer un éclat de concession à chaque passage.</p>
+
+      <h2>Pourquoi le Lavage Classique Détruit Votre Peinture de Moto</h2>
+      <p>La majorité des motards traitent le lavage comme une corvée rapide : un jet d'eau, une éponge jaune imbibée de Mir Vaisselle, un coup de chamoisine synthétique et on range au garage. Cette méthode, héritée du lavage automobile des années 80, est la cause numéro un de la dégradation esthétique des carénages et réservoirs. Les chiffres sont éloquents : une éponge classique possède des cellules ouvertes qui emprisonnent les particules de sable et de poussière, puis les frottent contre le vernis sous pression mécanique. Chaque aller-retour trace un sillon microscopique de 0,2 à 0,5 micron de profondeur dans la couche de vernis qui ne fait, elle, que 30 à 40 microns d'épaisseur totale.</p>
+      <p>Le liquide vaisselle, quant à lui, est formulé pour dissoudre les graisses alimentaires avec un pH alcalin agressif (souvent supérieur à 9). Appliqué sur votre réservoir, il va décaper les cires de protection, assécher les plastiques non peints et ternir les surfaces anodisées en aluminium en quelques lavages seulement. Les conséquences sont cumulatives et irréversibles sans polissage machine. Un réservoir de BMW R 1250 GS en teinte "Triple Black" ou un flanc de carénage en peinture mate sur une Ducati ne survivra pas à dix lavages au détergent ménager sans afficher un voile grisâtre définitif.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Chiffre Clé :</p>
+        <p class="text-white italic">"Un vernis moto mesure en moyenne 30 à 40 microns d'épaisseur. Chaque lavage abrasif en retire 0,2 à 0,5 micron. Après 50 lavages mal exécutés, vous avez potentiellement effacé 25 microns de protection — il ne reste plus rien à polir."</p>
+      </div>
+
+      <h2>Le Matériel Indispensable pour Nettoyer sa Moto Sans Rayer</h2>
+      <p>Le detailing moto professionnel repose sur un axiome simple : c'est le matériel qui fait 80 % du résultat, pas l'huile de coude. Investir dans les bons outils dès le départ vous épargnera un polissage correctif à 300 € chez un préparateur esthétique. Voici la liste complète du kit de lavage sans compromis :</p>
+
+      <ul>
+        <li><strong>Deux seaux de 20 litres avec grilles de décantation (Grit Guards) :</strong> C'est le cœur de la méthode. Un seau pour l'eau savonneuse, un seau d'eau claire pour rincer votre gant. Les grilles au fond retiennent les particules sales en dessous, loin de votre gant propre.</li>
+        <li><strong>Un gant de lavage en microfibre à poils longs ou en laine d'agneau :</strong> Oubliez les éponges. La microfibre longue (type "noodle wash mitt") enveloppe les contaminants dans ses fibres sans les frotter contre la surface. La laine d'agneau naturelle offre la même douceur avec un pouvoir mouillant supérieur.</li>
+        <li><strong>Un shampooing moto à pH neutre (pH 6,5 à 7,5) :</strong> Meguiar's Gold Class, Motul Wash & Wax, ou le légendaire Koch Chemie Gentle Snow Foam. Jamais de Kärcher détergent universel, jamais de dégraissant industriel.</li>
+        <li><strong>Un pré-lavage moussant (Snow Foam) :</strong> Appliqué au canon à mousse ou au pulvérisateur basse pression, il encapsule et décolle 80 % de la saleté avant tout contact physique. C'est l'étape qui change absolument tout.</li>
+        <li><strong>Des microfibres de séchage à haut pouvoir absorbant (min. 600 GSM) :</strong> Les peaux de chamois sont à proscrire — elles sont dures, elles étalent l'eau et elles rayent. Une bonne microfibre "twist loop" de 70×90 cm absorbe un litre d'eau d'un seul passage sans pression.</li>
+        <li><strong>Un souffleur d'air tiède (optionnel mais recommandé) :</strong> Pour chasser l'eau des interstices, des rétroviseurs, du dessous de selle et des recoins du moteur où la microfibre n'accède pas.</li>
+      </ul>
+
+      <h2>La Méthode des Deux Seaux : Le Protocole Anti-Rayures en 5 Étapes</h2>
+      <p>C'est la technique utilisée par tous les préparateurs automobiles et moto professionnels du monde entier. Elle repose sur un principe imparable : ne jamais réintroduire de saleté dans votre eau de lavage, pour ne jamais frotter de contaminant contre le vernis. Appliquée avec rigueur, cette méthode garantit un résultat zéro défaut.</p>
+
+      <h3>Étape 1 : Le pré-rinçage haute pression (sans buse rotative)</h3>
+      <p>Commencez toujours par un rinçage abondant à l'eau claire pour éliminer le gros des poussières, du sable et des insectes séchés. Si vous utilisez un nettoyeur haute pression, maintenez une distance minimale de 40 cm et ne dépassez jamais 80 bars de pression. Évitez le jet en mode "rotabuse" ou "turbo" qui concentre la puissance sur un point et peut arracher les autocollants, décoller les joints de pare-brise et projeter de l'eau dans les roulements de roue ou les connecteurs électriques. Le jet plat à 25° est votre allié.</p>
+
+      <h3>Étape 2 : L'application de la mousse active (Snow Foam)</h3>
+      <p>Remplissez votre lance à mousse ou votre pulvérisateur avec le shampooing dilué selon les recommandations du fabricant (en général 50 à 100 ml pour 900 ml d'eau). Recouvrez l'intégralité de la moto d'une épaisse couche de mousse blanche et laissez agir 3 à 5 minutes. La mousse active va encapsuler chimiquement les particules de route, le goudron léger et les résidus d'insectes sans aucun frottement mécanique. C'est durant ce temps de pause que 80 % du travail de nettoyage s'effectue. Ne laissez jamais la mousse sécher au soleil — travaillez à l'ombre ou en fin de journée.</p>
+
+      <h3>Étape 3 : Le lavage au gant — de haut en bas</h3>
+      <p>Rincez la mousse active à l'eau claire, puis plongez votre gant de lavage dans le seau de shampooing. Lavez la moto en commençant systématiquement par le haut (bulle, réservoir, carénages supérieurs) et en descendant progressivement vers les parties les plus sales (moteur, sabot, roues). Après chaque panneau, rincez votre gant dans le seau d'eau claire en le frottant contre la grille de décantation, puis replongez-le dans le seau de shampooing. Ce va-et-vient entre les deux seaux est la clé : vous ne remettez jamais la saleté récoltée en contact avec la peinture. Si vous entretenez minutieusement votre transmission en parallèle, comme nous l'expliquons dans notre guide sur l'<a href="/blog/entretien-chaine-moto-graissage-tension">entretien de la chaîne moto</a>, vous constaterez que les projections de graisse sont bien moindres et le nettoyage global beaucoup plus rapide.</p>
+
+      <h3>Étape 4 : Le rinçage final et le séchage soufflé</h3>
+      <p>Rincez abondamment à l'eau claire en partant du haut vers le bas. Si possible, retirez l'embout de votre tuyau d'arrosage pour obtenir un "filet d'eau" continu qui nappe la surface : cette technique (appelée "sheeting") fait glisser l'eau en couche fine qui emporte les gouttelettes résiduelles. Séchez immédiatement avec votre microfibre de 600+ GSM en posant la serviette à plat et en tamponnant — ne frottez jamais en cercles. Utilisez le souffleur pour chasser l'eau des recoins : rétroviseurs, dessous de selle, grilles de radiateur, intérieur des cylindres (sur un Boxer, l'eau adore se loger dans les ailettes de refroidissement).</p>
+
+      <h3>Étape 5 : La protection finale (Quick Detailer ou cire spray)</h3>
+      <p>Sur la peinture encore légèrement humide ou fraîchement séchée, vaporisez un Quick Detailer (type Meguiar's Ultimate Quik Detailer ou Gyeon Wet Coat) et essuyez avec une microfibre propre. Ce produit dépose une fine couche hydrophobe qui protégera la peinture jusqu'au prochain lavage, facilitera l'évacuation de l'eau de pluie et ajoutera une profondeur de brillance remarquable. Sur une peinture mate, utilisez exclusivement un protecteur spécifique "Matte Finish" — les cires classiques créent des zones brillantes irréversibles sur les surfaces satinées.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Produit de Lavage</th>
+              <th class="py-3 px-4">pH</th>
+              <th class="py-3 px-4">Usage Recommandé</th>
+              <th class="py-3 px-4">Impact sur Vernis / Mate</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Shampooing moto pH neutre</td>
+              <td class="py-3 px-4">6,5 – 7,5</td>
+              <td class="py-3 px-4">Lavage régulier, entretien courant</td>
+              <td class="py-3 px-4">100% sûr (brillant et mate)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Snow Foam (mousse active)</td>
+              <td class="py-3 px-4">7 – 8</td>
+              <td class="py-3 px-4">Pré-lavage sans contact</td>
+              <td class="py-3 px-4">Neutre si non séché au soleil</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Liquide vaisselle ménager</td>
+              <td class="py-3 px-4">9 – 11</td>
+              <td class="py-3 px-4">Dégraissage ponctuel avant polissage</td>
+              <td class="py-3 px-4 text-red-400">Décape cires et protections (À ÉVITER)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Dégraissant APC (All Purpose Cleaner)</td>
+              <td class="py-3 px-4">10 – 13</td>
+              <td class="py-3 px-4">Moteur, jantes, bas de caisse</td>
+              <td class="py-3 px-4 text-red-400">Agressif sur vernis et plastiques (diluer impérativement)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Nettoyant acide jantes</td>
+              <td class="py-3 px-4">1 – 3</td>
+              <td class="py-3 px-4">Dissolve poussière de frein incrustée</td>
+              <td class="py-3 px-4 text-red-400">Attaque l'aluminium brut et l'anodisation (À FUIR sur la moto)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Faut-il Utiliser un Karcher pour Nettoyer sa Moto ?</h2>
+      <p>C'est la question que posent 9 motards sur 10. La réponse est oui, mais avec des précautions non négociables. Un nettoyeur haute pression est un outil formidable pour le pré-rinçage et le rinçage final — il permet de déloger la boue séchée, le sable et les insectes sans contact mécanique. Mais utilisé sans discernement, il devient une arme de destruction massive pour votre moto.</p>
+
+      <ol>
+        <li><strong>Pression maximale : 80 bars.</strong> Les Kärcher grand public montent facilement à 130 ou 150 bars. C'est bien trop pour une moto. L'eau sous pression s'infiltre derrière les joints de rétroviseurs, dans les connecteurs électriques non étanches, sous les autocollants décoratifs et dans les roulements de direction. Réglez votre appareil au minimum ou reculez à 50 cm de distance.</li>
+        <li><strong>Zones interdites au jet direct :</strong> les roulements de roue (surtout les roues à rayons), le boîtier de filtre à air, les connecteurs électriques sous la selle, le radiateur (les ailettes en aluminium se plient sous la pression) et la sortie d'échappement.</li>
+        <li><strong>Température de l'eau : froide uniquement.</strong> L'eau chaude sous pression peut déformer les plastiques fins et décoller les adhésifs de protection de réservoir. Réservez la vapeur aux moteurs très encrassés, et uniquement sur les surfaces métalliques brutes.</li>
+      </ol>
+
+      <blockquote>
+        "Le meilleur lavage est celui où vos mains touchent la moto le moins possible. Le pré-lavage moussant fait 80 % du travail. Le gant de lavage vient parfaire les derniers 20 %. Si vous frottez fort, c'est que votre pré-lavage est insuffisant."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Nettoyer les Zones Critiques : Jantes, Moteur et Échappement</h2>
+      <p>Certaines zones de la moto nécessitent une attention particulière et des produits spécifiques. Les traiter avec le même shampooing que le réservoir serait aussi absurde que de graisser sa chaîne avec de l'huile de tournesol.</p>
+
+      <h3>Les jantes : poussière de frein et goudron</h3>
+      <p>La poussière de frein est le contaminant le plus agressif qui existe sur une moto. Ces particules métalliques incandescentes se projettent du disque lors de chaque freinage et se soudent littéralement à la surface de la jante sous l'effet de la chaleur. Sur des jantes en aluminium poli ou anodisé noir, elles créent des piqûres de corrosion permanentes si elles ne sont pas retirées rapidement. Utilisez un nettoyant jantes sans acide (à base de thioglycolate de fer, qui vire au violet au contact des particules ferreuses) et laissez agir 2 minutes avant de brosser avec une brosse à poils souples dédiée. Rincez abondamment. N'utilisez jamais de nettoyant jantes acide sur de l'aluminium non traité.</p>
+
+      <h3>Le moteur : chaleur résiduelle et graisse projetée</h3>
+      <p>Sur les moteurs à refroidissement par air comme le Boxer BMW, les ailettes accumulent un mélange de poussière de route cuite et de projections d'huile. Un dégraissant APC (All Purpose Cleaner) dilué à 1:10 dans un pulvérisateur fera merveille. Appliquez sur le moteur tiède (pas brûlant !), laissez agir 1 minute, puis brossez délicatement avec une brosse à détailler à poils doux et rincez au jet modéré. Les collecteurs d'échappement en inox ou titane ternis par la chaleur se ravivent avec un polish métal spécifique (type Autosol ou Mothers Mag). Attention : ne polissez jamais un collecteur en céramique ou en titane peint — vous arracheriez le revêtement. Si vous avez l'habitude de réaliser votre <a href="/blog/vidange-moto-faire-soi-meme-guide">vidange moto vous-même</a>, profitez-en pour localiser les traces de suintement d'huile au niveau de la vis de carter avant de nettoyer l'ensemble du bloc.</p>
+
+      <h3>L'échappement et les parties chromées</h3>
+      <p>Le chrome véritable (de plus en plus rare sur les motos modernes) se nettoie avec un polish chrome doux et une microfibre dédiée. Les pots en inox brossé noircis par la chaleur se restaurent avec de la laine d'acier ultra-fine (grade 0000) lubrifiée au WD-40. Pour les embouts en carbone, un simple coup de microfibre humide suffit — évitez tout produit abrasif qui rayerait la résine époxy de surface.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Zone de la Moto</th>
+              <th class="py-3 px-4">Produit Recommandé</th>
+              <th class="py-3 px-4">Outil Adapté</th>
+              <th class="py-3 px-4">Fréquence</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Carénages / Réservoir (brillant)</td>
+              <td class="py-3 px-4">Shampooing pH neutre + Quick Detailer</td>
+              <td class="py-3 px-4">Gant microfibre noodle</td>
+              <td class="py-3 px-4">Après chaque sortie</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Carénages / Réservoir (mate)</td>
+              <td class="py-3 px-4">Shampooing pH neutre + protecteur mat</td>
+              <td class="py-3 px-4">Microfibre courte, sans pression</td>
+              <td class="py-3 px-4">Après chaque sortie</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Jantes</td>
+              <td class="py-3 px-4">Nettoyant jantes sans acide (pH neutre)</td>
+              <td class="py-3 px-4">Brosse à poils souples + pinceau détail</td>
+              <td class="py-3 px-4">Toutes les 2 sorties</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Moteur / Carter</td>
+              <td class="py-3 px-4">APC dilué 1:10</td>
+              <td class="py-3 px-4">Brosse détail + pulvérisateur</td>
+              <td class="py-3 px-4">Mensuel ou après pluie</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Échappement inox / titane</td>
+              <td class="py-3 px-4">Polish métal (Autosol, Mothers Mag)</td>
+              <td class="py-3 px-4">Microfibre + coton doux</td>
+              <td class="py-3 px-4">Trimestriel</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Comment Protéger Durablement sa Moto Après le Lavage ?</h2>
+      <p>Un lavage impeccable sans protection, c'est comme une vidange avec de l'huile premier prix : le bénéfice ne dure pas. La protection post-lavage est l'étape qui sépare le motard soigneux du véritable passionné de detailing. En 2026, trois options principales s'offrent à vous, classées par durabilité croissante :</p>
+
+      <ul>
+        <li><strong>La cire naturelle (Carnauba) :</strong> La solution classique. Une bonne cire carnauba en pâte (type Soft99 ou Collinite 845) offre un éclat esthétique inégalé, une profondeur de reflets quasi liquide, mais une durabilité limitée à 4-6 semaines. Idéale pour les motos de collection ou d'exposition.</li>
+        <li><strong>Le sealant synthétique (Polymer) :</strong> Plus durable que la cire (3 à 6 mois de protection hydrophobe), le sealant est un polymère liquide qui se lie chimiquement au vernis. Facile à appliquer, il offre un excellent rapport protection/effort. Le Jescar Power Lock Plus est une référence dans le milieu du detailing moto.</li>
+        <li><strong>Le traitement céramique (Coating SiO2) :</strong> Le nec plus ultra de la protection en 2026. Un coating céramique professionnel (type Gtechniq Crystal Serum ou Gyeon Quartz) crée une couche de verre liquide de 1 à 2 microns qui protège le vernis pendant 2 à 5 ans. L'application initiale est plus exigeante (décontamination, polissage correctif, puis pose en environnement propre), mais le résultat est spectaculaire : l'eau perle en billes parfaites, la boue glisse sans accrocher, et le nettoyage courant se résume à un rinçage rapide.</li>
+      </ul>
+
+      <blockquote>
+        "J'ai fait poser un coating céramique sur ma R 1300 GS le jour de la livraison. Après 8 000 km de routes alpines, de pluie et de boue, un simple jet d'eau suffit à retrouver l'éclat du jour 1. L'investissement de 450 € s'est rentabilisé en temps et en tranquillité d'esprit dès le premier roadtrip."
+        <cite>— Julien, Testeur GPM</cite>
+      </blockquote>
+
+      <p>Pour ceux qui envisagent de protéger leur machine avant une grande virée estivale, la combinaison idéale est : un lavage complet avec la méthode des deux seaux, suivi d'une couche de sealant synthétique sur les carénages et le réservoir, puis un dressing plastique sur les parties non peintes (garde-boue, carénages intérieurs). Vous partirez l'esprit tranquille pour <a href="/blog/preparer-roadtrip-alpes-moto">enchaîner les cols alpins</a> sans craindre que la première averse ne ruine le fruit de votre travail.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Astuce Terrain :</p>
+        <p class="text-white italic">"En voyage, emportez toujours un petit pulvérisateur de 500 ml de Quick Detailer et deux microfibres pliées dans votre top-case. Après une étape pluvieuse, 3 minutes de spray-essuyage sur le réservoir et la bulle suffisent à retrouver un aspect impeccable pour la photo souvenir au sommet du col."</p>
+      </div>
+
+      <h2>Les 5 Erreurs Fatales Qui Rayent Votre Moto à Chaque Lavage</h2>
+      <p>Même avec les bons produits, certaines habitudes tenaces continuent de détruire les peintures. Voici le top 5 des erreurs de lavage que nous observons systématiquement, classées par gravité :</p>
+      <ol>
+        <li><strong>Laver en plein soleil :</strong> L'eau et le shampooing sèchent avant le rinçage, laissant des traces de calcaire permanentes (water spots) qui nécessitent un polissage pour être retirées. Travaillez toujours à l'ombre ou en fin de journée.</li>
+        <li><strong>Utiliser une seule éponge pour tout :</strong> L'éponge qui a frotté les jantes pleines de poussière de frein ne doit jamais toucher le réservoir. Utilisez des outils dédiés par zone : un gant pour la carrosserie, une brosse pour les jantes, un pinceau pour le moteur.</li>
+        <li><strong>Essuyer la poussière à sec :</strong> Passer un chiffon sur une moto poussiéreuse sans pré-rinçage, c'est poncer votre vernis au papier 1500. Même un "coup rapide" avant de sortir du garage laisse des traces. Toujours mouiller d'abord.</li>
+        <li><strong>Utiliser une chamoisine synthétique durcie :</strong> Les peaux de chamois synthétiques deviennent raides en séchant et perdent toute souplesse après quelques utilisations. Elles traînent les contaminants au lieu de les absorber. Optez pour des microfibres lavées régulièrement en machine (sans adoucissant, qui bouche les fibres).</li>
+        <li><strong>Négliger le séchage :</strong> L'eau du robinet contient du calcaire. Chaque gouttelette qui sèche naturellement au soleil laisse un dépôt minéral visible. Séchez intégralement la moto immédiatement après le rinçage, sans exception.</li>
+      </ol>
+
+      <h2>Verdict / Conclusion : Nettoyer sa Moto Sans Rayer, un Réflexe à Adopter</h2>
+      <p>Maîtriser le protocole de <strong>nettoyage moto sans rayures</strong> est un investissement minimal pour un bénéfice colossal. Le kit complet (deux seaux, gant microfibre, shampooing pH neutre, snow foam et microfibres de séchage) représente un budget d'environ 80 à 120 € — soit le prix d'une seule séance de polissage correctif chez un préparateur professionnel. En 30 minutes chrono, vous obtiendrez un résultat de concession qui préservera l'éclat de votre peinture pendant des années et maintiendra une valeur de revente optimale.</p>
+      <p>Retenez trois règles d'or : toujours pré-laver sans contact, toujours utiliser la méthode des deux seaux, et toujours sécher intégralement. Si vous appliquez ce protocole avec la même rigueur que vous mettez à surveiller le couple de serrage de votre bouchon de vidange ou la tension de votre chaîne, votre moto vous le rendra au centuple — en éclat, en fierté, et en euros à la revente.</p>
+      <p>Prenez soin de votre moto comme elle prend soin de vous sur la route. C'est la marque des vrais passionnés.</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-03-02",
+    category: "entretien",
+    tags: ["Nettoyage", "Detailing", "Entretien", "Tutoriel", "Sans Rayures"],
+    coverImage: "/images/blog/nettoyer-moto-sans-rayer-guide.png",
+    readTime: "14 min"
+  },
+  {
     id: "10",
     slug: "entretien-chaine-moto-graissage-tension",
     title: "Entretien Chaîne Moto : Graissage, Tension et Durée de Vie",
