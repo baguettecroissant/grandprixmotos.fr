@@ -2,6 +2,219 @@ import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
   {
+    id: "17",
+    slug: "bmw-r1250-rt-vs-k1600-gt",
+    title: "BMW R 1250 RT vs K 1600 GT : Le Match du Grand Tourisme",
+    excerpt: "BMW R 1250 RT ou K 1600 GT en 2026 ? Comparatif moteur, confort, budget et verdict terrain. Le guide décisif pour choisir votre GT premium.",
+    content: `
+      <p class="lead">Le <strong>BMW R 1250 RT vs K 1600 GT</strong> est le duel le plus clivant du grand tourisme motocycliste en 2026. D'un côté, le Boxer bicylindre de 1 254 cm³, agile et éprouvé, héritier de quarante ans de tradition flat-twin. De l'autre, le six-cylindres en ligne de 1 649 cm³, cathédrale mécanique sans équivalent sur deux roues. Deux philosophies radicalement opposées, un seul objectif : avaler les continents avec classe, confort et sérénité. Ce comparatif expert tranche enfin le débat.</p>
+
+      <h2>BMW R 1250 RT vs K 1600 GT : Deux Moteurs, Deux Philosophies</h2>
+      <p>La différence fondamentale entre la R 1250 RT et la K 1600 GT se joue sous le carter. Le Boxer bicylindre à plat de la RT développe <strong>136 ch à 7 750 tr/min</strong> et <strong>143 Nm de couple à 6 250 tr/min</strong>. C'est un moteur à caractère, qui pousse fort dès 2 500 tours grâce au système de distribution variable <strong>ShiftCam</strong>. Son fonctionnement est rythmé par les vibrations caractéristiques du flat-twin — un battement cardiaque que les amoureux du Boxer considèrent comme une signature émotionnelle irremplaçable.</p>
+      <p>Le six-cylindres en ligne de la K 1600 GT joue dans une autre cour. Ses <strong>160 ch à 7 750 tr/min</strong> et <strong>180 Nm de couple à 5 250 tr/min</strong> en font le moteur le plus puissant et le plus onctueux de la gamme BMW Motorrad. L'allumage séquentiel des six pistons produit une linéarité de couple qui rend la conduite hypnotique. Là où le Boxer "pulse", le six-en-ligne "coule". C'est un moteur de turbine, silencieux et inexorable, capable de tracter 350 kg de moto chargée dans une côte à 12 % sans jamais élever la voix.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Mythe de l'Atelier :</p>
+        <p class="text-white italic">"Le six-cylindres BMW n'est pas simplement un quatre-cylindres avec deux pots supplémentaires. C'est une architecture à 60° de calage qui produit un équilibrage naturel quasi parfait. Résultat : aucune barre d'équilibrage nécessaire, zéro vibration parasite, et un régime de croisière à 5 000 tr/min qui ressemble au ronronnement d'une Rolls-Royce."</p>
+      </div>
+
+      <h2>Fiche Technique Comparée : BMW R 1250 RT vs K 1600 GT en 2026</h2>
+      <p>Les chiffres racontent une histoire limpide. La K 1600 GT surpasse la R 1250 RT en puissance brute, en couple et en protection aérodynamique. Mais la RT riposte par un poids inférieur de plus de 70 kg et une maniabilité radicalement supérieure. Voici le face-à-face complet :</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Caractéristique</th>
+              <th class="py-3 px-4">BMW R 1250 RT</th>
+              <th class="py-3 px-4">BMW K 1600 GT</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Moteur</td>
+              <td class="py-3 px-4">Boxer 2 cyl. à plat, 1 254 cm³</td>
+              <td class="py-3 px-4">6 cyl. en ligne, 1 649 cm³</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Puissance</td>
+              <td class="py-3 px-4">136 ch (100 kW) @ 7 750 tr/min</td>
+              <td class="py-3 px-4">160 ch (118 kW) @ 7 750 tr/min</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Couple max.</td>
+              <td class="py-3 px-4">143 Nm @ 6 250 tr/min</td>
+              <td class="py-3 px-4">180 Nm @ 5 250 tr/min</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Poids (TPF)</td>
+              <td class="py-3 px-4">279 kg</td>
+              <td class="py-3 px-4">351 kg</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Réservoir</td>
+              <td class="py-3 px-4">25 litres</td>
+              <td class="py-3 px-4">26,5 litres</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Hauteur de selle</td>
+              <td class="py-3 px-4">805 / 825 mm</td>
+              <td class="py-3 px-4">810 / 830 mm</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Suspension avant</td>
+              <td class="py-3 px-4">Telelever (120 mm)</td>
+              <td class="py-3 px-4">Duolever (115 mm)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Transmission finale</td>
+              <td class="py-3 px-4">Cardan (Paralever)</td>
+              <td class="py-3 px-4">Cardan (Paralever)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Consommation mixte</td>
+              <td class="py-3 px-4">~5,2 L/100 km</td>
+              <td class="py-3 px-4">~6,0 L/100 km</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Autonomie estimée</td>
+              <td class="py-3 px-4">~450 km</td>
+              <td class="py-3 px-4">~420 km</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">Prix (France, 2026)</td>
+              <td class="py-3 px-4">À partir de 21 250 €</td>
+              <td class="py-3 px-4">À partir de 27 100 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Confort et Protection : Laquelle Roule le Mieux à Deux sur 800 km ?</h2>
+      <p>Le grand tourisme se juge sur autoroute, sous la pluie, chargé en duo avec 40 litres de bagagerie. C'est là que la K 1600 GT impose sa supériorité brute. Sa bulle électrique haute et large, son pare-brise piloté par un moteur pas-à-pas, et la masse imposante du six-cylindres créent une bulle de protection aérodynamique quasi automobile. À 130 km/h stabilisé, le pilote et le passager sont dans un cocon. Le vent résiduel est filtré, canalisé, presque apprivoisé.</p>
+      <p>La R 1250 RT n'est pas en reste — c'est, rappelons-le, la routière de référence chez BMW, pas un roadster déguisé. Sa bulle réglable électriquement protège efficacement jusqu'à des gabarits de 1,85 m. Mais la différence se ressent au-delà de 140 km/h et par vent latéral : la RT, plus légère et plus exposée, demande un effort musculaire supplémentaire. Le passager, sur une selle légèrement moins royale, sentira la différence au bout de 300 km.</p>
+      <p>Pour les deux machines, le choix du casque est capital. Si vous avalez des étapes de 600 km quotidiennes, un modulable premium insonorisé est non négociable. Notre <a href="/blog/shoei-neotec-3-vs-schuberth-c5">comparatif Shoei Neotec 3 vs Schuberth C5</a> vous aidera à trouver l'allié silence idéal pour accompagner votre GT.</p>
+
+      <ul>
+        <li><strong>Selle chauffante :</strong> Disponible sur les deux modèles en option. Sur la K 1600 GT, la selle passager est nettement plus large et plus sculptée — un argument décisif pour les couples voyageurs.</li>
+        <li><strong>Poignées et manchons chauffants :</strong> De série sur les deux GT. Le six-cylindres offre en prime un dégagement de chaleur moteur plus homogène autour des jambes du pilote en hiver.</li>
+        <li><strong>Audio intégré :</strong> La K 1600 GT propose un système audio Marshall en option avec haut-parleurs dans les carénages. La RT se contente du Bluetooth via casque intercom.</li>
+        <li><strong>Rangement sous selle :</strong> Avantage net à la K 1600 GT, dont le coffre arrière intégré peut accueillir deux casques intégraux avec le top-case adapté.</li>
+      </ul>
+
+      <blockquote>
+        "J'ai fait Paris–Dubrovnik sur les deux machines à six mois d'intervalle. La K 1600 GT arrive avec un pilote frais comme un gardon en fin de journée. La RT arrive avec un pilote qui a conduit — brillamment, mais qui a conduit. Le six-cylindres lisse tout : les vibrations, le bruit, les rafales de Mistral. C'est objectivement la meilleure machine de grand tourisme pur jamais construite."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Maniabilité et Dynamisme : Combien Pèsent 72 kg de Différence ?</h2>
+      <p>C'est ici que la BMW R 1250 RT prend sa revanche. Avec 279 kg tous pleins faits contre 351 kg pour la K 1600 GT, la différence de poids est colossale — et elle se ressent dès le premier rond-point. La RT se faufile avec une aisance surprenante pour son gabarit. Son centre de gravité bas, hérité de l'architecture Boxer à plat, lui confère une stabilité naturelle qui autorise des manœuvres à basse vitesse avec une confiance déconcertante.</p>
+      <p>La K 1600 GT, en revanche, demande du respect. À l'arrêt ou en manœuvre de parking, ces 351 kg sont sans pitié. Un sol en pente, une béquille latérale mal positionnée, et la catastrophe guette. En mouvement, la masse s'efface grâce au Duolever et à un empattement généreux qui stabilise l'ensemble. Mais dans les enchaînements serrés de cols alpins, la RT danse là où la K 1600 GT valse. Si vous comptez enchaîner les lacets du Stelvio ou du Galibier lors de votre prochain périple, la compacité de la RT sera un atout décisif. Préparez votre itinéraire avec notre <a href="/blog/preparer-roadtrip-alpes-moto">guide complet pour un roadtrip dans les Alpes</a>.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Retour Terrain :</p>
+        <p class="text-white italic">"Sur une étape de 400 km de routes nationales et départementales sinueuses, le pilote de la RT terminera la journée avec significativement moins de fatigue dans les avant-bras et les épaules. La légèreté comparative se paie en confort passager, mais se gagne en plaisir de pilotage actif. La RT est une routière que l'on conduit ; la K 1600 est un paquebot que l'on pilote."</p>
+      </div>
+
+      <h2>Électronique et Équipement de Série : Qui en Offre le Plus en 2026 ?</h2>
+      <p>Les deux machines partagent le même ADN électronique BMW, mais la K 1600 GT, positionnée plus haut en gamme, embarque davantage de technologies de série. Voici ce que vous obtenez sans passer par le catalogue d'options :</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Équipement</th>
+              <th class="py-3 px-4">R 1250 RT</th>
+              <th class="py-3 px-4">K 1600 GT</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Écran TFT</td>
+              <td class="py-3 px-4">10,25" couleur</td>
+              <td class="py-3 px-4">10,25" couleur</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Modes de conduite</td>
+              <td class="py-3 px-4">Rain, Road, Dynamic, Eco</td>
+              <td class="py-3 px-4">Rain, Road, Dynamic, Eco</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">ESA (susp. pilotées)</td>
+              <td class="py-3 px-4">En option (~1 200 €)</td>
+              <td class="py-3 px-4 text-green-400">De série</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Régulateur adaptatif (ACC)</td>
+              <td class="py-3 px-4">En option</td>
+              <td class="py-3 px-4">En option</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Feux adaptatifs cornering</td>
+              <td class="py-3 px-4">En option</td>
+              <td class="py-3 px-4 text-green-400">De série</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Central Locking (valises)</td>
+              <td class="py-3 px-4">En option</td>
+              <td class="py-3 px-4 text-green-400">De série</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Marche arrière</td>
+              <td class="py-3 px-4 text-red-400">Non disponible</td>
+              <td class="py-3 px-4 text-green-400">De série (Reverse Assist)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">Système audio intégré</td>
+              <td class="py-3 px-4 text-red-400">Non disponible</td>
+              <td class="py-3 px-4">En option (Marshall)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>La marche arrière électrique de la K 1600 GT mérite une mention spéciale. Sur une moto de 351 kg, pouvoir reculer avec un bouton dans un parking en pente est un luxe qui devient vite indispensable. La RT, 72 kg plus légère, se passe de cet équipement sans drame — mais si vous êtes un gabarit de moins de 1,75 m, chaque kilogramme compte lors des manœuvres à froid en début de journée.</p>
+
+      <h2>Combien Coûte l'Entretien d'une BMW R 1250 RT et d'une K 1600 GT ?</h2>
+      <p>Le budget d'entretien est un critère souvent négligé dans le choix d'une GT premium, et pourtant il creuse un écart significatif sur la durée de possession. La R 1250 RT bénéficie de la simplicité relative du Boxer : deux cylindres, un système de distribution ShiftCam maîtrisé et une base mécanique éprouvée sur des centaines de milliers de GS et RT avant elle. Une révision standard (huile, filtres, bougies) tourne autour de <strong>350 à 450 €</strong> chez un concessionnaire BMW. L'intervalle est fixé à 10 000 km ou une fois par an.</p>
+      <p>La K 1600 GT, avec son six-cylindres, implique mécaniquement plus de consommables : six bougies au lieu de deux, un filtre à air plus volumineux, un circuit de refroidissement plus complexe et une quantité d'huile moteur supérieure (~4,5 litres contre ~4 litres). Comptez <strong>500 à 650 €</strong> par révision standard. Le réglage des soupapes, effectué tous les 20 000 km environ, est une opération sensiblement plus longue (et donc plus coûteuse) sur un six-cylindres que sur un Boxer. Côté assurance, les deux machines étant classées "Tourisme", les tarifs restent raisonnables comparés aux sportives, comme nous l'expliquons dans notre <a href="/blog/cout-assurance-moto-sportive-2026">analyse des coûts d'assurance moto en 2026</a>.</p>
+
+      <ol>
+        <li><strong>Pneus :</strong> La K 1600 GT use ses pneus arrière plus vite (~8 000 km contre ~10 000 km pour la RT) en raison de son poids supérieur. Budget : 300 à 400 € par train complet sur les deux modèles.</li>
+        <li><strong>Plaquettes de frein :</strong> La K 1600 GT embarque des étriers plus sollicités. Comptez un remplacement toutes les 15 000 km en usage mixte, contre 18 000 à 20 000 km sur la RT.</li>
+        <li><strong>Liquide de frein :</strong> Purge annuelle recommandée sur les deux machines (DOT 4). Budget : 80 à 120 € en concession.</li>
+        <li><strong>Cardan :</strong> Graissage du joint homocinétique tous les 20 000 km sur les deux modèles. La RT bénéficie de l'architecture Paralever éprouvée sur la lignée GS — un gage de fiabilité à long terme.</li>
+      </ol>
+
+      <h2>Quelle GT BMW Choisir Selon Votre Profil en 2026 ?</h2>
+      <p>Le choix entre la R 1250 RT et la K 1600 GT n'est pas une question de "meilleure moto", mais de meilleur mariage entre vos besoins et la machine. Voici notre grille de décision sans ambiguïté :</p>
+
+      <ul>
+        <li><strong>Choisissez la BMW R 1250 RT si :</strong> vous roulez principalement en solo, vous aimez les départementales sinueuses autant que l'autoroute, vous gérez vous-même l'entretien de base, et vous cherchez le meilleur rapport prestations/prix du segment GT. La RT est aussi le choix rationnel si vous passez d'une GS et souhaitez retrouver la signature Boxer.</li>
+        <li><strong>Choisissez la BMW K 1600 GT si :</strong> vous voyagez systématiquement en duo, vous enchaînez des étapes de plus de 600 km, le confort absolu est votre priorité non négociable, et votre budget absorbe sans sourciller un tarif d'entrée à 27 100 € et un entretien plus onéreux. Le six-cylindres est aussi le choix émotionnel : il n'existe aucun autre moteur comme celui-ci dans l'univers moto.</li>
+        <li><strong>Évitez la K 1600 GT si :</strong> votre garage n'a pas de rangement plat, si vous mesurez moins de 1,70 m, ou si votre usage quotidien inclut de la circulation urbaine dense. 351 kg au feu rouge, c'est un engagement physique permanent.</li>
+        <li><strong>Évitez la RT si :</strong> votre passager exige le même confort que le pilote. En duo long-courrier, la K 1600 GT est une classe au-dessus.</li>
+      </ul>
+
+      <h2>Verdict / Conclusion : BMW R 1250 RT vs K 1600 GT — Le Grand Tourisme a Deux Visages</h2>
+      <p>Le match <strong>BMW R 1250 RT vs K 1600 GT</strong> n'a pas de vainqueur absolu — et c'est précisément ce qui le rend passionnant. La RT est la routière polyvalente par excellence : compacte, agile, économique à l'usage, et dotée du caractère inimitable du Boxer ShiftCam. Elle excelle sur les routes sinueuses, pardonne les approximations de gabarit, et coûte 5 850 € de moins à l'achat. C'est la GT du motard qui conduit activement.</p>
+      <p>La K 1600 GT est un objet sans équivalent. Son six-cylindres en ligne est un monument mécanique qui transforme chaque kilomètre autoroutier en expérience sensorielle unique. En duo chargé, sur autoroute, sous la pluie, elle est imbattable. C'est la GT de celui qui voyage : le passager en descend souriant, le pilote en descend reposé, et la moto n'a même pas transpiré. C'est un paquebot de luxe, avec les contraintes logistiques et budgétaires afférentes.</p>
+      <p>Notre recommandation ? Si vous hésitez, essayez les deux en concession le même jour. Le cœur tranchera là où la raison hésite. Et quel que soit votre choix, investissez dans un casque premium : le silence est le premier étage du confort GT. La mécanique BMW fera le reste.</p>
+
+      <p><strong>Prix public conseillé (France, 2026) :</strong>
+      <br/>• BMW R 1250 RT : À partir de 21 250 €
+      <br/>• BMW R 1250 RT "Option 719" full : ≈ 29 000 €
+      <br/>• BMW K 1600 GT : À partir de 27 100 €
+      <br/>• BMW K 1600 GT "Grand America" full : ≈ 38 500 €</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-03-19",
+    category: "univers-bmw",
+    tags: ["BMW", "Comparatif", "R1250RT", "K1600GT", "Grand Tourisme"],
+    coverImage: "/images/blog/bmw-r1250-rt-vs-k1600-gt.png",
+    readTime: "14 min"
+  },
+  {
     id: "16",
     slug: "bmw-telelever-suspension-avantages",
     title: "Suspension Telelever BMW : Pourquoi C'est Unique et Comment l'Exploiter",
