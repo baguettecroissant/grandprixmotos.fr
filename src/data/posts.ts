@@ -2,6 +2,175 @@ import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
   {
+    id: "18",
+    slug: "permis-moto-2026-reforme-changements",
+    title: "Permis Moto 2026 : Ce Qui Change avec la Réforme",
+    excerpt: "Réforme permis moto 2026 : examen raccourci, plateau sans passager, contrôle technique, ZFE et budget. Tout ce qui change pour les futurs motards.",
+    content: `
+      <p class="lead">La <strong>réforme du permis moto 2026</strong> redessine en profondeur le parcours d'accès aux deux-roues motorisés en France. Examen de circulation amputé de 8 minutes, épreuve plateau désormais réalisable sans passager, restrictions CPF durcies et arrivée du contrôle technique moto : les changements sont concrets, immédiats, et impactent aussi bien le futur permis A2 que le motard chevronné en permis A. Voici l'analyse technique complète de ce qui vous attend — et comment vous y préparer sans perdre ni temps, ni argent.</p>
+
+      <h2>Réforme du Permis Moto 2026 : Les Changements Clés en un Coup d'Œil</h2>
+      <p>La refonte réglementaire du permis moto ne se résume pas à un simple ajustement cosmétique. C'est un ensemble de mesures structurelles qui modifient l'accès, le coût, le format d'examen et même l'environnement réglementaire post-permis. Depuis le 1er novembre 2025, la durée de l'épreuve de circulation pour les permis A1 et A2 est passée de <strong>40 à 32 minutes</strong>. L'objectif affiché par la Délégation à la Sécurité Routière (DSR) est double : harmoniser la durée avec celle du permis B automobile et augmenter la capacité d'accueil des centres d'examen, qui saturaient depuis la reprise post-Covid.</p>
+      <p>Mais ce raccourcissement de 20 % du temps d'évaluation en circulation ne signifie pas un examen au rabais. Les inspecteurs conservent les mêmes grilles de notation et les mêmes exigences. En pratique, cela implique que chaque minute compte davantage : un candidat qui met 10 minutes à trouver son rythme sur les 40 initiales disposait d'une marge de récupération confortable. Sur 32 minutes, cette marge fond comme neige au soleil. Notre conseil : intensifiez vos heures de conduite en conditions réelles avant l'examen.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Changement</th>
+              <th class="py-3 px-4">Avant (2024)</th>
+              <th class="py-3 px-4">Après (2026)</th>
+              <th class="py-3 px-4">Impact Candidat</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Durée épreuve circulation</td>
+              <td class="py-3 px-4">40 minutes</td>
+              <td class="py-3 px-4">32 minutes</td>
+              <td class="py-3 px-4">Moins de marge d'erreur</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Passager à l'épreuve plateau</td>
+              <td class="py-3 px-4">Obligatoire (maniabilité lente)</td>
+              <td class="py-3 px-4">Optionnel (code 79.05)</td>
+              <td class="py-3 px-4">Simplification logistique</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Financement CPF</td>
+              <td class="py-3 px-4">Accessible sans justification</td>
+              <td class="py-3 px-4">Projet professionnel exigé</td>
+              <td class="py-3 px-4">Budget personnel augmenté</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Contrôle technique moto</td>
+              <td class="py-3 px-4">Inexistant</td>
+              <td class="py-3 px-4">Obligatoire (motos 2020-2022)</td>
+              <td class="py-3 px-4">Coût annuel supplémentaire</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">ZFE (Zones à Faibles Émissions)</td>
+              <td class="py-3 px-4">Tolérance large</td>
+              <td class="py-3 px-4">Durcissement et extension</td>
+              <td class="py-3 px-4">Anciennes motos exclues</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">TVA motos neuves &gt;450 cm³</td>
+              <td class="py-3 px-4">Taux standard (20 %)</td>
+              <td class="py-3 px-4">Hausse potentielle à l'étude</td>
+              <td class="py-3 px-4">Prix d'achat en hausse</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Permis A1, A2, A : Comment Fonctionne la Progression en 2026 ?</h2>
+      <p>Le système d'accès progressif aux catégories de permis moto reste inchangé dans son architecture globale — mais sa compréhension est essentielle pour tout futur motard. C'est un escalier à trois marches, chacune conditionnée par l'âge et l'expérience.</p>
+
+      <h3>Le permis A1 : la porte d'entrée dès 16 ans</h3>
+      <p>Accessible à partir de 16 ans, le permis A1 autorise la conduite de motos légères de <strong>125 cm³ maximum</strong> et d'une puissance n'excédant pas <strong>11 kW (15 ch)</strong>. C'est aussi le permis requis pour les tricycles à moteur jusqu'à 15 kW. En 2026, le permis A1 représente un choix stratégique pour les adolescents désireux de commencer tôt leur formation. La formation de 20 heures minimum (8 h de plateau + 12 h de circulation) reste la norme, et le coût du forfait oscille entre <strong>800 € et 1 200 €</strong> selon les régions.</p>
+
+      <h3>Le permis A2 : le standard du motard de 18 ans</h3>
+      <p>Obligatoire depuis 2013 pour tout primo-accédant de 18 ans et plus, le permis A2 limite la puissance à <strong>35 kW (47,5 ch)</strong> et le rapport puissance/poids à 0,2 kW/kg. Concrètement, cela ouvre l'accès à de nombreuses machines performantes bridées : Yamaha MT-07, Kawasaki Z650, Honda CB650R, ou encore la BMW G 310 R. Le forfait 20 heures démarre autour de <strong>1 000 € à 1 500 €</strong>, auxquels s'ajoutent les 30 € d'inscription à l'ETM et l'investissement dans l'équipement de sécurité.</p>
+
+      <h3>Le permis A : la formation passerelle de 7 heures</h3>
+      <p>Après deux ans de permis A2, une formation complémentaire de <strong>7 heures</strong> (sans examen) permet d'accéder au permis A et de conduire toutes les motos sans restriction de puissance. Cette formation coûte entre <strong>250 € et 400 €</strong>. En 2026, c'est le sésame qui ouvre la porte aux machines premium comme la <a href="/blog/fiabilite-bmw-r1250-gs-occasion">BMW R 1250 GS</a> ou les roadsters sportifs de plus de 100 chevaux. Ne précipitez pas cette passerelle : utilisez ces deux années A2 pour acquérir une maîtrise solide avant de déboucher sur des machines de 150+ chevaux.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Point Réglementaire :</p>
+        <p class="text-white italic">"La formation passerelle A2→A de 7 heures ne comporte aucun examen de conduite. Elle se compose de 2 heures de théorie, 2 heures de plateau et 3 heures de circulation. Le moniteur valide votre attestation de formation — c'est ensuite la préfecture qui modifie la catégorie sur votre permis. Délai moyen de traitement : 2 à 4 semaines via l'ANTS."</p>
+      </div>
+
+      <h2>L'Épreuve Plateau Sans Passager : Que Change le Code 79.05 ?</h2>
+      <p>C'est la nouveauté la plus débattue de cette réforme du permis moto 2026. Jusqu'ici, l'épreuve de plateau incluait obligatoirement des exercices de maniabilité avec un passager : la fameuse manœuvre lente à allure réduite avec un humain assis derrière vous, agrippé à vos hanches, pendant que vous slalomez entre des plots à 10 km/h en cherchant l'équilibre. Cette obligation logistique — trouver un passager volontaire, équipé, disponible le jour J — était un casse-tête pour les auto-écoles et une source de stress supplémentaire pour les candidats.</p>
+      <p>Désormais, il est possible de passer le plateau <strong>sans passager</strong>. Le prix à payer ? Un <strong>code restrictif 79.05</strong> apposé sur votre permis, qui vous interdit de transporter un passager tant que vous n'avez pas suivi une formation complémentaire spécifique. Cette formation additionnelle, d'une durée estimée de 3 à 4 heures, coûtera entre <strong>150 € et 250 €</strong> en auto-école.</p>
+
+      <ul>
+        <li><strong>Avantage immédiat :</strong> Vous passez votre permis plus rapidement, sans dépendre de la disponibilité d'un tiers. Le taux de réussite au plateau devrait mécaniquement augmenter, la suppression du passager éliminant un facteur de déstabilisation majeur pour les candidats légers ou de petit gabarit.</li>
+        <li><strong>Inconvénient stratégique :</strong> Si vous comptez voyager en duo dès l'obtention du permis — et c'est le cas de nombreux motards — mieux vaut passer le plateau avec passager d'emblée. La restriction 79.05 est une contrainte administrative supplémentaire que vous paierez plus cher à lever après coup.</li>
+        <li><strong>Notre recommandation :</strong> Passez le plateau avec passager si vous mesurez plus de 1,70 m et pesez plus de 65 kg. La charge supplémentaire d'un passager de 60-70 kg sur une moto d'auto-école de 180 kg est parfaitement gérable avec un entraînement sérieux. Optez pour le code 79.05 uniquement si votre gabarit rend la manœuvre réellement hasardeuse.</li>
+      </ul>
+
+      <blockquote>
+        "Le plateau avec passager est un exercice de confiance mutuelle autant que de technique. Le candidat qui le maîtrise démontre une gestion de masse et un équilibre à basse vitesse que le plateau solo ne peut pas évaluer. Sur le terrain, transporter un passager sans cette compétence acquise à l'examen, c'est rouler avec un angle mort dans sa formation."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Combien Coûte le Permis Moto en 2026 ? Budget Complet Détaillé</h2>
+      <p>Le budget total pour obtenir un permis moto en 2026 a significativement évolué, notamment à cause du durcissement de l'accès au CPF. Là où des milliers de candidats finançaient intégralement leur formation via leur Compte Personnel de Formation sans justification, il faut désormais prouver un <strong>projet professionnel lié à la conduite</strong> (chauffeur VTC, livreur, coursier, etc.). Résultat : le nombre de dossiers CPF validés pour le permis moto a chuté de plus de 60 % depuis 2024.</p>
+      <p>Pour le candidat qui finance sa formation sur ses deniers personnels, voici la ventilation complète :</p>
+
+      <ol>
+        <li><strong>ETM (Épreuve Théorique Moto) :</strong> 30 € pour l'inscription via un organisme agréé (La Poste, SGS). Prévoir 3 à 6 semaines de préparation avec une application mobile dédiée (environ 20 € pour un accès premium). L'ETM est valable 5 ans.</li>
+        <li><strong>Forfait 20 heures moto-école (A2) :</strong> 1 000 € à 1 500 € selon la région. Paris et la Côte d'Azur sont les zones les plus chères. Privilégiez les forfaits incluant la présentation à l'examen.</li>
+        <li><strong>Heures supplémentaires :</strong> 40 € à 55 € par heure. La majorité des candidats ont besoin de 25 à 30 heures pour atteindre un niveau suffisant. Comptez 200 € à 550 € de supplément.</li>
+        <li><strong>Équipement de sécurité obligatoire :</strong> Casque (150 € à 500 €), gants homologués (30 € à 80 €), blouson avec protections dorsale et coudes (150 € à 400 €), bottes montantes (80 € à 200 €). Budget plancher réaliste : <strong>500 € à 800 €</strong>. Pour protéger votre investissement, choisir le bon casque est crucial — notre <a href="/blog/shoei-neotec-3-vs-schuberth-c5">comparatif Shoei Neotec 3 vs Schuberth C5</a> vous orientera vers des produits qui durent.</li>
+        <li><strong>Formation passerelle A2→A (après 2 ans) :</strong> 250 € à 400 €.</li>
+      </ol>
+
+      <p><strong>Budget total estimé (permis A2 + équipement) : 1 800 € à 3 200 €</strong>, selon votre région, le nombre d'heures nécessaires et la qualité de l'équipement choisi. C'est un investissement conséquent, mais qui ouvre la porte à des décennies de passion — et potentiellement à une belle <a href="/blog/cout-assurance-moto-sportive-2026">optimisation de vos coûts d'assurance moto</a> si vous choisissez judicieusement votre première machine.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Astuce Budget :</p>
+        <p class="text-white italic">"Ne lésinez jamais sur le casque et les gants — ce sont les deux équipements qui vous sauveront la vie. En revanche, pour le blouson et les bottes, le marché de l'occasion premium regorge de pièces Alpinestars, Dainese ou REV'IT portées 2 ou 3 fois par des motards qui ont changé de taille ou abandonné la moto. Vous pouvez diviser votre budget équipement par deux sans compromettre votre sécurité."</p>
+      </div>
+
+      <h2>Contrôle Technique Moto 2026 : Ce Qu'il Faut Savoir</h2>
+      <p>Même s'il ne relève pas strictement de la réforme du permis moto, le contrôle technique deux-roues motorisé impacte directement l'écosystème du motard en 2026. Après des années de batailles juridiques et un décret finalement entériné, le CT moto entre en application progressive.</p>
+      <p>En 2026, les motos immatriculées entre <strong>janvier 2020 et décembre 2022</strong> devront passer leur premier contrôle technique. Pour les machines plus récentes, le premier CT interviendra <strong>4 ans après la date de première mise en circulation</strong>, puis tous les 2 ans. Les points contrôlés couvrent trois domaines principaux :</p>
+
+      <ul>
+        <li><strong>Sécurité mécanique :</strong> Freinage (efficacité, état des disques et plaquettes), direction (jeu dans les roulements), éclairage (alignement, puissance), pneumatiques (usure, conformité dimensionnelle), suspensions (fuites, débattement résiduel).</li>
+        <li><strong>Nuisances sonores :</strong> Mesure du niveau sonore à l'échappement. Les pots d'échappement aftermarket non homologués ou modifiés (suppression du catalyseur, décatalysage, reprogrammation dB-killer) seront sanctionnés. Si vous roulez avec un Akrapovic racing non homologué route, prévoyez de remonter le pot d'origine pour le passage.</li>
+        <li><strong>Émissions environnementales :</strong> Contrôle des gaz d'échappement (CO, HC). Les motos équipées d'un catalyseur d'origine en bon état ne poseront aucun problème. Celles dont le catalyseur a été retiré échoueront systématiquement.</li>
+      </ul>
+
+      <p>Le coût estimé du contrôle technique moto se situe entre <strong>50 € et 75 €</strong> par passage. En cas de contre-visite, comptez 15 € à 25 € supplémentaires. Ce n'est pas un gouffre financier, mais c'est un coût récurrent à intégrer dans votre budget annuel de possession, au même titre que l'assurance et l'entretien courant.</p>
+
+      <h2>ZFE et Fiscalité 2026 : Quelles Motos Seront Interdites en Ville ?</h2>
+      <p>Les Zones à Faibles Émissions (ZFE) continuent leur expansion inexorable en 2026. Lyon, Marseille, Toulouse, Strasbourg, Rouen et de nombreuses métropoles durcissent progressivement les restrictions. Les motos classées <strong>Crit'Air 4 et 5</strong> (globalement les modèles immatriculés avant 2007) sont d'ores et déjà exclues de plusieurs centres-villes. En 2026, certaines ZFE ambitieuses commenceront à restreindre les <strong>Crit'Air 3</strong> (motos d'avant 2011).</p>
+      <p>Concrètement, si vous venez d'obtenir votre permis A2 en 2026 et que vous comptez acheter une moto d'occasion des années 2005-2010 pour débuter à moindre coût, vérifiez impérativement la vignette Crit'Air de la machine et les restrictions ZFE de votre commune. Une Hornet 600 de 2008, aussi séduisante soit-elle sur le plan mécanique, pourrait être interdite d'accès dans votre centre-ville d'ici 12 à 18 mois.</p>
+      <p>Côté fiscalité, un projet de loi examiné fin 2025 pourrait entraîner une <strong>hausse de la TVA</strong> ciblant les motos neuves de plus de <strong>450 cm³</strong> jugées particulièrement polluantes ou bruyantes. Si cette mesure est adoptée, elle augmenterait mécaniquement le prix catalogue des machines de moyenne et grosse cylindrée, rendant le marché de l'occasion encore plus attractif pour les primo-accédants en permis A2.</p>
+
+      <blockquote>
+        "Le paysage réglementaire autour de la moto en 2026 est le plus complexe jamais observé en France. Entre le CT, les ZFE, les restrictions CPF et les potentielles évolutions fiscales, le motard moderne doit être aussi bien informé juridiquement que techniquement. L'époque où l'on achetait une moto en regardant uniquement le prix et la puissance est définitivement révolue."
+        <cite>— Julien, Analyste Marché pour GPM</cite>
+      </blockquote>
+
+      <h2>L'ETM (Épreuve Théorique Moto) : Faut-il S'en Inquiéter en 2026 ?</h2>
+      <p>Non, à condition de la préparer sérieusement. L'Épreuve Théorique Moto, instaurée en 2020, reste stable dans son format en 2026 : <strong>40 questions</strong>, durée de 30 minutes, seuil de réussite à <strong>35 bonnes réponses</strong>. Elle est distincte du code de la route automobile et couvre des thématiques spécifiques aux deux-roues : trajectoire en virage, freinage d'urgence, angle mort, équipement de protection, premiers secours moto, réglementation spécifique.</p>
+      <p>Le taux de réussite national de l'ETM tourne autour de <strong>65 à 70 %</strong> au premier passage. Les candidats qui échouent sont presque invariablement ceux qui ont sous-estimé l'examen en pensant que leur code B suffirait. C'est faux : 30 à 40 % des questions sont spécifiques à la moto et ne figurent dans aucune base de code automobile. Investissez 30 € dans une application de préparation ETM (Codes Rousseau Moto, Ornikar Moto, Auto-école.net) et révisez quotidiennement pendant 3 à 4 semaines. L'ETM validée est valable 5 ans — c'est un investissement minimal pour un sésame durable.</p>
+
+      <h2>Quel Impact de la Réforme sur le Marché de la Moto d'Occasion ?</h2>
+      <p>La combinaison du durcissement CPF, du CT moto et des ZFE produit un effet de ciseaux fascinant sur le marché de l'occasion en 2026. D'un côté, les motos anciennes (pré-2011, Crit'Air 3+) perdent de la valeur à mesure que les ZFE se généralisent — ce qui crée des opportunités d'achat exceptionnelles pour les motards ruraux ou péri-urbains non concernés par les restrictions. De l'autre, les machines récentes et Euro 5 (post-2020) conservent une cote élevée car elles sont "CT-proof" et ZFE-compatibles.</p>
+
+      <ol>
+        <li><strong>Motos A2 d'occasion les plus recherchées en 2026 :</strong> Yamaha MT-07 (2021+), Honda CB500F/X, Kawasaki Z650, KTM 390 Duke, Suzuki SV 650. Toutes Euro 5, toutes Crit'Air 1, toutes facilement bridables à 35 kW.</li>
+        <li><strong>Motos A2 à éviter en zone ZFE :</strong> Tout modèle pré-2011 (Crit'Air 3), les SV 650 première génération, les Bandit 600/650 avant 2007, les anciennes ER-6 avant 2012. Mécaniquement fiables, mais réglementairement condamnées en milieu urbain.</li>
+        <li><strong>Conseil d'achat :</strong> Privilégiez systématiquement les motos immatriculées après janvier 2020 si vous vivez en métropole. Le surcoût de 500 € à 1 500 € à l'achat sera largement compensé par l'absence de contraintes ZFE et un premier CT technique simplifié sur une moto récente et bien entretenue.</li>
+      </ol>
+
+      <h2>Verdict / Conclusion : Permis Moto 2026, une Réforme qui Professionnalise l'Accès</h2>
+      <p>La <strong>réforme du permis moto 2026</strong> n'est ni une simplification béate, ni un durcissement punitif. C'est une professionnalisation de l'accès aux deux-roues qui reflète la maturité croissante du marché moto français. L'examen raccourci à 32 minutes exige une préparation plus intensive — chaque minute d'évaluation pèse plus lourd. L'option plateau sans passager (code 79.05) offre une flexibilité bienvenue, mais au prix d'une restriction que vous devrez lever ultérieurement si vous souhaitez rouler en duo. Le durcissement du CPF pèse sur le budget, mais rappelle que le permis moto est un investissement personnel de long terme, pas un droit de formation universel.</p>
+      <p>Le véritable changement de paradigme en 2026, c'est l'environnement post-permis. Le contrôle technique moto, les ZFE qui se resserrent et les potentielles évolutions fiscales transforment le choix de sa première moto en exercice stratégique. Acheter une vieille bécane bon marché pour débuter n'est plus forcément le réflexe le plus malin si vous vivez en ville. Prenez le temps de calculer le coût total de possession — permis, équipement, assurance, CT, carburant, entretien — avant de signer chez le concessionnaire.</p>
+      <p>Notre conseil final : traitez votre permis moto comme un investissement, pas comme une corvée administrative. Choisissez une moto-école réputée, investissez dans un équipement qui vous protégera vraiment, préparez votre ETM avec rigueur, et une fois le précieux sésame en poche, roulez. Roulez beaucoup. C'est sur la route que se forge la véritable expertise motocycliste — celle qu'aucun examen ne peut évaluer en 32 minutes.</p>
+
+      <p><strong>Récapitulatif budget permis moto 2026 (estimation France métropolitaine) :</strong>
+      <br/>• ETM (inscription + préparation) : 50 €
+      <br/>• Forfait 20h moto-école (A2) : 1 000 € – 1 500 €
+      <br/>• Heures supplémentaires (5-10h) : 200 € – 550 €
+      <br/>• Équipement complet (casque, gants, blouson, bottes) : 500 € – 800 €
+      <br/>• Formation passerelle A2→A (après 2 ans) : 250 € – 400 €
+      <br/>• <strong>Total estimé : 2 000 € – 3 300 €</strong></p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-03-24",
+    category: "assurance",
+    tags: ["Permis Moto", "Réforme 2026", "Réglementation", "Budget", "Permis A2"],
+    coverImage: "/images/blog/permis-moto-2026-reforme-changements.png",
+    readTime: "15 min"
+  },
+  {
     id: "17",
     slug: "bmw-r1250-rt-vs-k1600-gt",
     title: "BMW R 1250 RT vs K 1600 GT : Le Match du Grand Tourisme",
