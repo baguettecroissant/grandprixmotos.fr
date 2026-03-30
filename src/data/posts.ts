@@ -2,6 +2,214 @@ import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
   {
+    id: "19",
+    slug: "usure-pneu-moto-indicateurs-twi",
+    title: "Usure Pneu Moto : Comment Lire les Indicateurs TWI",
+    excerpt: "Usure pneu moto : apprenez à lire les témoins d'usure TWI, diagnostiquer une usure anormale et savoir exactement quand changer vos gommes en 2026.",
+    content: `
+      <p class="lead">L'<strong>usure d'un pneu moto</strong> est un sujet que trop de pilotes traitent à l'intuition — un coup d'œil furtif, un passage du pouce sur la bande de roulement, et on repart pour 2 000 bornes. Cette négligence est un jeu de roulette russe. Les <strong>indicateurs TWI</strong> (Tread Wear Indicator) gravés dans chaque pneumatique moto sont des sentinelles silencieuses, calibrées au dixième de millimètre, qui séparent le grip salvateur du patinage mortel. En 2026, savoir les lire avec précision n'est plus un luxe de mécano méticuleux : c'est une obligation légale, technique, et vitale.</p>
+
+      <h2>Qu'est-ce qu'un Indicateur TWI sur un Pneu Moto ?</h2>
+      <p>Le TWI — pour <strong>Tread Wear Indicator</strong> — est un témoin d'usure moulé directement dans la gomme du pneumatique lors de sa fabrication. Concrètement, il s'agit d'une petite barre de caoutchouc surélevée, d'une hauteur de <strong>1,6 mm</strong>, logée au fond des rainures principales de la bande de roulement. Cette cote de 1,6 mm n'est pas arbitraire : elle correspond à la <strong>profondeur légale minimale de sculpture</strong> exigée par la réglementation européenne (directive 89/459/CEE, transposée en France par l'article R314-1 du Code de la route).</p>
+      <p>Lorsque la gomme environnante s'use jusqu'à atteindre le niveau de cette barre, la bande de roulement devient lisse en ce point. Le pneu ne peut plus évacuer efficacement l'eau, le grip en virage s'effondre, et la distance de freinage sur sol mouillé explose littéralement — jusqu'à <strong>+40 % sur asphalte détrempé</strong> par rapport à un pneu neuf. Le TWI est le dernier avertissement avant l'accident. Le respecter n'est pas une suggestion : c'est un impératif vital.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Chiffre Clé :</p>
+        <p class="text-white italic">"Un pneu moto neuf possède une profondeur de sculpture comprise entre 5 et 8 mm selon les modèles. Le témoin TWI est moulé à 1,6 mm. Lorsque vous atteignez le TWI, vous avez consommé entre 70 % et 80 % de la gomme utile. Au-delà, chaque kilomètre est un emprunt sur votre marge de sécurité."</p>
+      </div>
+
+      <h2>Comment Localiser les Témoins d'Usure TWI sur Vos Pneus ?</h2>
+      <p>C'est la première question que pose tout motard consciencieux — et pourtant, la réponse échappe à une majorité surprenante de pilotes, même expérimentés. Les indicateurs TWI ne sont pas visibles au premier regard : ils sont dissimulés au fond des sillons principaux, et leur repérage exige de savoir où chercher.</p>
+      <p>Sur le flanc du pneu (le côté vertical, pas la bande de roulement), cherchez le marquage <strong>"TWI"</strong> ou un petit triangle en relief (▲). Certains manufacturiers utilisent leur logo de marque à la place : Michelin grave un petit bonhomme Michelin, Bridgestone estampe un triangle fléché, Pirelli inscrit "TWI" en lettres capitales. Ces marquages sont répartis à intervalles réguliers autour de la circonférence du pneu — généralement <strong>6 à 8 repères</strong> sur un pneu moto standard. Chaque repère sur le flanc pointe vers un témoin d'usure situé dans la rainure principale la plus proche.</p>
+      <p>Pour vérifier l'usure, positionnez-vous face à la rainure indiquée par le repère flanc et regardez au fond du sillon. Si la barre TWI affleure la surface de roulement, votre pneu est légalement et techniquement mort. Si elle est encore enfoncée de 1 à 2 mm sous la surface, vous disposez d'un sursis — mais l'horloge tourne. Un outil extrêmement pratique pour mesurer précisément cette profondeur résiduelle est le <strong>jauge de profondeur de sculpture</strong> (disponible pour moins de 10 € chez n'importe quel accessoiriste). Évitez la méthode de la pièce de monnaie, imprécise et trompeuse sur les profils arrondis des pneus moto.</p>
+
+      <h2>Usure Pneu Moto : Les Différents Types d'Usure et Ce Qu'ils Révèlent</h2>
+      <p>L'usure d'un pneu moto raconte une histoire — celle de votre style de pilotage, de vos réglages de suspension, et parfois de problèmes mécaniques insoupçonnés. Savoir lire cette histoire vous transforme en diagnosticien de terrain. Voici les cinq types d'usure les plus courants et leur signification technique.</p>
+
+      <h3>L'usure centrale (en bande) : le syndrome autoroutier</h3>
+      <p>Le centre de la bande de roulement est lisse tandis que les flancs conservent des sculptures profondes. C'est l'usure typique du motard qui avale de l'autoroute en ligne droite. Le pneu arrière est particulièrement touché, car il supporte la majorité du couple moteur et du poids. Sur une <a href="/blog/fiabilite-bmw-r1250-gs-occasion">BMW R 1250 GS</a> utilisée en commuting urbain, cette usure centrale peut apparaître dès 6 000 km. La solution : variez vos parcours, intégrez des départementales sinueuses, et vérifiez que votre pression de gonflage n'est pas excessive (un sur-gonflage de 0,3 bar concentre l'appui sur le centre du pneu).</p>
+
+      <h3>L'usure en crénelage (cupping) : suspensions à vérifier</h3>
+      <p>Des creux et des bosses irréguliers apparaissent sur la bande de roulement, créant un aspect de "vagues". Cette usure, appelée cupping ou scalloping, est le symptôme classique d'un <strong>amortisseur fatigué</strong> ou d'un déséquilibrage de roue. Le pneu rebondit au lieu de rouler, et chaque impact creuse une empreinte. Vérifiez immédiatement l'état de vos amortisseurs (fuite d'huile, débattement résiduel), l'équilibrage de vos roues, et le serrage de votre axe de roue.</p>
+
+      <h3>L'usure asymétrique : un problème d'alignement</h3>
+      <p>Un flanc du pneu s'use plus vite que l'autre. Sur une moto, ce phénomène est souvent lié à un <strong>désalignement de la roue arrière</strong> — les tendeurs de chaîne ne sont pas symétriques — ou à un châssis légèrement voilé après une chute. C'est un signal d'alarme sérieux qui affecte directement la stabilité en virage.</p>
+
+      <h3>L'usure en dents de scie : pression insuffisante</h3>
+      <p>Les bords des sculptures prennent un profil en dents de scie, palpable du bout des doigts. C'est la signature d'un <strong>sous-gonflage chronique</strong>. La carcasse se déforme excessivement, la gomme travaille trop, et les blocs de sculpture se déchirent au lieu de glisser. Corrigez votre pression selon le <a href="/blog/tableau-pression-pneus-moto">tableau de pression pneus moto</a> adapté à votre machine et à votre charge.</p>
+
+      <h3>Le "flat spot" : freinage extrême ou blocage de roue</h3>
+      <p>Une zone plate localisée, parfois accompagnée de dépôts de gomme fondue. C'est la trace d'un blocage de roue violent lors d'un freinage d'urgence (ou d'un burnout mal maîtrisé). Un pneu avec un flat spot est irréparable : les vibrations générées à haute vitesse sont dangereuses. Remplacement immédiat obligatoire.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Type d'usure</th>
+              <th class="py-3 px-4">Symptôme visuel</th>
+              <th class="py-3 px-4">Cause probable</th>
+              <th class="py-3 px-4">Action corrective</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Usure centrale</td>
+              <td class="py-3 px-4">Bande lisse au centre, flancs intacts</td>
+              <td class="py-3 px-4">Roulage rectiligne / surgonflage</td>
+              <td class="py-3 px-4">Vérifier pression, varier les parcours</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Cupping (crénelage)</td>
+              <td class="py-3 px-4">Bosses et creux irréguliers</td>
+              <td class="py-3 px-4">Amortisseur HS / déséquilibrage</td>
+              <td class="py-3 px-4">Réviser suspensions, équilibrer roue</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Usure asymétrique</td>
+              <td class="py-3 px-4">Un flanc plus usé que l'autre</td>
+              <td class="py-3 px-4">Désalignement roue arrière</td>
+              <td class="py-3 px-4">Contrôler alignement chaîne/roue</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Dents de scie</td>
+              <td class="py-3 px-4">Bords de sculpture déchirés</td>
+              <td class="py-3 px-4">Sous-gonflage chronique</td>
+              <td class="py-3 px-4">Ajuster pression au tableau constructeur</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">Flat spot</td>
+              <td class="py-3 px-4">Zone plate avec gomme fondue</td>
+              <td class="py-3 px-4">Blocage de roue au freinage</td>
+              <td class="py-3 px-4 text-red-400">Remplacement immédiat</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Quand Faut-il Changer ses Pneus Moto ? Au-delà du TWI</h2>
+      <p>Le témoin TWI fixe un seuil légal absolu — 1,6 mm de profondeur de sculpture minimum. Mais attendre ce seuil pour changer vos pneus est une erreur stratégique. En pratique, les experts pneumaticiens et les pilotes de haut niveau s'accordent sur un constat : <strong>les performances d'un pneu moto commencent à chuter significativement à partir de 2 à 3 mm de profondeur résiduelle</strong>. C'est à ce stade que l'évacuation de l'eau perd en efficacité et que le grip latéral en courbe diminue sensiblement.</p>
+      <p>Au-delà de l'usure mécanique, l'âge du pneu est un facteur critique souvent ignoré. La gomme vieillit chimiquement, même sur une moto qui ne roule pas. Les plastifiants s'évaporent, le caoutchouc durcit, et les micro-fissures apparaissent sur les flancs. Un pneu moto ne doit jamais dépasser <strong>5 ans d'âge</strong>, même si sa sculpture semble intacte. Pour vérifier la date de fabrication, cherchez le code <strong>DOT</strong> sur le flanc : les quatre derniers chiffres indiquent la semaine et l'année de production (ex. : "2524" = 25e semaine de 2024).</p>
+
+      <ul>
+        <li><strong>Remplacez immédiatement si :</strong> le TWI affleure la surface de roulement en un seul point de la circonférence, des fissures apparaissent sur les flancs, la gomme est dure au toucher (test de l'ongle : l'ongle ne laisse aucune marque sur un pneu trop vieux), ou un flat spot est visible.</li>
+        <li><strong>Planifiez un remplacement sous 1 000 km si :</strong> la profondeur résiduelle atteint 2 mm au centre de la bande de roulement, le pneu a plus de 4 ans, ou vous constatez une usure en crénelage même légère.</li>
+        <li><strong>Surveillez tous les 500 km si :</strong> vous roulez une sportive ou un roadster puissant (l'usure arrière est exponentielle au-delà de 150 ch), vous pratiquez le pistard occasionnel, ou votre kilométrage annuel dépasse 15 000 km.</li>
+      </ul>
+
+      <blockquote>
+        "J'ai vu des pneus avec 3 mm de sculpture qui tenaient la route mieux que des pneus neufs stockés 6 ans dans un garage. L'âge est l'ennemi invisible du pneumatique. Quand je réceptionne une moto d'occasion en concession, la première chose que je contrôle, c'est le code DOT — pas la profondeur de la gomme."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Combien de Kilomètres Dure un Pneu Moto en 2026 ?</h2>
+      <p>La durée de vie d'un pneu moto varie considérablement selon le type de machine, le profil de roulement, la gomme choisie et le style de pilotage. En 2026, les progrès des compounds silicés et des architectures multicouches ont significativement allongé la longévité, mais les écarts restent spectaculaires d'une catégorie à l'autre.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Type de pneu</th>
+              <th class="py-3 px-4">Durée de vie moyenne (AV)</th>
+              <th class="py-3 px-4">Durée de vie moyenne (AR)</th>
+              <th class="py-3 px-4">Prix moyen du train (2026)</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Sport-Touring (Michelin Road 6, Bridgestone T32)</td>
+              <td class="py-3 px-4">12 000 – 18 000 km</td>
+              <td class="py-3 px-4">8 000 – 14 000 km</td>
+              <td class="py-3 px-4">280 € – 380 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Hypersport (Pirelli Supercorsa, Dunlop GP Racer)</td>
+              <td class="py-3 px-4">4 000 – 7 000 km</td>
+              <td class="py-3 px-4">2 500 – 5 000 km</td>
+              <td class="py-3 px-4">350 € – 480 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Trail / Adventure (Michelin Anakee 3, Metzeler Karoo)</td>
+              <td class="py-3 px-4">15 000 – 25 000 km</td>
+              <td class="py-3 px-4">10 000 – 18 000 km</td>
+              <td class="py-3 px-4">250 € – 400 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Touring pur (Metzeler Roadtec 02, Continental RoadAttack 4)</td>
+              <td class="py-3 px-4">18 000 – 28 000 km</td>
+              <td class="py-3 px-4">12 000 – 20 000 km</td>
+              <td class="py-3 px-4">260 € – 360 €</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">Custom / Cruiser (Dunlop D408/D407, Metzeler ME888)</td>
+              <td class="py-3 px-4">20 000 – 35 000 km</td>
+              <td class="py-3 px-4">15 000 – 25 000 km</td>
+              <td class="py-3 px-4">300 € – 450 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Le pneu arrière s'use toujours plus vite que l'avant — comptez un rapport de <strong>1,5:1 à 2:1</strong> en moyenne. Sur une sportive de plus de 150 ch, ce rapport peut grimper à 3:1. C'est une conséquence directe de la répartition des couples : l'arrière encaisse la totalité de la puissance moteur, la majorité du poids (surtout en duo), et les contraintes d'accélération. Prévoyez systématiquement de changer votre pneu arrière <strong>1,5 à 2 fois plus souvent</strong> que l'avant.</p>
+
+      <h2>Pneu Moto et Contrôle Technique 2026 : Quelle Est la Réglementation ?</h2>
+      <p>Avec l'entrée en vigueur progressive du contrôle technique moto en France, l'état des pneumatiques devient un <strong>point de contrôle majeur</strong>. En 2026, les motos immatriculées entre 2020 et 2022 passent leur premier CT, et l'usure des pneus figure parmi les défaillances majeures entraînant une contre-visite.</p>
+      <p>Les critères de contrôle portent sur quatre points précis :</p>
+
+      <ol>
+        <li><strong>Profondeur de sculpture minimum :</strong> 1,6 mm sur toute la largeur de la bande de roulement, mesurée au niveau des témoins TWI. Un seul point d'usure atteignant le TWI suffit à recaler le véhicule.</li>
+        <li><strong>Conformité dimensionnelle :</strong> le pneu monté doit correspondre aux dimensions homologuées sur la carte grise (ou équivalences validées par le manufacturier). Un pneu en 180/55 ZR17 monté à la place d'un 190/50 ZR17 sera signalé.</li>
+        <li><strong>État général de la carcasse :</strong> absence de hernies, coupures profondes, déformations, corps étrangers (clous, vis) et fissures de vieillissement sur les flancs.</li>
+        <li><strong>Indice de vitesse :</strong> l'indice de vitesse du pneu doit être égal ou supérieur à la vitesse maximale du véhicule. Un pneu en indice "H" (210 km/h) sur une moto capable de 250 km/h sera refusé.</li>
+      </ol>
+
+      <p>Le coût d'un refus pour pneumatiques non conformes au CT est double : les frais de contre-visite (<strong>15 € à 25 €</strong>) s'ajoutent au temps perdu et au stress de devoir remplacer les pneus en urgence. Mieux vaut anticiper : contrôlez systématiquement vos TWI et l'état de vos gommes un mois avant la date de votre contrôle technique. Si vous préparez votre moto pour un long voyage comme un <a href="/blog/preparer-roadtrip-alpes-moto">roadtrip dans les Alpes</a>, profitez-en pour faire poser des pneus neufs — vous partirez avec une marge de sécurité maximale et un CT dans la poche.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Point Réglementaire CT 2026 :</p>
+        <p class="text-white italic">"Au contrôle technique moto, l'inspecteur utilise une jauge de profondeur certifiée pour mesurer la sculpture au niveau de chaque témoin TWI visible. Si un seul indicateur est affleurant sur l'un des deux pneus, c'est une défaillance majeure avec obligation de contre-visite dans les 2 mois. Aucune tolérance n'est appliquée."</p>
+      </div>
+
+      <h2>Comment Maximiser la Durée de Vie de Vos Pneus Moto ?</h2>
+      <p>Un pneu moto bien entretenu peut durer 30 à 50 % plus longtemps qu'un pneu négligé. L'investissement en temps est dérisoire — 5 minutes par semaine suffisent — mais le retour financier est considérable quand on sait qu'un train de pneus sport-touring coûte en moyenne 320 € en 2026.</p>
+
+      <ul>
+        <li><strong>Contrôlez la pression chaque semaine :</strong> C'est la règle numéro un, et pourtant 60 % des motards roulent avec une pression incorrecte. Un écart de 0,2 bar par rapport à la préconisation constructeur suffit à altérer le profil d'usure et le comportement dynamique. Mesurez toujours à froid (moto garée depuis au moins 2 heures).</li>
+        <li><strong>Adaptez la pression à la charge :</strong> En solo, en duo, ou chargé avec des valises pour un roadtrip de 3 semaines, la pression arrière recommandée varie de 0,2 à 0,4 bar. Consultez le tableau constructeur collé sous la selle ou sur le bras oscillant.</li>
+        <li><strong>Rodez les pneus neufs :</strong> Un pneu neuf possède une couche de démoulant industriel (silicone) en surface. Les 150 à 200 premiers kilomètres doivent se faire avec <strong>prudence absolue</strong> : pas d'angle agressif, pas de freinage violent, pas d'accélération brutale. Le grip atteint son optimum après environ 300 km de roulage varié.</li>
+        <li><strong>Entretenez votre chaîne :</strong> Une chaîne mal tendue ou mal alignée accélère l'usure du pneu arrière de 20 à 30 %. Reportez-vous à notre <a href="/blog/entretien-chaine-moto-graissage-tension">guide d'entretien de chaîne moto</a> pour le protocole complet.</li>
+        <li><strong>Évitez le stationnement prolongé au soleil :</strong> Les UV dégradent les plastifiants de la gomme. Si votre moto vit dehors, investissez dans une housse opaque ventilée.</li>
+      </ul>
+
+      <blockquote>
+        "Le pneu moto est le seul élément de votre machine en contact avec le sol. C'est un carré de gomme de la taille d'une carte de crédit qui supporte votre vie, celle de votre passager, et 250 kg de mécanique à 130 km/h. Vérifier ses TWI régulièrement, ce n'est pas de la paranoïa : c'est du bon sens motocycliste."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Peut-on Rouler avec un Pneu Usé Jusqu'au TWI ? Les Risques Réels</h2>
+      <p>Techniquement, un pneu dont la sculpture atteint exactement le niveau du TWI est encore "toléré" par la loi — c'est le seuil légal, pas le seuil de la mort. Mais sur le plan dynamique, rouler à ce stade est une aberration. Voici pourquoi, chiffres à l'appui.</p>
+      <p>Un pneu moto neuf avec 6 mm de profondeur de sculpture évacue environ <strong>25 litres d'eau par seconde</strong> à 80 km/h sur route mouillée. À 1,6 mm — le niveau du TWI — cette capacité chute à <strong>moins de 5 litres par seconde</strong>. Résultat : le risque d'aquaplaning, même sur une route simplement humide, devient réalité. La pellicule d'eau ne s'évacue plus, le pneu "flotte", et vous perdez toute direction et tout freinage. Sur le sec, la situation est moins critique mais reste dégradée : la surface de contact effective diminue, les arêtes de grip latéral disparaissent, et l'adhérence en virage chute de 15 à 25 % par rapport à un pneu à mi-vie.</p>
+      <p>N'oubliez pas l'aspect assurantiel : en cas d'accident avec des pneus usés au-delà du seuil légal, votre <a href="/blog/cout-assurance-moto-sportive-2026">assurance moto</a> peut invoquer la clause de défaut d'entretien pour réduire ou refuser l'indemnisation. C'est un risque financier qui s'ajoute au risque physique.</p>
+
+      <h2>Verdict / Conclusion : Les TWI Ne Mentent Jamais</h2>
+      <p>Maîtriser la lecture de l'<strong>usure de vos pneus moto</strong> et de leurs <strong>indicateurs TWI</strong> est une compétence fondamentale qui ne demande ni outillage coûteux, ni formation spécialisée. Cinq minutes d'inspection visuelle et tactile avant chaque sortie — ou au minimum une fois par semaine — suffisent à diagnostiquer l'état de vos gommes et à anticiper leur remplacement.</p>
+      <p>Retenez trois règles non négociables en 2026 : premièrement, ne descendez <strong>jamais</strong> en dessous de 2 mm de profondeur de sculpture, même si le TWI légal est fixé à 1,6 mm — la marge de sécurité se négocie vers le haut, pas vers le bas. Deuxièmement, contrôlez le <strong>code DOT</strong> de vos pneus et remplacez systématiquement toute gomme de plus de 5 ans, quelle que soit sa profondeur résiduelle. Troisièmement, analysez le <strong>profil d'usure</strong> : une usure anormale (centrale, asymétrique, en crénelage) est le symptôme d'un problème mécanique sous-jacent qu'il faut traiter à la source.</p>
+      <p>Vos pneus sont le dernier maillon entre votre talent de pilote et les lois de la physique. Les TWI sont là pour vous dire quand ce maillon est sur le point de céder. Écoutez-les. Votre intégrité physique — et celle de votre passager — en dépend.</p>
+
+      <p><strong>Récapitulatif des seuils d'usure pneu moto :</strong>
+      <br/>• Pneu neuf : 5 à 8 mm de profondeur de sculpture
+      <br/>• Zone de confort : 3 à 5 mm — performances optimales
+      <br/>• Zone de vigilance : 2 à 3 mm — planifier le remplacement
+      <br/>• Seuil TWI légal : 1,6 mm — remplacement impératif
+      <br/>• En dessous de 1,6 mm : <strong>interdit par la loi, dangereux, non couvert par l'assurance</strong></p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-03-30",
+    category: "entretien",
+    tags: ["Pneus", "Usure", "TWI", "Sécurité", "Entretien"],
+    coverImage: "/images/blog/usure-pneu-moto-indicateurs-twi.png",
+    readTime: "14 min"
+  },
+  {
     id: "18",
     slug: "permis-moto-2026-reforme-changements",
     title: "Permis Moto 2026 : Ce Qui Change avec la Réforme",
