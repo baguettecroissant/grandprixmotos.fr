@@ -2,6 +2,248 @@ import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
   {
+    id: "21",
+    slug: "roadtrip-moto-corse-7-jours",
+    title: "Roadtrip Moto en Corse : L'Île de Beauté en 7 Jours",
+    excerpt: "Roadtrip moto en Corse en 7 jours : itinéraire détaillé, routes mythiques, budget et conseils terrain. Le guide expert pour une semaine inoubliable en 2026.",
+    content: `
+      <p class="lead">Le <strong>roadtrip moto en Corse</strong> est, sans discussion possible, le plus beau voyage à deux roues que l'on puisse réaliser en France métropolitaine. En sept jours, l'Île de Beauté déroule 1 200 km de routes sculptées entre mer et montagne, des cols à 1 500 mètres d'altitude qui plongent directement sur des criques turquoise, et un asphalte dont la qualité surprend autant que la beauté des paysages. Ce guide expert vous livre l'itinéraire optimal, les étapes clés, le budget réaliste et tous les conseils terrain pour transformer cette semaine corse en souvenir motocycliste indélébile — saison 2026.</p>
+
+      <h2>Pourquoi la Corse Est la Destination Ultime pour un Roadtrip Moto en 2026</h2>
+      <p>La Corse concentre sur 8 680 km² une densité de routes de caractère qui n'existe nulle part ailleurs en Europe occidentale. Le réseau routier corse totalise environ <strong>7 000 km de voies</strong>, dont une majorité de D (départementales) étroites, sinueuses et parfaitement entretenues — le terrain de jeu idéal pour un motard exigeant. Là où les Alpes imposent de longues approches autoroutières avant d'atteindre les cols, la Corse vous plonge dans le virage dès la sortie du ferry. À Bastia, 15 minutes suffisent pour attaquer le Cap Corse et ses épingles taillées dans le maquis.</p>
+      <p>Le climat est un autre atout majeur. De mai à octobre, la Corse affiche en moyenne <strong>280 jours de soleil par an</strong>, avec des températures comprises entre 22 °C et 30 °C en vallée. Le risque de pluie prolongée est quasi nul entre juin et septembre — un luxe que les amateurs de <a href="/blog/preparer-roadtrip-alpes-moto">roadtrips alpins</a> apprécieront, eux qui connaissent les orages d'altitude imprévisibles du Galibier ou de la Bonette. L'île bénéficie également d'un décalage de fréquentation : les routes intérieures restent fluides même en juillet, période où seul le littoral sud est réellement saturé.</p>
+      <p>Enfin, la Corse offre une variété de revêtements et de profils de route unique. En une seule journée, vous enchaînerez des virages rapides et fluides sur la RN 196 littorale, des épingles serrées dans les gorges de Spelunca, des portions en crête avec vue panoramique 360° au col de Bavella, et des traversées de villages typiques où le bitume se transforme en pavés granitiques centenaires. C'est un condensé de tout ce qu'un motard peut désirer, compressé dans un périmètre qui rend les étapes quotidiennes courtes et savoureuses.</p>
+
+      <h2>Itinéraire Roadtrip Moto Corse 7 Jours : Le Parcours Optimal</h2>
+      <p>Notre itinéraire de référence part de <strong>Bastia</strong> (arrivée par ferry depuis Nice, Toulon ou Marseille) et boucle l'île dans le sens antihoraire. Ce sens de rotation est stratégique : vous roulez côté falaise sur la majorité des cornichés, offrant une visibilité maximale sur la mer et les à-pics. L'itinéraire totalise environ <strong>1 150 à 1 300 km</strong> selon les variantes, avec des étapes quotidiennes de 150 à 220 km — soit 3 à 5 heures de roulage effectif, laissant largement le temps aux pauses photos, baignades et découvertes gastronomiques.</p>
+
+      <h3>Jours 1-2 : Le Cap Corse et la Balagne</h3>
+      <p>Départ de Bastia plein nord sur la D80, la route du Cap Corse. Cette boucle de <strong>120 km</strong> est un chef-d'œuvre d'ingénierie routière à flanc de montagne, surplombant la Méditerranée de 200 mètres par endroits. Arrêts obligatoires : le port de Centuri (langoustes grillées au déjeuner), le moulin Mattei au col de la Serra, et les tours génoises de Nonza. Le revêtement est excellent mais la route est étroite — croisements délicats avec les campings-cars de touristes en été. Prudence absolue dans les virages aveugles.</p>
+      <p>Le jour 2 vous emmène vers la Balagne via Saint-Florent et le Désert des Agriates (D81). Route spectaculaire, sauvage, avec une succession de courbes rapides en maquis ras. Nuit à <strong>Calvi</strong> ou <strong>L'Île-Rousse</strong>, deux bases idéales avec une offre hôtelière adaptée aux motards.</p>
+
+      <h3>Jours 3-4 : Les Calanques de Piana et Ajaccio</h3>
+      <p>L'étape Calvi–Porto via la D81B puis la D81 est unanimement considérée comme <strong>l'une des 10 plus belles routes de moto en Europe</strong>. Les Calanques de Piana, classées UNESCO, offrent un spectacle géologique de roches granitiques rouge orangé sculptées au-dessus d'une mer d'un bleu irréel. La route serpente entre les aiguilles de granit avec un dénivelé constant, des virages en épingles et un asphalte impeccable. Prenez votre temps : c'est le moment fort de la semaine.</p>
+      <p>Jour 4 : descente vers <strong>Ajaccio</strong> via la côte ouest. La cité impériale mérite une demi-journée de visite (maison Bonaparte, marché couvert, port Tino Rossi). C'est aussi l'occasion de faire un point mécanique rapide : vérifiez la pression de vos pneus, nettoyez votre chaîne si vous roulez en transmission par chaîne, et hydratez-vous copieusement. La chaleur corse en été est sournoise — le vent de mer masque la déshydratation.</p>
+
+      <h3>Jours 5-6 : Bavella et la Côte Est</h3>
+      <p>L'étape Ajaccio–Bavella via Propriano et Sartène (D268, D69) est le sommet technique du parcours. Le <strong>col de Bavella</strong> (1 218 m) est une cathédrale de granite aux <strong>Aiguilles de Bavella</strong> qui percent le ciel. La montée depuis Zonza offre 25 km d'épingles serrées dans une forêt de pins Laricio centenaires — une route qui exige rigueur de trajectoire et gestion fine du frein moteur. Le revêtement est bon mais étroit, avec des portions d'ombre humides en début de matinée.</p>
+      <p>Le jour 6 traverse la plaine orientale vers <strong>Corte</strong>, ancienne capitale de la Corse indépendante. Profitez de cette portion plus roulante pour souffler : la plaine orientale est la seule zone de l'île où la route est réellement droite. C'est le moment idéal pour évaluer l'état de vos gommes à mi-parcours.</p>
+
+      <h3>Jour 7 : Corte–Bastia par la Scala di Santa Regina</h3>
+      <p>L'ultime étape est un feu d'artifice. La <strong>Scala di Santa Regina</strong> (D84) entre Corte et Calacuccia est un défilé creusé dans la roche, avec des parois verticales de 500 mètres et une route en corniche spectaculaire. Après Calacuccia, le col de Verghio (1 477 m, plus haut col routier de Corse) offre une dernière montée alpine avant la redescente vers la vallée du Golo et le retour à Bastia. Prévoyez d'arriver au port 2 heures avant l'embarquement pour le ferry retour.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Jour</th>
+              <th class="py-3 px-4">Étape</th>
+              <th class="py-3 px-4">Distance</th>
+              <th class="py-3 px-4">Route Clé</th>
+              <th class="py-3 px-4">Difficulté</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">J1</td>
+              <td class="py-3 px-4">Bastia → Cap Corse → Saint-Florent</td>
+              <td class="py-3 px-4">150 km</td>
+              <td class="py-3 px-4">D80 (corniche Cap Corse)</td>
+              <td class="py-3 px-4">★★★☆☆</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">J2</td>
+              <td class="py-3 px-4">Saint-Florent → Calvi</td>
+              <td class="py-3 px-4">120 km</td>
+              <td class="py-3 px-4">D81 (Désert des Agriates)</td>
+              <td class="py-3 px-4">★★☆☆☆</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">J3</td>
+              <td class="py-3 px-4">Calvi → Porto (Calanques de Piana)</td>
+              <td class="py-3 px-4">180 km</td>
+              <td class="py-3 px-4">D81 / D81B (Piana)</td>
+              <td class="py-3 px-4">★★★★☆</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">J4</td>
+              <td class="py-3 px-4">Porto → Ajaccio</td>
+              <td class="py-3 px-4">130 km</td>
+              <td class="py-3 px-4">D81 littorale ouest</td>
+              <td class="py-3 px-4">★★★☆☆</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">J5</td>
+              <td class="py-3 px-4">Ajaccio → Bavella → Zonza</td>
+              <td class="py-3 px-4">200 km</td>
+              <td class="py-3 px-4">D268 / Col de Bavella</td>
+              <td class="py-3 px-4">★★★★★</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">J6</td>
+              <td class="py-3 px-4">Zonza → Corte</td>
+              <td class="py-3 px-4">160 km</td>
+              <td class="py-3 px-4">Plaine orientale + N198</td>
+              <td class="py-3 px-4">★★☆☆☆</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-white">J7</td>
+              <td class="py-3 px-4">Corte → Verghio → Bastia</td>
+              <td class="py-3 px-4">180 km</td>
+              <td class="py-3 px-4">D84 (Scala di Santa Regina)</td>
+              <td class="py-3 px-4">★★★★☆</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Quelle Moto Choisir pour un Roadtrip en Corse ?</h2>
+      <p>La moto idéale pour la Corse n'existe pas — mais certaines catégories sont objectivement supérieures à d'autres sur ce terrain. Le réseau corse est un enchaînement quasi permanent de virages serrés, de dénivelés importants et de revêtements variés. La moto parfaite pour ce roadtrip doit conjuguer <strong>agilité en virage</strong>, <strong>confort sur 200 km quotidiens</strong> et <strong>capacité de chargement</strong> pour une semaine de bagages.</p>
+
+      <ul>
+        <li><strong>Trail / Adventure (notre recommandation) :</strong> La catégorie reine pour la Corse. Une BMW R 1250 GS, une Triumph Tiger 900 ou une Yamaha Ténéré 700 offrent la position de conduite haute idéale pour anticiper les virages aveugles, la suspension longue pour absorber les raccords de bitume, et la capacité de bagagerie pour une semaine. Si vous envisagez une <a href="/blog/fiabilite-bmw-r1250-gs-occasion">BMW R 1250 GS d'occasion</a>, c'est la monture parfaite pour l'île.</li>
+        <li><strong>Roadster moyen (excellent choix) :</strong> Une MT-07, une CB650R ou une Street Triple se régalent sur les routes corses. Plus légères qu'un trail, elles compensent par une agilité supérieure dans les épingles. Le bémol : le confort passager et la capacité de chargement limitée imposent de voyager léger.</li>
+        <li><strong>Grosse routière / GT :</strong> Faisable, mais vous ne profiterez pas pleinement du terrain. Une K 1600 GT ou une Gold Wing souffriront dans les virages serrés du Cap Corse et les épingles de Bavella. Réservez ces machines aux autoroutes du continent.</li>
+        <li><strong>Sportive pure :</strong> Évitez. La position de conduite est un calvaire au bout de 2 heures sur les routes corses, le rayon de braquage est insuffisant pour les épingles les plus serrées, et l'absence de protection rend les étapes fatigantes. Sans parler de l'usure accélérée de pneus sport qui fondent sur le revêtement abrasif corse.</li>
+      </ul>
+
+      <blockquote>
+        "La Corse, c'est le paradis du trail et du roadster — pas de la GT. J'ai vu des motards en Panigale repartir au bout de deux jours, les poignets en feu et le moral en berne. Et j'ai vu des couples en GS chargée comme des mules traverser le col de Bavella en souriant. Choisissez votre moto en fonction du terrain, pas de votre ego."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Combien Coûte un Roadtrip Moto en Corse en 2026 ? Budget Détaillé</h2>
+      <p>Le budget est la question la plus fréquente — et la plus mal estimée par les motards qui préparent leur premier roadtrip corse. La Corse est une île, et l'insularité a un coût : le carburant est plus cher de 10 à 15 centimes par litre que sur le continent, la restauration est 20 à 30 % plus élevée qu'en PACA, et l'hébergement en haute saison peut atteindre des niveaux parisiens dans les zones touristiques.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Poste de dépense</th>
+              <th class="py-3 px-4">Budget Éco (solo)</th>
+              <th class="py-3 px-4">Budget Confort (solo)</th>
+              <th class="py-3 px-4">Budget Premium (duo)</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Ferry A/R (moto + 1 pers.)</td>
+              <td class="py-3 px-4">150 € – 220 €</td>
+              <td class="py-3 px-4">200 € – 300 €</td>
+              <td class="py-3 px-4">300 € – 450 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Carburant (1 300 km)</td>
+              <td class="py-3 px-4">85 € – 110 €</td>
+              <td class="py-3 px-4">85 € – 110 €</td>
+              <td class="py-3 px-4">100 € – 130 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Hébergement (7 nuits)</td>
+              <td class="py-3 px-4">280 € – 420 €</td>
+              <td class="py-3 px-4">560 € – 840 €</td>
+              <td class="py-3 px-4">840 € – 1 400 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Restauration (7 jours)</td>
+              <td class="py-3 px-4">210 € – 280 €</td>
+              <td class="py-3 px-4">350 € – 490 €</td>
+              <td class="py-3 px-4">490 € – 700 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Péages / parking / divers</td>
+              <td class="py-3 px-4">30 € – 50 €</td>
+              <td class="py-3 px-4">50 € – 80 €</td>
+              <td class="py-3 px-4">80 € – 120 €</td>
+            </tr>
+            <tr style="background:rgba(234,88,12,0.08)">
+              <td class="py-3 px-4 font-bold text-white">TOTAL ESTIMÉ</td>
+              <td class="py-3 px-4 font-bold text-primary">755 € – 1 080 €</td>
+              <td class="py-3 px-4 font-bold text-primary">1 245 € – 1 820 €</td>
+              <td class="py-3 px-4 font-bold text-primary">1 810 € – 2 800 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Le ferry reste le poste le plus variable. En 2026, les compagnies <strong>Corsica Ferries</strong>, <strong>Corsica Linea</strong> et <strong>La Méridionale</strong> proposent des traversées depuis Nice (6h), Toulon (8h) et Marseille (11h). Réservez impérativement <strong>3 à 4 mois à l'avance</strong> pour les traversées de juin à septembre — les prix doublent voire triplent en dernière minute. Astuce : les traversées de nuit (départ 19h, arrivée 6h) permettent d'économiser une nuit d'hôtel et d'arriver frais au port de Bastia à l'aube.</p>
+      <p>Pour optimiser votre budget global de motard — ferry, essence, assurance, équipement — chaque euro compte. Pensez à réviser votre contrat d'<a href="/blog/cout-assurance-moto-sportive-2026">assurance moto</a> avant le départ : certaines polices incluent une assistance rapatriement spécifique pour la Corse, d'autres non. Une panne mécanique sur l'île sans couverture adaptée peut transformer votre budget vacances en cauchemar financier.</p>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Conseil Budget GPM :</p>
+        <p class="text-white italic">"Le meilleur rapport qualité-prix en hébergement corse pour les motards, ce sont les chambres d'hôtes et gîtes ruraux de l'intérieur. À Corte, Vizzavona ou Casamaccioli, vous trouverez des chambres à 50-70 € la nuit avec petit-déjeuner, parking sécurisé et un accueil chaleureux. Évitez les hôtels en bord de mer en haute saison : vous paierez le triple pour une vue que vous aurez déjà admirée depuis votre selle toute la journée."</p>
+      </div>
+
+      <h2>Quand Partir en Roadtrip Moto en Corse ? La Meilleure Période</h2>
+      <p>La fenêtre idéale pour un roadtrip moto en Corse s'étend de <strong>mi-mai à mi-octobre</strong>, avec deux créneaux en or :</p>
+
+      <ol>
+        <li><strong>Juin (notre recommandation n°1) :</strong> Les routes sont encore peu fréquentées, les températures oscillent entre 22 °C et 28 °C, le maquis est en fleur (les parfums de ciste et de myrte sont enivrants), et les tarifs d'hébergement sont 30 à 40 % inférieurs à ceux de juillet-août. La mer est fraîche (20-22 °C) mais baignable. C'est objectivement le mois parfait.</li>
+        <li><strong>Septembre (recommandation n°2) :</strong> Températures similaires à juin, mer à 24-26 °C (la plus chaude de l'année), fréquentation en baisse rapide après le 15 septembre. Seul bémol : les jours raccourcissent (coucher de soleil vers 19h30), ce qui compresse légèrement les étapes.</li>
+        <li><strong>Juillet-août :</strong> Faisable mais déconseillé pour un roadtrip moto optimal. La chaleur en vallée dépasse régulièrement 35 °C (éprouvant en équipement moto complet), les routes littorales sont encombrées de camping-cars et de véhicules de location conduits par des touristes distraits, et les tarifs d'hébergement atteignent leur pic. Si c'est votre seule fenêtre, privilégiez les routes de montagne intérieures et roulez tôt le matin (6h-12h).</li>
+        <li><strong>Mai et octobre :</strong> Pour les aventuriers aguerris. Les cols au-dessus de 1 200 m peuvent encore être fermés en mai (neige résiduelle). En octobre, les pluies automnales commencent à se manifester, rendant les routes de montagne glissantes. Les feuilles mortes sur les routes forestières de Bavella ou de Vizzavona sont traîtres en moto.</li>
+      </ol>
+
+      <h2>Équipement et Préparation : La Checklist du Motard en Corse</h2>
+      <p>Préparer un roadtrip moto en Corse exige une approche méthodique. L'île est belle mais isolée : les concessionnaires moto se comptent sur les doigts d'une main, les stations-service sont espacées de 50 à 80 km dans l'intérieur, et le réseau téléphonique est capricieux dans les vallées profondes. Anticipez.</p>
+
+      <ul>
+        <li><strong>Équipement pilote obligatoire :</strong> Casque homologué (un modulable est idéal pour les pauses et la ventilation — consultez notre <a href="/blog/shoei-neotec-3-vs-schuberth-c5">comparatif Shoei Neotec 3 vs Schuberth C5</a>), gants certifiés CE, blouson avec protections dorsale et coudes, pantalon renforcé et bottes montantes. Privilégiez un équipement ventilé pour juin-septembre.</li>
+        <li><strong>Protection solaire et hydratation :</strong> Le soleil corse est impitoyable, surtout en altitude. Appliquez un écran solaire indice 50 sur le cou, les poignets et toute zone exposée. Emportez au minimum 1,5 litre d'eau par personne — les fontaines de village sont fréquentes mais pas systématiques.</li>
+        <li><strong>Kit mécanique de base :</strong> Trousse à outils compacte, kit de réparation crevaison (bombe anti-crevaison + mèches pour tubeless), pompe à pied pliable, câble de démarrage, jeu d'ampoules, fusibles de rechange. Ajoutez du lubrifiant chaîne si votre moto en est équipée.</li>
+        <li><strong>Navigation :</strong> Un GPS moto dédié est fortement recommandé — le réseau mobile est instable dans les zones montagneuses. Téléchargez les cartes hors ligne avant le départ. Les routes corses sont parfois mal signalisées aux intersections de pistes DFCI (Défense des Forêts Contre l'Incendie).</li>
+        <li><strong>Bagagerie :</strong> Sacoches latérales souples ou rigides (40 à 60 litres de volume total suffisent pour une semaine). Évitez le sac à dos sur de longues étapes : la fatigue dorsale en virage est invalidante. Un sac de selle ou un top-case complète idéalement le dispositif.</li>
+      </ul>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Sécurité — Point Critique :</p>
+        <p class="text-white italic">"En Corse, les deux dangers principaux sur la route ne sont pas les virages : ce sont les cochons sauvages et les vaches en liberté. En montagne, entre mai et octobre, le bétail en estive traverse les routes sans prévenir. Au crépuscule, les cochons sauvages sont particulièrement actifs sur les routes forestières du centre de l'île. Roulez à vitesse adaptée dès que la visibilité diminue — un sanglier de 80 kg à 70 km/h, c'est un accident potentiellement mortel."</p>
+      </div>
+
+      <h2>Les 5 Routes Mythiques de Corse à Ne Pas Manquer en Moto</h2>
+      <p>Toutes les routes corses méritent d'être parcourues à moto. Mais cinq d'entre elles se détachent par leur beauté, leur technicité ou leur intensité émotionnelle. Les voici, classées par ordre d'expérience GPM :</p>
+
+      <ol>
+        <li><strong>D81 — Les Calanques de Piana (Porto → Ajaccio) :</strong> 30 km de pures sensations entre les aiguilles de granit rouge et la mer. Classée au patrimoine mondial UNESCO. Le revêtement est impeccable, les virages sont techniques mais lisibles. Note : 10/10.</li>
+        <li><strong>D268 — Col de Bavella (Solenzara → Zonza) :</strong> 38 km d'ascension dans la forêt de pins Laricio avec arrivée dans l'amphithéâtre granitique des Aiguilles de Bavella à 1 218 m. Épingles serrées, pentes à 10 %. Note : 9/10.</li>
+        <li><strong>D84 — Scala di Santa Regina (Corte → Calacuccia) :</strong> 20 km creusés dans les gorges du Golo. Parois verticales, route en corniche, passages taillés dans le roc. Spectaculaire et technique. Note : 9/10.</li>
+        <li><strong>D80 — Tour du Cap Corse (Bastia → Saint-Florent) :</strong> 120 km de corniche littorale avec vue sur la Toscane par temps clair. Étroite, sinueuse, exposée au vent — exige concentration permanente. Note : 8/10.</li>
+        <li><strong>D69 — Col de Verghio (Calacuccia → Porto) :</strong> Le plus haut col routier de Corse (1 477 m). Ambiance montagne avec forêt d'Aïtone, châtaigniers monumentaux et panoramas sur la vallée du Niolo. Note : 8/10.</li>
+      </ol>
+
+      <blockquote>
+        "J'ai roulé les Dolomites, la Transfăgărășan, la Route des Grandes Alpes et la côte amalfitaine. La D81 entre Porto et les Calanques de Piana les surpasse toutes en intensité sensorielle par kilomètre. C'est le genre de route qui vous fait comprendre pourquoi vous faites de la moto."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Faut-il Louer une Moto en Corse ou Embarquer la Sienne ?</h2>
+      <p>C'est le dilemme classique, et la réponse dépend de votre machine, de votre budget et de votre rapport sentimental avec votre moto.</p>
+      <p><strong>Embarquer votre moto sur le ferry</strong> coûte entre <strong>80 € et 200 € aller-retour</strong> selon la compagnie et la saison. L'avantage est décisif : vous roulez sur une machine que vous connaissez parfaitement — réglages de suspensions, comportement en virage, usure des pneus, tout est maîtrisé. Sur des routes aussi techniques que celles de Corse, cette familiarité vaut de l'or en sécurité. L'inconvénient : 6 à 12 heures de traversée et la contrainte logistique d'un embarquement portuaire (arrivée 2h avant le départ, attente en file, manœuvres dans la cale du ferry avec votre moto chargée).</p>
+      <p><strong>Louer une moto en Corse</strong> est possible mais limité. En 2026, les loueurs spécialisés comme <strong>Corse Moto Rent</strong> (Bastia et Ajaccio) proposent des trail et roadsters à partir de <strong>120 € à 180 € par jour</strong>, assurance tous risques et kilométrage illimité inclus. Sur 7 jours, comptez <strong>840 € à 1 260 €</strong> — soit le prix d'un ferry A/R et du carburant total, mais sur une moto que vous ne connaissez pas. Le choix de modèles est restreint, les disponibilités en haute saison limitées, et la caution (souvent 1 500 € à 2 500 €) immobilise une somme conséquente.</p>
+      <p><strong>Notre verdict :</strong> Embarquez votre moto si vous possédez un trail ou un roadster adapté au terrain corse. Louez uniquement si vous ne possédez pas de moto adaptée (sportive pure, grosse GT inadaptée) ou si vous venez en avion depuis l'étranger.</p>
+
+      <h2>Verdict / Conclusion : Le Roadtrip Moto en Corse, une Expérience à Vivre au Moins une Fois</h2>
+      <p>Le <strong>roadtrip moto en Corse en 7 jours</strong> est, sans nuance excessive, le plus beau voyage motocycliste réalisable en France. En une semaine, vous aurez parcouru 1 200 km de routes qui comptent parmi les plus spectaculaires d'Europe, traversé des paysages d'une diversité stupéfiante — du maquis littoral aux forêts de pins à 1 500 mètres — et accumulé suffisamment de souvenirs de virages, d'odeurs de maquis et de criques turquoise pour alimenter vos récits motards pendant des années.</p>
+      <p>Retenez ces conseils clés pour réussir votre <strong>roadtrip moto corse</strong> en 2026 : partez en <strong>juin ou septembre</strong> pour éviter la foule et la chaleur écrasante. Choisissez un <strong>trail ou un roadster</strong> — la légèreté et l'agilité sont les reines de l'île. Réservez votre <strong>ferry 3-4 mois à l'avance</strong> pour maîtriser votre budget. Préparez un <strong>kit mécanique de base</strong> et téléchargez vos cartes hors ligne. Et surtout, ne planifiez pas plus de <strong>200 km par jour</strong> — la Corse se savoure, elle ne se dévore pas.</p>
+      <p>Le budget réaliste pour une semaine solo se situe entre <strong>800 € et 1 800 €</strong>, ferry et carburant inclus. C'est le prix d'un week-end prolongé dans un hôtel moyen à Paris — sauf qu'ici, vous rentrez avec 1 200 km de virages dans les jambes, un bronzage de marin et la certitude irréfutable que l'Île de Beauté porte bien son nom. Préparez votre machine, vérifiez vos pneus, et bon roadtrip.</p>
+
+      <p><strong>Récapitulatif Roadtrip Moto Corse 7 Jours :</strong>
+      <br/>• <strong>Distance totale :</strong> 1 150 – 1 300 km
+      <br/>• <strong>Étapes quotidiennes :</strong> 120 – 200 km (3-5h de roulage)
+      <br/>• <strong>Meilleure période :</strong> Juin et septembre
+      <br/>• <strong>Moto recommandée :</strong> Trail (R 1250 GS, Tiger 900) ou roadster moyen
+      <br/>• <strong>Budget solo :</strong> 800 € – 1 800 € (7 jours, ferry inclus)
+      <br/>• <strong>Routes mythiques :</strong> Calanques de Piana (D81), Col de Bavella (D268), Scala di Santa Regina (D84)
+      <br/>• <strong>Dangers principaux :</strong> Animaux en liberté, virages aveugles, stations-service espacées</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-04-12",
+    category: "news",
+    tags: ["Roadtrip", "Corse", "Itinéraire", "Moto Tourisme", "Guide", "Île de Beauté"],
+    coverImage: "/images/blog/roadtrip-moto-corse-7-jours.png",
+    readTime: "18 min"
+  },
+  {
     id: "20",
     slug: "gps-moto-garmin-zumo-vs-tomtom-rider",
     title: "GPS Moto 2026 : Garmin Zumo XT2 vs TomTom Rider 550",
