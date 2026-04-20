@@ -2,6 +2,308 @@ import { BlogPost, Category } from "@/types/blog";
 
 export const posts: BlogPost[] = [
   {
+    id: "22",
+    slug: "bmw-f900r-avis-test-occasion",
+    title: "BMW F 900 R : Avis, Test et Guide d'Achat Occasion",
+    excerpt: "BMW F 900 R avis et test terrain : fiabilité, cote occasion 2026, points forts/faibles et guide d'achat complet. Le verdict expert GrandPrixMotos.fr.",
+    content: `
+      <p class="lead">La <strong>BMW F 900 R</strong> s'est imposée depuis sa sortie en 2020 comme le roadster intermédiaire de référence chez BMW Motorrad — un couteau suisse bavarois qui séduit aussi bien le permis A2 fraîchement débridé que le motard expérimenté en quête d'une machine polyvalente, agile et financièrement accessible. En 2026, alors que le marché de l'occasion regorge de F 900 R bien entretenues entre 6 000 € et 9 000 €, cette roadster bicylindre en ligne de 895 cm³ reste-t-elle un achat pertinent ? Notre avis terrain, après des milliers de kilomètres et des dizaines d'exemplaires inspectés en atelier.</p>
+
+      <h2>BMW F 900 R : Fiche Technique et Caractéristiques Clés</h2>
+      <p>La BMW F 900 R repose sur le bloc moteur bicylindre en ligne de <strong>895 cm³</strong>, développant <strong>105 ch à 8 500 tr/min</strong> et <strong>92 Nm de couple à 6 500 tr/min</strong> en version pleine puissance. En configuration A2, le bridage ramène la cavalerie à <strong>48 ch (35 kW)</strong> — une valeur qui reste parfaitement exploitable au quotidien. Le moteur est un dérivé direct du bloc inauguré sur la F 850 GS, repositionné avec un vilebrequin décalé à 270° qui confère au twin une sonorité rauque et une personnalité moteur séduisante, loin de la linéarité aseptisée qu'on pourrait attendre d'un bicylindre parallèle.</p>
+      <p>Le châssis est un cadre périmétrique en acier avec un bras oscillant en aluminium coulé. La suspension avant se compose d'une fourche inversée de <strong>43 mm</strong> non réglable en version standard (réglable en compression et détente sur la version Sport), tandis que l'arrière dispose d'un monoamortisseur à précharge hydraulique ajustable. Le tout pèse <strong>211 kg tous pleins faits</strong> — un poids contenu qui place la F 900 R parmi les roadsters moyens les plus maniables du segment. La selle, à <strong>815 mm</strong> de hauteur (abaissable à 770 mm en option), reste accessible à la majorité des gabarits.</p>
+      <p>L'électronique embarquée est un argument massif pour une moto de ce prix. De série, la F 900 R intègre l'<strong>ABS Pro</strong> (fonctionnel en virage), le <strong>contrôle de traction DTC</strong>, deux modes de conduite (Rain et Road), et un tableau de bord TFT couleur de 6,5 pouces compatible avec la connectivité BMW Motorrad. En option, le pack Dynamic ajoute les modes Dynamic et Dynamic Pro, le shifter Quickshift bidirectionnel, et la suspension Dynamic ESA (amortissement électronique). C'est un niveau d'équipement que la concurrence japonaise ne propose tout simplement pas à ce tarif.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Caractéristique</th>
+              <th class="py-3 px-4">BMW F 900 R</th>
+              <th class="py-3 px-4">Yamaha MT-09</th>
+              <th class="py-3 px-4">Kawasaki Z900</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Moteur</td>
+              <td class="py-3 px-4">Bicylindre 895 cm³</td>
+              <td class="py-3 px-4">Tricylindre 890 cm³</td>
+              <td class="py-3 px-4">4-cylindres 948 cm³</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Puissance</td>
+              <td class="py-3 px-4">105 ch (77 kW)</td>
+              <td class="py-3 px-4">119 ch (88 kW)</td>
+              <td class="py-3 px-4">125 ch (92 kW)</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Couple max</td>
+              <td class="py-3 px-4">92 Nm @ 6 500 tr/min</td>
+              <td class="py-3 px-4">93 Nm @ 7 000 tr/min</td>
+              <td class="py-3 px-4">98,6 Nm @ 7 700 tr/min</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Poids tous pleins faits</td>
+              <td class="py-3 px-4 text-green-400 font-semibold">211 kg</td>
+              <td class="py-3 px-4">193 kg</td>
+              <td class="py-3 px-4">212 kg</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Hauteur de selle</td>
+              <td class="py-3 px-4">815 mm (770 mm option)</td>
+              <td class="py-3 px-4">825 mm</td>
+              <td class="py-3 px-4">820 mm</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">ABS en virage</td>
+              <td class="py-3 px-4 text-green-400 font-semibold">Oui (ABS Pro)</td>
+              <td class="py-3 px-4 text-red-400">Non (série)</td>
+              <td class="py-3 px-4 text-red-400">Non</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Quickshift (option)</td>
+              <td class="py-3 px-4 text-green-400 font-semibold">Bidirectionnel</td>
+              <td class="py-3 px-4">Montée uniquement (série)</td>
+              <td class="py-3 px-4 text-red-400">Non disponible</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Réservoir</td>
+              <td class="py-3 px-4">13 L</td>
+              <td class="py-3 px-4">14 L</td>
+              <td class="py-3 px-4">17 L</td>
+            </tr>
+            <tr style="background:rgba(234,88,12,0.08)">
+              <td class="py-3 px-4 font-bold text-white">Prix neuf (2026)</td>
+              <td class="py-3 px-4 font-bold text-primary">~10 290 €</td>
+              <td class="py-3 px-4 font-bold">~10 499 €</td>
+              <td class="py-3 px-4 font-bold">~10 199 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Notre Avis Terrain sur la BMW F 900 R : Ce Qu'on Aime (et Ce Qu'on Aime Moins)</h2>
+      <p>Après plusieurs milliers de kilomètres accumulés sur des F 900 R de différents millésimes — des premières 2020 aux dernières 2025 — notre avis est tranché. La F 900 R est une moto <strong>brillante dans sa polyvalence</strong>, mais elle assume des compromis qu'il faut connaître avant de signer le chèque.</p>
+
+      <h3>Les points forts qui font la différence</h3>
+      <ul>
+        <li><strong>Le moteur bicylindre 895 cm³ :</strong> C'est le cœur de la machine et son meilleur argument. Le twin à 270° délivre un couple généreux dès 3 000 tr/min, sans temps mort et sans brutalité. En ville, il tracte en sixième à 50 km/h sans broncher. Sur départementale, la plage 4 000-7 000 tr/min offre des reprises franches et un plaisir de conduite authentique. Il n'a pas les 20 chevaux supplémentaires de la MT-09 ou de la Z900, mais il compense par une <strong>utilisabilité quotidienne supérieure</strong> et une consommation maîtrisée (4,2 L/100 km en mixte réel).</li>
+        <li><strong>L'électronique BMW de série :</strong> L'ABS Pro en virage, le contrôle de traction DTC et l'écran TFT 6,5 pouces sont des équipements premium que vous ne trouverez pas de série chez la concurrence à ce prix. L'ABS Pro, en particulier, est un filet de sécurité invisible mais décisif sur route mouillée — il a sauvé plus de chevilles que n'importe quel airbag moto.</li>
+        <li><strong>La position de conduite :</strong> Le guidon large et légèrement relevé, les repose-pieds médians et la selle sculptée composent un triangle ergonomique exemplaire. Vous pouvez enchaîner 300 km sans douleur de poignet ni crampe dorsale — un exploit pour un roadster de cette catégorie.</li>
+        <li><strong>La qualité de fabrication BMW :</strong> Finitions soignées, assemblage rigoureux, peinture épaisse et résistante. Après 30 000 km, une F 900 R bien entretenue ne montre quasiment aucun signe de fatigue cosmétique. C'est un atout majeur pour la <strong>valeur de revente</strong>.</li>
+      </ul>
+
+      <h3>Les points faibles à connaître</h3>
+      <ul>
+        <li><strong>Le réservoir de 13 litres :</strong> C'est le talon d'Achille unanimement reconnu. Avec une consommation moyenne de 4,5 L/100 km en conduite sportive, l'autonomie réelle plafonne à <strong>250-280 km</strong>. Sur un <a href="/blog/preparer-roadtrip-alpes-moto">roadtrip dans les Alpes</a>, vous ferez le plein plus souvent que vos compagnons de route en GS. C'est agaçant, mais pas rédhibitoire — les stations sont fréquentes sur les grands axes.</li>
+        <li><strong>La suspension de base :</strong> La fourche non réglable et le mono-amortisseur à simple précharge de la version standard manquent de raffinement sur revêtement dégradé. En virage appuyé sur route bosselée, la machine sautille et perd en précision. La version Sport avec ses suspensions réglables corrige partiellement ce défaut — visez-la systématiquement en occasion.</li>
+        <li><strong>Le confort passager :</strong> La selle arrière est étroite, les poignées de maintien minimalistes, et les vibrations du twin remontent dans les repose-pieds passager au-dessus de 5 500 tr/min. Si vous roulez régulièrement en duo, la F 900 R n'est pas la bonne moto. Tournez-vous vers la F 900 XR (version sport-touring) ou une <a href="/blog/fiabilite-bmw-r1250-gs-occasion">BMW R 1250 GS d'occasion</a>.</li>
+        <li><strong>Le prix des options :</strong> BMW excelle dans l'art de la carte d'options. Le Quickshift (390 €), le régulateur de vitesse (280 €), le pack Dynamic (1 200 €), les poignées chauffantes (350 €) — la facture grimpe vite. En occasion, privilégiez absolument les exemplaires déjà bien optionnés : vous économiserez 2 000 à 3 000 € par rapport à un achat neuf + options.</li>
+      </ul>
+
+      <blockquote>
+        "La F 900 R, c'est la moto que je recommande systématiquement au motard qui débute en BMW. Pas parce qu'elle est la plus puissante ou la plus spectaculaire, mais parce qu'elle fait tout bien, sans surprise et sans piège. C'est une machine honnête dans un monde de marketing — et en occasion, c'est un rapport prestations/prix imbattable."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Fiabilité de la BMW F 900 R : Ce Que Révèlent 5 Ans de Retours Terrain</h2>
+      <p>La fiabilité est le critère numéro un de l'acheteur d'occasion avisé — et la BMW F 900 R livre un bilan globalement <strong>très positif</strong> après cinq ans de commercialisation. Le bloc bicylindre 895 cm³, dérivé de la plateforme F 850 GS éprouvée depuis 2018, bénéficie de la maturité d'un moteur produit à plusieurs dizaines de milliers d'exemplaires.</p>
+
+      <h3>Les points de fiabilité vérifiés en atelier</h3>
+      <p>Le moteur bicylindre en ligne est intrinsèquement robuste. La distribution par chaîne ne nécessite aucun remplacement avant <strong>40 000 km</strong> minimum (contre 20 000 km pour certaines chaînes de distribution concurrentes). L'embrayage anti-dribble, en revanche, peut montrer des signes de fatigue autour de <strong>25 000-30 000 km</strong> sur les exemplaires soumis à une conduite urbaine intensive avec beaucoup de départs arrêtés — un remplacement qui coûte environ <strong>450 € à 600 € pièces et main-d'œuvre</strong> en concession.</p>
+      <p>Les rappels constructeur ont été limités sur la F 900 R : un rappel en 2021 pour un potentiel desserrage du capteur de béquille latérale (correction rapide et gratuite en concession), et un autre en 2022 concernant un faisceau de câblage ABS sur certains numéros de série. Rien de structurel, rien de récurrent. C'est un bilan nettement meilleur que celui de certaines concurrentes italiennes ou même japonaises dans la même tranche de prix.</p>
+
+      <h3>Les points d'usure à surveiller en occasion</h3>
+      <ul>
+        <li><strong>La chaîne et le kit de transmission :</strong> Le pignon de sortie de boîte (17 dents) et la couronne (44 dents) s'usent proportionnellement à la qualité du graissage. Comptez un remplacement complet (chaîne + pignon + couronne) autour de <strong>15 000-20 000 km</strong> selon l'entretien, pour un budget de <strong>250 € à 350 €</strong> en pièces.</li>
+        <li><strong>Les plaquettes de frein :</strong> L'étrier avant Brembo à 4 pistons est efficace mais gourmand en plaquettes. Durée de vie moyenne : <strong>10 000 à 15 000 km</strong> à l'avant, <strong>15 000 à 25 000 km</strong> à l'arrière. Prévoyez 60 € à 90 € par train.</li>
+        <li><strong>Le liquide de refroidissement :</strong> BMW préconise un remplacement tous les <strong>4 ans ou 40 000 km</strong>. Sur les exemplaires d'occasion de 2020-2021, vérifiez que cette opération a été effectuée — un liquide de refroidissement vieilli perd ses propriétés anticorrosion et peut endommager la pompe à eau.</li>
+      </ul>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Alerte Atelier GPM :</p>
+        <p class="text-white italic">"Sur les F 900 R millésime 2020, vérifiez systématiquement l'état du régulateur de tension. Quelques cas isolés de surcharge électrique ont été signalés sur les tout premiers exemplaires, entraînant une surchauffe de la batterie. Le problème a été corrigé en production dès mi-2021. En occasion, demandez la facture de remplacement ou testez la tension de charge au multimètre (13,8 V à 14,4 V moteur tournant = OK)."</p>
+      </div>
+
+      <h2>Combien Coûte une BMW F 900 R d'Occasion en 2026 ?</h2>
+      <p>Le marché de l'occasion de la BMW F 900 R est arrivé à maturité en 2026, avec un volume d'offres conséquent et des prix stabilisés. La cote dépend de trois facteurs principaux : le millésime, le kilométrage et surtout le <strong>niveau d'équipement optionnel</strong>. Une F 900 R nue sans options se négocie 1 500 à 2 000 € de moins qu'un exemplaire full options — et c'est précisément sur ce point que les bonnes affaires se font.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Millésime</th>
+              <th class="py-3 px-4">Kilométrage</th>
+              <th class="py-3 px-4">Version Standard</th>
+              <th class="py-3 px-4">Version Sport / Full Options</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">2020</td>
+              <td class="py-3 px-4">20 000 – 35 000 km</td>
+              <td class="py-3 px-4">5 800 € – 6 800 €</td>
+              <td class="py-3 px-4">6 500 € – 7 500 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">2021</td>
+              <td class="py-3 px-4">15 000 – 25 000 km</td>
+              <td class="py-3 px-4">6 500 € – 7 500 €</td>
+              <td class="py-3 px-4">7 200 € – 8 200 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">2022-2023</td>
+              <td class="py-3 px-4">8 000 – 18 000 km</td>
+              <td class="py-3 px-4">7 200 € – 8 500 €</td>
+              <td class="py-3 px-4">8 000 € – 9 500 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">2024-2025</td>
+              <td class="py-3 px-4">3 000 – 10 000 km</td>
+              <td class="py-3 px-4">8 500 € – 9 500 €</td>
+              <td class="py-3 px-4">9 200 € – 10 500 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Le <strong>sweet spot</strong> en 2026 se situe sur les millésimes <strong>2021-2022 avec 15 000 à 25 000 km</strong>. À ce stade, la dépréciation majeure est absorbée, le moteur est parfaitement rodé, et les éventuels défauts de jeunesse ont été corrigés sous garantie. Visez un exemplaire <strong>version Sport</strong> (suspensions réglables, Quickshift, modes Dynamic) entre <strong>7 500 € et 8 500 €</strong> : c'est le meilleur compromis rapport qualité-prix du marché roadster premium en 2026.</p>
+      <p>N'oubliez pas d'intégrer le coût de l'<a href="/blog/cout-assurance-moto-sportive-2026">assurance moto</a> dans votre budget global. La F 900 R bénéficie de primes d'assurance modérées grâce à son profil de sinistralité favorable — comptez entre <strong>450 € et 750 € par an</strong> en tous risques pour un motard expérimenté, soit 20 à 30 % de moins qu'une concurrente sportive quatre cylindres.</p>
+
+      <h2>BMW F 900 R : Quels Points Vérifier Avant d'Acheter en Occasion ?</h2>
+      <p>L'achat d'une BMW F 900 R d'occasion est globalement rassurant — mais une inspection méthodique reste indispensable. Voici notre checklist de 10 points critiques, forgée par des années de réception de motos en concession et des retours terrain impitoyables.</p>
+
+      <ol>
+        <li><strong>Le carnet d'entretien BMW :</strong> Exigez le carnet tamponné ou, à défaut, les factures de concession ou garage agréé BMW. Les intervalles d'entretien de la F 900 R sont fixés à <strong>10 000 km ou 1 an</strong>. Un trou dans l'historique est un signal d'alarme — l'entretien BMW n'est pas optionnel.</li>
+        <li><strong>L'état de la chaîne de transmission :</strong> Vérifiez le jeu (préconisation BMW : 30-40 mm de flèche), l'allongement (les maillons rigides sont un signe de fin de vie) et l'état du pignon de sortie de boîte (dents en crochet = remplacement immédiat).</li>
+        <li><strong>Les plaquettes et disques de frein :</strong> Épaisseur minimale des plaquettes avant : 2 mm. Disques avant : vérifiez l'absence de lèvre prononcée sur le bord extérieur et mesurez l'épaisseur (minimum 4,5 mm). Un disque voilé provoque des pulsations au levier — testez en roulant.</li>
+        <li><strong>Les pneus et leur âge :</strong> Vérifiez les indicateurs TWI et le code DOT (date de fabrication). Un pneu de plus de 4 ans sur une moto d'occasion, même avec de la sculpture, doit être remplacé. Budget : 250 € à 350 € pour un train complet en sport-touring.</li>
+        <li><strong>Le test du régulateur de tension :</strong> Moteur chaud au ralenti, mesurez la tension aux bornes de la batterie : <strong>13,8 V à 14,4 V</strong> = OK. En dessous de 13,5 V ou au-dessus de 15 V = problème de régulateur.</li>
+        <li><strong>L'écran TFT et la connectivité :</strong> Vérifiez l'absence de pixels morts, testez la navigation via Bluetooth avec votre téléphone, et assurez-vous que les modes de conduite se sélectionnent correctement.</li>
+        <li><strong>Les optionnels installés :</strong> Quickshift, poignées chauffantes, régulateur de vitesse, protections moteur, sabot — faites l'inventaire exhaustif. Chaque option installée représente une valeur résiduelle de 30 à 50 % de son prix neuf.</li>
+        <li><strong>L'état des roulements de direction :</strong> Moto sur béquille centrale, tournez le guidon de butée à butée. Tout point dur, cran ou résistance anormale indique des roulements de colonne de direction à remplacer (200 € à 350 € en concession).</li>
+        <li><strong>Les traces de chute :</strong> Inspectez les embouts de guidon, les leviers, les repose-pieds, les carters moteur et les platines de protection. Les microrayures de parking sont normales ; les marques d'abrasion profondes sur le carter alternateur révèlent une chute significative.</li>
+        <li><strong>L'essai routier de 30 minutes minimum :</strong> Enchaînez ville, route et un tronçon rapide. Soyez attentif aux vibrations anormales, aux bruits de chaîne de distribution, à la réponse de l'accélérateur (irrégularité = capteur TPS à vérifier) et au comportement du moteur à chaud (fumée bleue à l'échappement = segmentation usée).</li>
+      </ol>
+
+      <div class="p-4 bg-primary/10 border border-primary/20 rounded-lg my-6">
+        <p class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Conseil d'Achat GPM :</p>
+        <p class="text-white italic">"En concession BMW, demandez systématiquement le rapport de diagnostic électronique (lecture des codes défaut via GS-911 ou ISTA). Ce rapport révèle les erreurs enregistrées dans les calculateurs — même si les voyants ne sont plus allumés au tableau de bord. Un vendeur sérieux acceptera toujours cette transparence. Un vendeur qui refuse cache quelque chose."</p>
+      </div>
+
+      <h2>BMW F 900 R vs Concurrence : Faut-il Choisir la Bavaroise en 2026 ?</h2>
+      <p>Le segment des roadsters intermédiaires est un champ de bataille féroce en 2026, avec des concurrentes redoutables issues de tous les constructeurs majeurs. La question n'est pas de savoir si la F 900 R est une bonne moto — elle l'est objectivement — mais si elle est <strong>la meilleure pour votre profil</strong>.</p>
+
+      <h3>Face à la Yamaha MT-09 : sensation vs raison</h3>
+      <p>La MT-09 et ses <strong>119 ch tricylindre</strong> offrent un supplément de sensations brutes indéniable. Le moteur CP3 est l'un des plus joueurs du marché, avec un caractère rageur et une sonorité addictive. Mais la MT-09 concède à la BMW son ABS Pro en virage (absent de série sur la Yamaha), sa connectivité smartphone native, et surtout sa <strong>qualité perçue</strong>. En occasion, la MT-09 décote légèrement plus vite que la F 900 R — un avantage pour l'acheteur Yamaha, un inconvénient pour le revendeur. Choisissez la MT-09 si vous cherchez le fun pur. Choisissez la BMW si vous cherchez la polyvalence et l'équipement.</p>
+
+      <h3>Face à la Kawasaki Z900 : puissance vs sophistication</h3>
+      <p>La Z900 reste la référence en termes de rapport puissance/prix avec ses <strong>125 ch quatre cylindres</strong> et son tarif agressif. Son moteur est velouté, ses performances impressionnantes, et son châssis équilibré. Mais la Z900 accuse un retard technologique criant face à la BMW : pas d'ABS en virage, pas de Quickshift proposé, un tableau de bord TFT basique, et une finition en retrait. En occasion, la Z900 est moins chère de 500 à 1 000 € — mais l'écart d'équipement vaut largement le surcoût BMW.</p>
+
+      <h3>Face à la Ducati Monster : charme latin vs rigueur germanique</h3>
+      <p>La Ducati Monster, avec son V-twin de <strong>937 cm³ et 111 ch</strong>, joue la carte de l'émotion et du design. C'est incontestablement la moto la plus désirable visuellement du segment. Mais la fiabilité Ducati en occasion reste un sujet — les intervalles de maintenance plus courts (courroies de distribution) et le coût des pièces détachées en concession Ducati alourdissent significativement le budget long terme. Si votre <a href="/blog/shoei-neotec-3-vs-schuberth-c5">casque premium</a> compte autant que votre machine, la Monster est un choix de cœur. La F 900 R est un choix de tête.</p>
+
+      <blockquote>
+        "En six ans d'atelier BMW, je n'ai jamais vu un propriétaire de F 900 R revenir mécontent. Ils reviennent pour l'entretien, pour une GS en deuxième moto, ou pour une S 1000 R quand ils veulent plus de puissance. Mais ils ne reviennent jamais parce que la machine les a lâchés. C'est la définition même d'une moto fiable."
+        <cite>— Marc D., Ex-Chef d'Atelier pour GPM</cite>
+      </blockquote>
+
+      <h2>Entretien de la BMW F 900 R : Coûts et Intervalles en 2026</h2>
+      <p>Le coût d'entretien est un paramètre décisif pour l'acheteur d'occasion — et la BMW F 900 R se positionne favorablement dans son segment. Les intervalles de maintenance BMW sont fixés à <strong>10 000 km ou 12 mois</strong>, ce qui est standard pour un roadster moderne. Voici le détail des opérations et leur coût en concession agréée BMW en 2026.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/10 uppercase tracking-widest text-primary">
+              <th class="py-3 px-4">Opération</th>
+              <th class="py-3 px-4">Intervalle</th>
+              <th class="py-3 px-4">Coût concession (2026)</th>
+              <th class="py-3 px-4">Coût garage indépendant</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted-foreground">
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Révision standard (vidange + filtres)</td>
+              <td class="py-3 px-4">10 000 km / 1 an</td>
+              <td class="py-3 px-4">280 € – 380 €</td>
+              <td class="py-3 px-4">180 € – 250 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Remplacement bougies</td>
+              <td class="py-3 px-4">20 000 km</td>
+              <td class="py-3 px-4">80 € – 120 €</td>
+              <td class="py-3 px-4">50 € – 80 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Kit chaîne complet</td>
+              <td class="py-3 px-4">15 000 – 20 000 km</td>
+              <td class="py-3 px-4">350 € – 450 €</td>
+              <td class="py-3 px-4">250 € – 350 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Plaquettes avant (x2 étriers)</td>
+              <td class="py-3 px-4">10 000 – 15 000 km</td>
+              <td class="py-3 px-4">120 € – 160 €</td>
+              <td class="py-3 px-4">60 € – 100 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Liquide de refroidissement</td>
+              <td class="py-3 px-4">40 000 km / 4 ans</td>
+              <td class="py-3 px-4">100 € – 150 €</td>
+              <td class="py-3 px-4">60 € – 90 €</td>
+            </tr>
+            <tr class="border-b border-white/5">
+              <td class="py-3 px-4 font-bold text-white">Liquide de frein</td>
+              <td class="py-3 px-4">20 000 km / 2 ans</td>
+              <td class="py-3 px-4">80 € – 120 €</td>
+              <td class="py-3 px-4">40 € – 70 €</td>
+            </tr>
+            <tr style="background:rgba(234,88,12,0.08)">
+              <td class="py-3 px-4 font-bold text-white">Coût annuel moyen (10 000 km/an)</td>
+              <td class="py-3 px-4">—</td>
+              <td class="py-3 px-4 font-bold text-primary">~550 € – 750 €</td>
+              <td class="py-3 px-4 font-bold text-primary">~350 € – 500 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Le coût d'entretien annuel moyen de la F 900 R en concession BMW se situe autour de <strong>600 à 700 € pour 10 000 km</strong>, ce qui est très raisonnable pour une moto premium. En garage indépendant spécialisé BMW, vous pouvez réduire la facture de 30 à 40 % — à condition de vous assurer que le mécanicien dispose de l'outil de diagnostic BMW (GS-911 ou équivalent) pour réinitialiser les indicateurs de maintenance et lire les éventuels codes défaut.</p>
+
+      <h2>À Qui S'Adresse la BMW F 900 R en 2026 ?</h2>
+      <p>La BMW F 900 R n'est pas une moto pour tout le monde — mais elle convient à un spectre remarquablement large de profils motards. Voici notre analyse de pertinence par catégorie d'utilisation.</p>
+
+      <ul>
+        <li><strong>Le permis A2 en quête de premium :</strong> En version bridée à 48 ch, la F 900 R est l'une des rares motos du segment A2 à offrir un véritable équipement premium (ABS Pro, TFT, DTC) et surtout un <strong>potentiel de débridage total à 105 ch</strong> après la passerelle A2→A. C'est un investissement long terme intelligent — vous gardez la moto 4-5 ans au lieu d'en changer au passage du permis A.</li>
+        <li><strong>Le motard quotidien urbain + week-end :</strong> La position de conduite confortable, le couple bas régime généreux, la maniabilité à 211 kg et l'ABS Pro font de la F 900 R une arme urbaine redoutable. Le week-end, elle se transforme en roadster joueur sur les départementales. C'est probablement le profil pour lequel elle excelle le plus.</li>
+        <li><strong>Le motard voyageur :</strong> Possible, mais avec des réserves. Le réservoir de 13 litres impose des arrêts fréquents, le confort passager est limité, et la protection aérodynamique inexistante vous fatiguera sur autoroute. Pour le voyage, la F 900 XR (carénée) ou la F 850 GS (trail) sont des alternatives plus pertinentes dans la même gamme BMW.</li>
+        <li><strong>Le pistard amateur :</strong> La F 900 R tient correctement la piste grâce à son châssis rigoureux et son poids contenu, mais ses 105 ch seront vite justes face aux MT-09 SP et Z900 du paddock. C'est une moto de track day occasionnel, pas un outil de piste dédié.</li>
+      </ul>
+
+      <h2>Verdict / Conclusion : La BMW F 900 R, l'Occasion Maligne en 2026</h2>
+      <p>Au terme de cette analyse approfondie, notre avis sur la <strong>BMW F 900 R</strong> est sans ambiguïté : c'est l'un des <strong>meilleurs achats d'occasion du marché roadster en 2026</strong>. La combinaison d'un moteur bicylindre caractériel et fiable, d'une électronique de sécurité premium de série, d'une qualité de fabrication BMW et d'une cote occasion stabilisée entre 6 500 € et 9 000 € en fait un rapport prestations/prix quasi imbattable dans sa catégorie.</p>
+      <p>Visez un exemplaire <strong>millésime 2021-2022 en version Sport</strong> avec le pack Dynamic, le Quickshift et les poignées chauffantes — entre <strong>7 500 € et 8 500 €</strong>. À ce prix, vous roulez en BMW premium, avec un ABS en virage, un Quickshift bidirectionnel et des suspensions réglables. Comparez avec ce que vous offre la concurrence japonaise pour le même budget en occasion : la réponse est sans appel.</p>
+      <p>Les défauts existent — le réservoir de 13 litres, les suspensions de base perfectibles, le confort passager limité — mais aucun n'est rédhibitoire pour un usage roadster quotidien et week-end. La <strong>BMW F 900 R</strong> est la porte d'entrée la plus intelligente dans l'univers BMW Motorrad, et en occasion, elle devient tout simplement une évidence pour le motard exigeant qui refuse de surpayer son plaisir.</p>
+
+      <p><strong>Récapitulatif BMW F 900 R – Avis et Guide d'Achat Occasion 2026 :</strong>
+      <br/>• <strong>Moteur :</strong> Bicylindre 895 cm³, 105 ch, 92 Nm — caractériel et fiable
+      <br/>• <strong>Poids :</strong> 211 kg TPF — maniable et accessible
+      <br/>• <strong>Points forts :</strong> ABS Pro de série, Quickshift en option, qualité BMW, cote occasion stable
+      <br/>• <strong>Points faibles :</strong> Réservoir 13 L, suspensions de base limitées, confort passager
+      <br/>• <strong>Cote occasion 2026 :</strong> 6 500 € – 9 500 € selon millésime et options
+      <br/>• <strong>Sweet spot :</strong> 2021-2022 Sport, 15 000-25 000 km → 7 500 € – 8 500 €
+      <br/>• <strong>Coût d'entretien annuel :</strong> ~600 € en concession, ~400 € en indépendant
+      <br/>• <strong>Notre verdict :</strong> Meilleur rapport qualité-prix du segment roadster premium en occasion</p>
+    `,
+    author: "Marc D. (Ex-Chef d'Atelier)",
+    date: "2026-04-20",
+    category: "univers-bmw",
+    tags: ["BMW", "F 900 R", "Occasion", "Guide d'Achat", "Roadster", "Avis"],
+    coverImage: "/images/blog/bmw-f900r-avis-test-occasion.png",
+    readTime: "16 min"
+  },
+  {
     id: "21",
     slug: "roadtrip-moto-corse-7-jours",
     title: "Roadtrip Moto en Corse : L'Île de Beauté en 7 Jours",
